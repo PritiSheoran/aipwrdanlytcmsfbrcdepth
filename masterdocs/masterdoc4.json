@@ -1,0 +1,23 @@
+[ {
+  "Name": "Microsoft Fabric: Analytics - Day 4",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2002/Usecase02.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2007/Usecase07.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/Usecase08.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2009/Usecase09.md",
+      "Order": 4
+    }
+  ]
+}
+]

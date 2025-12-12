@@ -3,15 +3,15 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/GettingStartedPages/GettingStarted1.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/GettingStartedPages/GettingStarted1.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2001/Usecase01.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2001/Usecase01.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2002/Usecase02.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2002/Usecase02.md",
       "Order": 3
     }
   ]

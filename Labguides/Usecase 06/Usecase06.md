@@ -926,7 +926,7 @@ a single table for tracking state.
 
      ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image109.png)
 
-  This should look similar to:
+    This should look similar to:
 
      ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image110.png)
 
@@ -975,7 +975,7 @@ a single table for tracking state.
     |First row only |	unchecked.|
 
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image117.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image117.png)
 
 ### Task 4: Build ForEach activity
 
@@ -1080,22 +1080,20 @@ pull data from, we'd repeat these steps for each data source.
 
 13. Click on the **Settings** tab, enter the following settings.
 
-    |  |  |
-    |-----|----|
-    |Connection| 	StocksDW|
-    |Stored procedure name| 	+++ETL.sp_IngestSourceInfo_Update+++|
-
+     |  |  |
+     |-----|----|
+     |Connection| 	StocksDW|
+     |Stored procedure name| 	+++ETL.sp_IngestSourceInfo_Update+++|
 
 	- Parameters (click *Import* to automatically add the parameter names):
 	
-    |  |  |  |
-    |----|---|---|
-    |Name|	Type	|Value|
-    |ObjectName	|String|	+++@item().ObjectName+++|
-    |WaterMark	|DateTime|	+++@activity('Get New WaterMark').output.firstRow.WaterMark+++|
+       |  |  |  |
+       |----|---|---|
+       |Name|	Type	|Value|
+       |ObjectName	|String|	+++@item().ObjectName+++|
+       |WaterMark	|DateTime|	+++@activity('Get New WaterMark').output.firstRow.WaterMark+++|
 
-
-     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image130.png)
+        ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image130.png)
 
 ### Task 5: Test the Pipeline
 
@@ -1546,8 +1544,7 @@ closing price of the stock.
     |Connection	| **StocksDW** Workspace|
     |Stored procedure name	|+++[ETL].[sp_Dim_Symbol_Load]+++|
 
-
-     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image162.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image162.png)
 
 ### Task 6: Create the procedure to load daily prices
 

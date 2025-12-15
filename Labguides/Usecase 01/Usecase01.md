@@ -198,7 +198,9 @@ reports.
      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image23.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image24.png)
+
 8. Now successfully created dimension_customer table
+
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/img11.png)
 
 9. Select the **dimension_coustomer** table to preview the data.
@@ -247,11 +249,11 @@ reports.
 
 14. From the lakehouse **Home** tab, select **New semantic model** and then select the tables that you want to add to the semantic model.
 
-     ![](./media/img17.png)
+      ![](./media/img17.png)
 	
 15. In the **New semantic model** dialog enter +++wwilakehouse+++ and then select the **dimension_customer** table from the list of tables and select **Confirm** to create the new model.
 
-     ![](./media/11b.png)
+      ![](./media/11b.png)
 	
 
 ### Task 4: Build a report
@@ -306,10 +308,9 @@ the Wide World Importers (WWI) into the lakehouse.
 
 ### Task 1: Ingest data
 
-1. Now, click on **Fabric Lakehouse** **Tutorial-@lab.LabInstance.Id** on the left-sided
-    navigation pane.
+1. Now, click on **Fabric Lakehouse** **Tutorial-@lab.LabInstance.Id** on the left-sided navigation pane.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/imag24.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/imag24.png)
 
 2. In the **Fabric Lakehouse Tutorial-@lab.LabInstance.Id** workspace page, navigate and
     click on **+New item** button, then select **Pipeline**.
@@ -510,9 +511,9 @@ the Wide World Importers (WWI) into the lakehouse.
 6. To validate the created tables, click and select refresh on
     the **Tables** in the **Explorer** panel until all the tables appear in the list. 
 
-    ![](./media/img37.png)
+     ![](./media/img37.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/img38.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/img38.png)
 
 ### Task 2: Transforming Business Data for Aggregation
 
@@ -703,11 +704,11 @@ frequent updates at the source.
 
 1. From the left menu select the **Fabric Lakehouse-@lab.LabInstance.Id** then select your Semantic model named **wwilakehouse**.
 
-     ![](./media/img41.png)
+    ![](./media/img41.png)
 
 2. On the top menu bar select **Open semantic model** to open the data model designer.
 
-     ![](./media/img42.png)
+    ![](./media/img42.png)
 
 3. At the top-right ensure that the data model designer is in the **Editing** mode. This should change the drop-down text to “Editing”.
 
@@ -751,7 +752,7 @@ frequent updates at the source.
 
     - Select **Save.**
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image98.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image98.png)
 
 8. Next, add these relationships with the same **Create
     Relationship** settings as shown above but with the following tables
@@ -759,13 +760,13 @@ frequent updates at the source.
 
     - **StockItemKey(fact_sale)** - **StockItemKey(dimension_stock_item)**
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image99.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image99.png)
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image100.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image100.png)
 
     - **Salespersonkey(fact_sale)** - **EmployeeKey(dimension_employee)**
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image101.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2001/media/image101.png)
 
 9. Ensure to create the relationships between the below two sets using
     the same steps as above.
@@ -783,7 +784,7 @@ frequent updates at the source.
 
 1. From the **File** menu, select **Create new report** to start creating reports/dashboards in Power BI.
 
-     ![](./media/img47.png)
+    ![](./media/img47.png)
 
 2. On the Power BI report canvas, you can create reports to meet your
     business requirements by dragging required columns from

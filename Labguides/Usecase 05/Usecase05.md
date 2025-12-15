@@ -241,14 +241,14 @@ trial enabled.
 
 14. On the **Destination** tab, enter the following settings.
 
-    |  |  |
-    |---|---|
-    |Connection	|WideWorldImporters|
-    |Table option	|select the Auto create table radio button.|
-    |Table	|•	In the first box enter +++dbo+++<br>•	In the second box enter +++dimension_customer+++|
+     |  |  |
+     |---|---|
+     |Connection	|WideWorldImporters|
+     |Table option	|select the Auto create table radio button.|
+     |Table	|•	In the first box enter +++dbo+++<br>•	In the second box enter +++dimension_customer+++|
 
 
-     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image26.png)
+      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image26.png)
 
 15. From the ribbon, select **Run**.
 

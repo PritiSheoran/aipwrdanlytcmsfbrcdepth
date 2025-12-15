@@ -99,13 +99,11 @@ trial enabled.
 3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button.
 
-     ![A login screen with a red box and blue text Description
-    > automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image3.png)
+     ![A login screen with a red box and blue text Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image3.png)
 
 4. In **Stay signed in?** window, click on the **Yes** button.
 
-     ![A screenshot of a computer error Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image4.png)
+     ![A screenshot of a computer error Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image4.png)
 
 5. Fabric home page, select **+New workspace** tile.
 
@@ -128,7 +126,7 @@ trial enabled.
 7. Wait for the deployment to complete. It takes 2-3 minutes to
     complete. When your new workspace opens, it should be empty.
 
-   ![](./media/img1.png)
+     ![](./media/img1.png)
 
 ### Task 2: Create a lakehouse and upload files
 
@@ -149,7 +147,7 @@ the data files you're going to analyze.
     enter **+++Fabric_lakehouse+++** in the **Name** field and unselect the lakehouses schemas. Click on
     the **Create** button and open the new lakehouse.
 
-    ![](./media/labimg22.png)
+     ![](./media/labimg22.png)
  
     >[!note]**Note**: After a minute or so, a new empty lakehouse will be created. You
     need to ingest some data into the data lakehouse for analysis.
@@ -232,14 +230,12 @@ run code (in multiple languages), and add notes to document it.
 
      ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image24.png)
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image25.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image25.png)
 
 6. Click anywhere in the notebook outside of the cell to stop editing
     it and see the rendered markdown.
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image26.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image26.png)
 
 ### Task 4: Load data into a dataframe
 
@@ -705,7 +701,7 @@ independently of the metastore).
 4. Then, expand the **Tables** node and verify that
     the **salesorders** table has been created.
 
-    ![](./media/img9.png)
+     ![](./media/img9.png)
 
 5. Hover your mouse beside **salesorders** table, then click on the
     horizontal ellipses (…). Navigate and click on **Load data**, then
@@ -1286,16 +1282,14 @@ notebook with a meaningful name and end the Spark session.
 2. Set the **Name** of the notebook to **+++Explore Sales Orders+++**,
     and then close the settings pane.
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image102.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image102.png)
 
 3. On the notebook menu, select **Stop session** to end the Spark
     session.
 
     ![](./media/img16.png)
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image104.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image104.png)
 
 ## Exercise 6: Create a Dataflow (Gen2) in Microsoft Fabric
 
@@ -1418,7 +1412,7 @@ transform, and load* (ETL) process.
 
 2. On the **Home** tab select the down-arrow on the **Save** icon and then select **Save, run & close** to publish and close the query.
 
-    > !IMAGE[]([instructions303922](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media)/labimg26.png)
+    ![instructions303922](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image26.png)
 
 3. Select the **dp_fabric@lab.LabInstance.Id** workspace from the left ribbon and note that the **Gen2_Dataflow** of type **Dataflow Gen2 (CI/CD)** is now present in the list.
 
@@ -1489,8 +1483,7 @@ experiences, including Data Factory experience.
     select **refresh**. Then expand **Tables** and select
     the **orders** table, which has been created by your dataflow.
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image135.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image135.png)
 
     ![](./media/img28.png)
 
@@ -1511,8 +1504,7 @@ workspace you created for this exercise.
 1. In the bar on the left, select the icon for your workspace to view
     all of the items it contains.
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image137.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image137.png)
 
 2. In the **…** menu on the toolbar, select **Workspace settings**.
 
@@ -1520,17 +1512,14 @@ workspace you created for this exercise.
 
 3. Select **General** and click on **Remove this workspace.**
 
-     ![A screenshot of a computer settings Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image139.png)
+     ![A screenshot of a computer settings Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image139.png)
 
 4. In the **Delete workspace?** dialog box, click on the **Delete**
     button.
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image140.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image140.png)
 
-     ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image141.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image141.png)
 
 **Summary**
 

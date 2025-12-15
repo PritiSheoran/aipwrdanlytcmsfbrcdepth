@@ -106,7 +106,6 @@ Before working with data in Fabric, create a workspace.
     |Advanced	|Under License mode, select **Fabric capacity** |
     |Semantin model storage format|	**Small semantic model storage format** |
 
-
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2007/media/image12.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2007/media/image13.png)

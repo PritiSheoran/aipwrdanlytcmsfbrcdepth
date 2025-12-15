@@ -553,17 +553,14 @@ installation, ensure this cell is run before executing any others.
 >Delta table from the Lakehouse to access the cleaned dataset
 >prepared in the previous task.
 
-2. Use the **+ Code** icon below the cell output to add a new code cell
-    to the notebook, and enter the following code in it. Click on **▷
-    Run cell** button and review the output.
+2. Use the **+ Code** icon below the cell output to add a new code cell to the notebook, and enter the following code in it. Click on **▷ Run cell** button and review the output.
 	
     ```
     SEED = 12345
     df_clean = spark.read.format("delta").load("Tables/df_clean").toPandas()
     ```
 	
-     ![A screenshot of a computer AI-generated content may be
-        > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image53.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image53.png)
 
 3. To generate an experiment for tracking and logging the model using
     MLflow use the **+ Code** icon below the cell output to add a new

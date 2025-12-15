@@ -844,7 +844,7 @@ portal](https://portal.azure.com/?azure-portal=true).
 3. In the **Resource group** home page, select the resources Azure AI
     services, Key vault and Search service.
 
-	   ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image71.png)
+	 ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image71.png)
 
 4. Select **Delete**
 

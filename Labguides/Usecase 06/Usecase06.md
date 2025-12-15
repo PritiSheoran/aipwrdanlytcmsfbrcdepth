@@ -25,7 +25,7 @@ integrated solution, you'll be able to quickly and securely integrate
 data, build reports, create data warehouses and lakehouses, forecast
 using ML models, and more.
 
-> ![Data Lakehouse with Azure Synapse Analytics](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image1.png)
+   ![Data Lakehouse with Azure Synapse Analytics](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image1.png)
 
 Now that our data is streaming into our KQL database, we can begin to
 query and explore the data, leveraging KQL to gain insights into the
@@ -49,35 +49,35 @@ Warehouse is a logical choice.
 **Objectives**
 
 - Redeem Azure Pass, and configure necessary permissions within the
-  Azure portal.  
-- Create fabric workspace.  
+  Azure portal. 
+- Create fabric workspace. 
 - To deploy the stock generator app via Azure Container Instance using
-  an ARM template.  
+  an ARM template. 
 - To configure Eventstream in Microsoft Fabric for ingesting real-time
   data from Azure Event Hubs, ensuring seamless integration and data
-  preview for subsequent analysis.  
+  preview for subsequent analysis. 
 - To create a KQL database within Microsoft Fabric and send data from
   Eventstream to the  
-- KQL database.  
+- KQL database. 
 - To explore stock price data using KQL, progressively developing
   queries to analyze trends, calculate price differentials, and
-  visualize data for actionable insights.  
+  visualize data for actionable insights. 
 - To leverage Power BI to create dynamic, real-time reports based on
   analyzed stock data, configuring auto-refresh settings for timely
-  updates and enhancing visualization for informed decision-making.  
+  updates and enhancing visualization for informed decision-making. 
 - Create a Synapse Data Warehouse within the Fabric workspace and create
   essential staging and ETL objects to facilitate data processing and
-  transformation.  
+  transformation. 
 - Build a data pipeline for efficiently extracting, transforming, and
   loading (ETL) data from source systems into the Synapse Data
-  Warehouse, ensuring data accuracy and consistency.  
+  Warehouse, ensuring data accuracy and consistency. 
 - Create dimension and fact tables within the data warehouse to organize
-  and store structured data efficiently for analytical purposes.  
+  and store structured data efficiently for analytical purposes. 
 - Implement procedures to incrementally load data into the data
   warehouse, ensuring efficient handling of large datasets while
-  maintaining data integrity.  
+  maintaining data integrity. 
 - Create views to support data aggregation during the ETL process,
-  optimizing data processing and improving pipeline performance.  
+  optimizing data processing and improving pipeline performance. 
 - Create semantic model in Synapse Data Warehouse, define table
   relationships, and generate a Power BI report for data visualization.
 
@@ -99,17 +99,16 @@ the items needed for this lakehouse tutorial, which includes lakehouse,
 dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and
 reports.
 
-1.  Open your browser, navigate to the address bar, and type or paste
+1. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then press the
     **Enter** button.
 
-2.  In the **Home** page click on **+ New Workspaces** as shown in the
+2. In the **Home** page click on **+ New Workspaces** as shown in the
     below image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image2.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image2.png)
 
-3.  In the **Create a workspace** pane that appears on the right side,
+3. In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
     |   |  |
@@ -118,14 +117,11 @@ reports.
     |Advanced	|Select Fabric capacity|
     |Default storage format|	Small dataset storage format|
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image3.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image4.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image4.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image5.png)
 
 ### Task 2: Deploy the app via Azure Container Instance
 
@@ -136,13 +132,13 @@ deployment of the ARM template.
 
 To auto-deploy the resources, use these steps below.
 
-1.  Open a new address bar and enter the following URL. 
+1. Open a new address bar and enter the following URL. 
 
 	>[!note]**Note**: If prompted to Sign in, use the tenant credentials found on the Resources tab.
 
 	+++https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Ffabricrealtimelab%2Fmain%2Fresources%2Fmodule00%2Ffabricworkshop_arm_managedid.json+++
 
-2.  In the **Custom deployment** window, under the **Basics** tab, enter
+2. In the **Custom deployment** window, under the **Basics** tab, enter
     the following details and click on the **Review+create** button.
 	
     |  |   |
@@ -151,80 +147,73 @@ To auto-deploy the resources, use these steps below.
     |Resource Group	| **@lab.CloudResourceGroup(ResourceGroup1).Name**|
     |Region | **@lab.CloudResourceGroup(ResourceGroup1).Location** |
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image6.png)
 
-3.  Once the validation has passed, click **Create**.
+3. Once the validation has passed, click **Create**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image7.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image7.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image8.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image8.png)
 
-4.  After the deployment is completed, click on the **Go to resource**
+4. After the deployment is completed, click on the **Go to resource**
     button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image9.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image9.png)
 
-4.  After the deployment has completed, open the resource group and
+4. After the deployment has completed, open the resource group and
     verify the **Event Hub Namespace** and **Azure Container
     Instance (ACI)** are deployed.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image10.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image10.png)
 
-5.  Open the **Event Hub** **namespace**, which will have a name similar
+5. Open the **Event Hub** **namespace**, which will have a name similar
     to **ehns-123456-fabricworkshop**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image11.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image11.png)
 
-6.  In **Event Hub namespace** page from the left menu select 
+6. In **Event Hub namespace** page from the left menu select 
     **Shared access policies** under the **Settings.**
 
-    > ![A screenshot of a web page AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image12.png)
+     ![A screenshot of a web page AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image12.png)
 
-7.  In the **Shared access policies** page, click
+7. In the **Shared access policies** page, click
     the **stockeventhub_sas** .On the SAS key tab copy the **primary
     key** and **Event Hub namespace** (such
     as **ehns-123456-fabricworkshop**) to your notepad as this will be
     needed shortly. In short, you'll need the following:
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image13.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image13.png)
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image14.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image14.png)
 
 ### Task 3: Get data with Eventstream
 
-1.  Return to the **Fabric** browser tab and select the **RealTimeWorkspace@lab.LabInstance.Id** icon from the left-side navigation menu.
+1. Return to the **Fabric** browser tab and select the **RealTimeWorkspace@lab.LabInstance.Id** icon from the left-side navigation menu.
 
-3.  Create a new Eventhouse by clicking on the **+New item** button in
+3. Create a new Eventhouse by clicking on the **+New item** button in
     the navigation bar. select **Eventstream**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image15.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image15.png)
 
-2.  Name the Eventstream +++**StockEventStream**+++, click on
+2. Name the Eventstream +++**StockEventStream**+++, click on
     the **Create** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image16.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image16.png)
 
-3.  On the Eventstream, select **Connect data sources**
+3. On the Eventstream, select **Connect data sources**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image17.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image17.png)
 
-4.  On the Add source, select **Azure Event Hubs** and click on
+4. On the Add source, select **Azure Event Hubs** and click on
     **Connect** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image18.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image18.png)
 
 1. On the **Configure connection settings** configuration page select **New connection** to open the **Connection settings** dialog.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image19.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image19.png)
 
-1.  Enter the following values, then select **Connect**.
+1. Enter the following values, then select **Connect**.
 
     | Field | Value |
     |---|---|
@@ -233,42 +222,37 @@ To auto-deploy the resources, use these steps below.
     | Shared Access Key Name | **+++stockeventhub_sas+++** |
     | Shared Access Key | The value that you previously copied to notepad |
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image20.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image20.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image21.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image21.png)
 
-2.  In the **Consumer group** field of the **Configure Azure Event Hub data source** section enter **+++$Default+++** .
+2. In the **Consumer group** field of the **Configure Azure Event Hub data source** section enter **+++$Default+++** .
 
-3.  In the **Data format** field of the **Configure Azure Event Hub data source** section select **JSON** and then select **Next**.
+3. In the **Data format** field of the **Configure Azure Event Hub data source** section select **JSON** and then select **Next**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image22.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image22.png)
 
-1.  Once all the fields have been properly completed select **Next** to review the configuration and then select the **Add** button to commit your data source.
+1. Once all the fields have been properly completed select **Next** to review the configuration and then select the **Add** button to commit your data source.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image23.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image23.png)
 
-9.  With the Event Hub configured, click on **Data preview**. You
+9. With the Event Hub configured, click on **Data preview**. You
     should see events including the stock symbol, price, and timestamp.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image25.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image25.png)
 
 10. On the Eventstream, select **Publish.**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image26.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image26.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image27.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image27.png)
 
 11. On the Eventstream, select **new-source** and click on **Refresh**
     button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image28.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image28.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image29.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image29.png)
 
 ## Exercise 2: KQL Database Configuration and Ingestion
 
@@ -287,115 +271,104 @@ over big data, time series data, and data transformation.
 To work with the data, we'll create a KQL database and stream data from
 the Eventstream into the KQL DB.
 
-1.  In the left-sided navigation menu, navigate and click on **RealTime
+1. In the left-sided navigation menu, navigate and click on **RealTime
     workspace@lab.LabInstance.Id**, as shown in the below image.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image30.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image30.png)
 
-2.  In the **Real-Time Intelligence** page, select +**New item**
+2. In the **Real-Time Intelligence** page, select +**New item**
     and then filter by, and select, **+++Eventhouse+++** to create Eventhouse.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image31.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image31.png)
 
-3.  In the **New Eventhouse** dialog box, enter **+++StockDB+++** in
+3. In the **New Eventhouse** dialog box, enter **+++StockDB+++** in
     the **Name** field, click on the **Create** button and open the new
     Eventhouse.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image32.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image32.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image33.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image33.png)
 
-4.  From the **System overview** page, select the **StockDB** database
+4. From the **System overview** page, select the **StockDB** database
     you created in the previous task.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image34.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image34.png)
 
-5.  Select **StockDB**, click on the **OneLake availability** as shown
+5. Select **StockDB**, click on the **OneLake availability** as shown
     in the below image to change the setting and, then click on the
     **Turn on** Toggle the button enable OneLake access.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image35.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image35.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image36.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image36.png)
 
 ### Task 2: Send data from the Eventstream to the KQL database
 
-1.  In the left-sided navigation menu, navigate and click on
+1. In the left-sided navigation menu, navigate and click on
     **StockEventStream** created in the previous task, as shown in the
     below image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image37.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image37.png)
 
-2.  On the Eventstream, click on the **Edit** button.
+2. On the Eventstream, click on the **Edit** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image38.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image38.png)
 
-3.  Our data should be arriving into our Eventstream, and we'll now
+3. Our data should be arriving into our Eventstream, and we'll now
     configure the data to be ingested into the KQL database that we created
     in the previous task. On the Eventstream, click on **Transform events
     or add destination**, then navigate and select **Eventhouse**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image39.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image39.png)
 
-4.  On the KQL settings, select **Direct ingestion**. While we have the
+4. On the KQL settings, select **Direct ingestion**. While we have the
     opportunity to process event data at this stage, for our purposes,
     we will ingest the data directly into the KQL database. Set the
     destination name to **+++KQL+++**, then select your **workspace,
     Eventhouse** and KQL database created in the above task, then click
     on **Save** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image40.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image40.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image41.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image41.png)
 
-5.  On the Eventstream, select **Publish.**
+5. On the Eventstream, select **Publish.**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image42.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image42.png)
 
-6.  On the Eventstream pane, select **configure** in the **KQL**
+6. On the Eventstream pane, select **configure** in the **KQL**
     destination.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image43.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image43.png)
 
-7.  On the first settings page, select **+New table** and enter the
+7. On the first settings page, select **+New table** and enter the
     name **+++StockPrice+++** for the table to hold the data in
     StockDB. Click on the **Next** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image44.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image44.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image45.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image45.png)
 
-8.  The next page allows us to inspect and configure the schema. Be sure
+8. The next page allows us to inspect and configure the schema. Be sure
     to change the format from TXT to **JSON**, if necessary. The default
     columns of *symbol*, *price*, and *timestamp* should be formatted as
     shown in the below image; then click on the **Finish** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image46.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image46.png)
 
-2.  On the **Summary** page, if there are no errors, you'll see a
+2. On the **Summary** page, if there are no errors, you'll see a
     **green checkmark** as shown in the below image, then click on the
     **Close** button to complete the configuration.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image47.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image47.png)
 
-9.  Select the **KQL** destination and click on the **Refresh** button.
+9. Select the **KQL** destination and click on the **Refresh** button.
 
 	>[!note]**Note**: It may take a few minutes to display the data in the preview.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image48.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image48.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image49.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image49.png)
 
 ## Exercise 3: Exploring the Data
 
@@ -404,43 +377,39 @@ complexity to support different business uses.
 
 ### Task 1: Create KQL queryset: StockQueryset
 
-1.  Click on **RealTimeWorkspace@lab.LbInstance.Id** on the left-sided navigation pane.
+1. Click on **RealTimeWorkspace@lab.LbInstance.Id** on the left-sided navigation pane.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image50.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image50.png)
 
-2.  From your workspace, click on **+ New item** then filter by, and select, **+++KQL Queryset+++** as
+2. From your workspace, click on **+ New item** then filter by, and select, **+++KQL Queryset+++** as
     shown in the below image. In the **New KQL Queryset** dialog box,
     enter +++**StockQueryset**+++, then click on the **Create**
     button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image51.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image51.png)
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image52.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image52.png)
 
-3.  In StockQueryset page select **Eventhouse/KQL Database**
+3. In StockQueryset page select **Eventhouse/KQL Database**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image53.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image53.png)
 
-4.  Select the **StockDB** row and click on the **Connect** button.
+4. Select the **StockDB** row and click on the **Connect** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image54.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image54.png)
 
 	>[!note]**Note**: The KQL query window will open, allowing you to query the data.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image55.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image55.png)
 
 	>[!note]**Note**: The default query code will look like the code shown in the below
     > image; it contains 3 distinct KQL queries. You may
     > see *YOUR_TABLE_HERE* instead of the **StockPrice** table. Select
     > and delete them.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image55.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image55.png)
 
-7.  In the query editor, copy and paste the following code replacing the sample code. Select the
+7. In the query editor, copy and paste the following code replacing the sample code. Select the
     entire text and click on the **Run** button to execute the query.
     After the query is executed, you will see the results.
 	
@@ -466,34 +435,28 @@ complexity to support different business uses.
 	> display the results in 3 different tables, each query will need to have
 	> a semicolon (;) after the statement, as shown below.*
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image56.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image56.png)
 
-8.  The results will be displayed in 3 different tables as shown in the
+8. The results will be displayed in 3 different tables as shown in the
     below image. Click on each table tab to review the data.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image57.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image57.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image58.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image58.png)
 
-    > ![A screenshot of a chat AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image59.png)
+     ![A screenshot of a chat AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image59.png)
 
 ### Task 2: New Query of StockByTime
 
-1.  Create a new tab within the queryset by clicking on the **+** icon
+1. Create a new tab within the queryset by clicking on the **+** icon
     as shown in the below image. Rename this tab as
     +++**StockByTime**+++
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image60.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image60.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image61.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image61.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image62.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image62.png)
 
     >[!knowledge]We can begin to add our own calculations, such as calculating the
     >change over time. For example,
@@ -504,7 +467,7 @@ complexity to support different business uses.
     >can [partition](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/partition-operator) the
     >data when making calculations.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -525,7 +488,7 @@ complexity to support different business uses.
     | order by timestamp asc, symbol asc
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image63.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image63.png)
 
 In this KQL query, the results are first limited to the most recent
 75 minutes. While we ultimately limit the rows to the last 60
@@ -540,14 +503,13 @@ not 9:59 or 10:01), you'd need to approach this differently.
 
 ### Task 3: StockAggregate
 
-1.  Create another new tab within the queryset by clicking on
+1. Create another new tab within the queryset by clicking on
     the **+** icon as shown in the below image. Rename this tab as
     **+++StockAggregate+++**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image64.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image64.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image65.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image65.png)
 
 	>[!note]This query will find the biggest price gains over a 10-minute period
     >for each stock, and the time it occurred. This query uses
@@ -557,7 +519,7 @@ not 9:59 or 10:01), you'd need to approach this differently.
     >while [arg_max](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/arg-max-aggregation-function) returns
     >the greatest value.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -577,22 +539,19 @@ not 9:59 or 10:01), you'd need to approach this differently.
     | summarize arg_max(pricedifference_10min, *) by symbol
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image66.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image66.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image67.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image67.png)
 
 ### Task 4: StockBinned
 
-1.  Create another new tab within the queryset by clicking on
+1. Create another new tab within the queryset by clicking on
     the **+ icon** as shown in the below image. Rename this tab as
     **+++StockBinned+++**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image68.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image68.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image69.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image69.png)
 
 	>[!knowledge]KQL also has a [bin()
     >function](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/bin-function),
@@ -601,7 +560,7 @@ not 9:59 or 10:01), you'd need to approach this differently.
     >aggregated for each hour. The time period can be set to minute,
     >hour, day, and so on.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -611,27 +570,26 @@ not 9:59 or 10:01), you'd need to approach this differently.
     | sort by timestamp asc, symbol asc
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image70.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image70.png)
 
 This is particularly useful when creating reports that aggregate real-time data over a longer time period.
 
 ### Task 5: Visualizations
 
-1.  Create a final new tab within the queryset by clicking on
+1. Create a final new tab within the queryset by clicking on
     the **+** icon as shown in the below image. Rename this tab as
     **+++Visualizations+++**. We'll use this tab to explore
     visualizing data.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image71.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image71.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image72.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image72.png)
 
 	>[!knowledge]KQL supports a large number of visualizations by using
     >the *render* operator. Run the below query, which is the same as the
     >StockByTime query, but with an additional *render* operation added:
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -653,12 +611,11 @@ This is particularly useful when creating reports that aggregate real-time data 
     | render linechart with (series=symbol, xcolumn=timestamp, ycolumns=price)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image73.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image73.png)
 
-4.  This will render a line chart as shown in the below image.
+4. This will render a line chart as shown in the below image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image74.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image74.png)
 
 ## Exercise 4: Optimizing Power BI Reporting Efficiency
 
@@ -670,65 +627,58 @@ complete, we can begin to craft visualizations for real-time dashboards.
 Our Power BI tenant needs to be configured to allow for more frequent
 updating.
 
-1.  To configure this setting, navigate to the Power BI admin portal by
+1. To configure this setting, navigate to the Power BI admin portal by
     clicking on the **Settings** icon in the upper right corner of the
     **Fabric portal**. Navigate to Governance and insights section, then
     click on **Admin portal**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image75.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image75.png)
 
-2.  Select **Capacity settings** on the left, and select the **Fabric
+2. Select **Capacity settings** on the left, and select the **Fabric
     Capacity** that matches your current environment. Select **Fabric
     capacity** name
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image76.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image76.png)
 
-3.  On the following screen, scroll down to the **Power BI
+3. On the following screen, scroll down to the **Power BI
     workloads** section, and under **Semantic Models** (recently
     renamed from **Datasets**), configure **Automatic page
     refresh** to **On**, with a **minimum refresh interval** of **1**
     second. Click **Apply**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image77.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image77.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image78.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image78.png)
 
-4.  In caseUpdate your capacity workloads dialog box appears, then click
+4. In caseUpdate your capacity workloads dialog box appears, then click
     on the **Yes** button.
 
-    > ![A white background with black text Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image79.png)
+     ![A white background with black text Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image79.png)
 
 ### Task 2: Creating a basic Power BI report
 
-1.  In the **Microsoft Fabric** page menu bar on the left side, select
+1. In the **Microsoft Fabric** page menu bar on the left side, select
     **StockQueryset**.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image80.png)
 
-2.  From the **StockQueryset** queryset used in the previous module,
+2. From the **StockQueryset** queryset used in the previous module,
     select the **StockByTime** query tab.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image81.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image81.png)
 
-3.  Select the query and run to view the results. Click on the
+3. Select the query and run to view the results. Click on the
     **Create Power BI report** button in the command bar to bring this
     query into Power BI.
 
     >[!note]The **Create Power BI report** may be accessible under the **More...** button if you do not see it on the command bar.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image82.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image82.png)
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image83.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image83.png)
 
-4.  On the report preview page, we can configure our initial chart,
+4. On the report preview page, we can configure our initial chart,
     select a **line chart** to the design surface, and configure the
     report as follows. See the image below as a reference.
 
@@ -738,34 +688,31 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrc
     
     - Y-axis: **price**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image84.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image84.png)
 
-5.  In the Power BI (preview) page, from the ribbon, click on
+5. In the Power BI (preview) page, from the ribbon, click on
     **File** and select **Save**.
 
-    > ![A screenshot of a graph Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image85.png)
+     ![A screenshot of a graph Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image85.png)
 
-6.  On **Just a few details first** dialog box, in **Name your file in
+6. On **Just a few details first** dialog box, in **Name your file in
     Power BI** field, enter **+++RealTimeStocks+++**. In **Save it to
     a workspace** field, click on the dropdown and select
     **RealTimeWorkspace@lab.LabInstance.Id**. Then, click on the **Continue** button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image86.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image86.png)
 
-7.  In the Power BI (preview) page, click on **Open the file in Power BI
+7. In the Power BI (preview) page, click on **Open the file in Power BI
     to view, edit and get a shareable link.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image87.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image87.png)
 
-8.  On the **RealTimeStocks** page, click on the **Edit** button in the
+8. On the **RealTimeStocks** page, click on the **Edit** button in the
     command bar to open the report editor.
 
-    > ![A graph of different colored lines Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image88.png)
+     ![A graph of different colored lines Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image88.png)
 
-9.  Select the line chart on the report. Configure a **Filter**
+9. Select the line chart on the report. Configure a **Filter**
     for **timestamp** to display data for the last 5 minutes using
     these settings:
 
@@ -775,15 +722,15 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrc
 
 10. Click on **Apply filter** to enable the filter. You will see a similar type of output as shown in the below image.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image89.png)
 
 ### Task 3: Creating a second visual for percent change
 
-1.  Create a second line chart, under **Visualizations**, select **Line
+1. Create a second line chart, under **Visualizations**, select **Line
     chart**.
 
-2.  Instead of plotting the current stock price, select
+2. Instead of plotting the current stock price, select
     the **percentdifference_10min** value, which is a positive or
     negative value based off the difference between the current price
     and the value of the price from 10 minutes ago. Use these values for
@@ -795,19 +742,18 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     
     - Y-axis: **average of percentdifference_10min**
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image90.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image90.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image91.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image91.png)
 
-3.  Under the **Visualization,** select the **Analytics** represented by
+3. Under the **Visualization,** select the **Analytics** represented by
     a magnifier-like icon as shown in the below image, then click on
     **Y-Axis Constant Line(1).** In the **Apply settings to**
     section,  click on **+Add line**, then enter **Value 0.**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image92.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image92.png)
 
-4.  Select the line chart on the report. Configure a **Filter**
+4. Select the line chart on the report. Configure a **Filter**
     for **timestamp** to display data for the last 5 minutes using
     these settings:
 
@@ -815,31 +761,29 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     
     - Show items when the value: is in the last 5 minutes
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image93.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image94.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image94.png)
 
 ### Task 4: Configuring the report to auto-refresh
 
-1.  Deselect the chart. On the **Visualizations settings** \> **Format page**,
+1. Deselect the chart. On the **Visualizations settings** \> **Format page**,
     enable **Page refresh** to automatically refresh every second or
     two, based on your preference. Of course, realistically we need to
     balance the performance implications of refresh frequency, user
     demand, and system resources.
 
-2.  Click on **Format your report** **page** icon, navigate and click on
+2. Click on **Format your report** **page** icon, navigate and click on
     **Page refresh**. Turn on the toggle. Set the Auto page refresh
     value as **2 Seconds** as shown in the below image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image95.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image95.png)
 
-3.  In the Power BI (preview) page, from the ribbon, click on
+3. In the Power BI (preview) page, from the ribbon, click on
     **File** and select **Save**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image96.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image96.png)
 
 ## Exercise 5: Setup Warehouse and Pipeline
 
@@ -848,26 +792,26 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrc
 To get started, we'll first create the Synapse Data Warehouse in our
 workspace.
 
-1.  In the **Fabric Home** page, select **RealTimeWorkspace@lab.LabInstance.Id** from the left-side menu, then select **+New item** and
+1. In the **Fabric Home** page, select **RealTimeWorkspace@lab.LabInstance.Id** from the left-side menu, then select **+New item** and
     filter by, and select, the **+++Warehouse+++** tile.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image97.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image97.png)
 
-2.  On the **New warehouse** dialog box, enter +++**StocksDW+++** as
+2. On the **New warehouse** dialog box, enter +++**StocksDW+++** as
     the name and click on the **Create** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image98.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image98.png)
 
 	>[!note]**Note**: The warehouse is largely empty.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image99.png)
 
-4.  Click on **New SQL query** dropdown in the command bar, then
+4. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next task.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image100.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image100.png)
 
 ### Task 2: Create the staging and ETL objects
 
@@ -883,7 +827,7 @@ a single table for tracking state.
 >some previous date (1/1/2022), ensuring all data is captured -- this
 >date will be updated on each successful run.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -917,34 +861,33 @@ a single table for tracking state.
     SELECT 'StocksPrices', '1/1/2022 23:59:59', 'Y'
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image101.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image101.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image102.png)
 
-4.  Rename the query for reference. Right-click on **SQL query 1** in
+4. Rename the query for reference. Right-click on **SQL query 1** in
     **Explorer** and select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image103.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image103.png)
 
-5.  In the **Rename** dialog box, under the **Name** field, enter
+5. In the **Rename** dialog box, under the **Name** field, enter
     **+++Create stocks and metadata+++**, then click on the **Rename**
     button. 
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image104.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image104.png)
 
-6.  Click on **New SQL query** dropdown in the command bar, then
+6. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step:
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image105.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image105.png)
 
 	>[!note]**Note**: The **sp_IngestSourceInfo_Update** procedure updates the watermark;
     >this ensures we are keeping track of which records have already been
     >imported
 
-8.  In the query editor, copy and paste the following code. Click on
+8. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -967,66 +910,61 @@ a single table for tracking state.
     GO
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image106.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image106.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image107.png)
 
-6.  Rename the query for reference later. Right-click on **SQL query 1**
+6. Rename the query for reference later. Right-click on **SQL query 1**
     in **Explorer** and select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image108.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image108.png)
 
-7.  In the **Rename** dialog box, under the **Name** field, enter
+7. In the **Rename** dialog box, under the **Name** field, enter
     +++**ETL.sql_IngestSource+++**, then click on the **Rename**
     button. 
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image109.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image109.png)
 
   This should look similar to:
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image110.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image110.png)
 
 ### Task 3: Create the data pipeline
 
-1.  On the **StockDW** page, click on **RealTimeWorkspace@lab.LabInstance.Id** Workspace on
+1. On the **StockDW** page, click on **RealTimeWorkspace@lab.LabInstance.Id** Workspace on
     the left-sided navigation menu.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image111.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image111.png)
 
-2.  On the **RealTimeWorkspace@lab.LabInstance.Id** home page select **+New item**, then select **Data
+2. On the **RealTimeWorkspace@lab.LabInstance.Id** home page select **+New item**, then select **Data
     pipeline.**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image112.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image112.png)
 
-3.  A **New pipeline** dialog box will appear, in the **Name** field,
+3. A **New pipeline** dialog box will appear, in the **Name** field,
     enter +++**PL_Refresh_DWH**+++ and click on the **Create**
     button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image113.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image113.png)
 
-4.  In the **PL_Refresh_DWH** page, navigate to **Build a data
+4. In the **PL_Refresh_DWH** page, navigate to **Build a data
     pipeline to organize and move your data** section and click on
     **Pipeline activity**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image114.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image114.png)
 
-5.  Then, navigate and select **Lookup** activity as shown in the
+5. Then, navigate and select **Lookup** activity as shown in the
     below image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image115.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image115.png)
 
-6.  On the **General** tab, in the **Name field,** enter +++**Get
+6. On the **General** tab, in the **Name field,** enter +++**Get
     WaterMark**+++
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image116.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image116.png)
 
-7.  Click on the **Settings** tab, enter the following details as shown
+7. Click on the **Settings** tab, enter the following details as shown
     in the below image.
 	
     |   |   |
@@ -1037,7 +975,7 @@ a single table for tracking state.
     |First row only |	unchecked.|
 
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image117.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image117.png)
 
 ### Task 4: Build ForEach activity
 
@@ -1046,37 +984,35 @@ ForEach activity. The ForEach activity is a container that executes
 child activities as a group: in this case, if we had multiple sources to
 pull data from, we'd repeat these steps for each data source.
 
-1.  In the **Lookup - Get WaterMark** box, navigate and click on the
+1. In the **Lookup - Get WaterMark** box, navigate and click on the
     right arrow to **Add an activity**. Then, navigate and
     select **ForEach** activity as shown in the below image.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image118.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image118.png)
 
-2.  Click on the **Settings** tab, enter the items as
+2. Click on the **Settings** tab, enter the items as
 
     +++@activity('GetWaterMark').output.value+++
 
     > This should look similar to the below image:
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image119.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image119.png)
 
-3.  In the *ForEach*  box, click on the plus (+) symbol to add a new
+3. In the *ForEach*  box, click on the plus (+) symbol to add a new
     activity.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image120.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image120.png)
 
-4.  Select and add a **Copy Data** activity within **ForEach.**
+4. Select and add a **Copy Data** activity within **ForEach.**
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image121.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image121.png)
 
-5.  Select **Copy data1** Activity icon, on the **General** tab, in the
+5. Select **Copy data1** Activity icon, on the **General** tab, in the
     **Name field,** enter +++**Copy KQL**+++
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image122.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image122.png)
 
-6.  Click on the **Source** tab, enter the following settings.
+6. Click on the **Source** tab, enter the following settings.
 
     |  |  |
     |---|----|
@@ -1086,9 +1022,9 @@ pull data from, we'd repeat these steps for each data source.
 
 	> The **Source** tab of the activity should look similar to:
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image123.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image123.png)
 
-7.  Click on the **Destination** tab, enter the following settings
+7. Click on the **Destination** tab, enter the following settings
 
     |   |   |
     |----|----|
@@ -1110,18 +1046,17 @@ pull data from, we'd repeat these steps for each data source.
 
 	> The **Destination** tab of the activity should look like:
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image124.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image124.png)
 
-8.  In the *ForEach*  box, click on the plus **(+)** symbol, navigate
+8. In the *ForEach*  box, click on the plus **(+)** symbol, navigate
     and select **Lookup** activity.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image125.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image125.png)
 
-9.  Click on **Lookup1** icon, in the **General** tab, **Name field,**
+9. Click on **Lookup1** icon, in the **General** tab, **Name field,**
     enter +++**Get New WaterMark**+++
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image126.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image126.png)
 
 10. Click on the **Settings** tab, enter the following settings
 
@@ -1131,19 +1066,17 @@ pull data from, we'd repeat these steps for each data source.
     |Use query|	Query|
     |Query	|+++@concat('Select Max(timestamp) as WaterMark from stg.', item().ObjectName)+++|
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image127.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image127.png)
 
 11. In the *ForEach* box, click on the plus **(+)** symbol, navigate and
     select **Stored Procedure**  activity.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image128.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image128.png)
 
 12. Click on the **Stored procedure** icon. On the **General** tab, in
     the **Name field,** enter +++**Update WaterMark**+++
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image129.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image129.png)
 
 13. Click on the **Settings** tab, enter the following settings.
 
@@ -1162,49 +1095,46 @@ pull data from, we'd repeat these steps for each data source.
     |WaterMark	|DateTime|	+++@activity('Get New WaterMark').output.firstRow.WaterMark+++|
 
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image130.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image130.png)
 
 ### Task 5: Test the Pipeline
 
-1.  From the **Home** tab in the pipeline, select **Run**.
+1. From the **Home** tab in the pipeline, select **Run**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image131.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image131.png)
 
-2.  In the **Save and run?** dialog box, click on **Save and run**
+2. In the **Save and run?** dialog box, click on **Save and run**
     button
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image132.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image132.png)
 
 	>[!knowledge]This will prompt to first save the pipeline, and then validate to
     >find any configuration errors. This initial run will take a few
     >moments and will copy the data into the staging table.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image133.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image133.png)
 
-4.  On the **PL_Refresh_DWH** page, click on the **StocksDW - RealTimeWorkspace@lab.LabInstance.Id**
+4. On the **PL_Refresh_DWH** page, click on the **StocksDW - RealTimeWorkspace@lab.LabInstance.Id**
     on the left-sided navigation menu.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image134.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image134.png)
 
-5.  Click on the **Refresh** button for the browser.
+5. Click on the **Refresh** button for the browser.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image135.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image135.png)
 
-6.  In the data warehouse, data should be visible in the staging table.
+6. In the data warehouse, data should be visible in the staging table.
     Within the data warehouse, selecting a table will show a preview of
     the data in the table. Expand the **Schemas** in Explorer, then navigate to, and click on, **stg** \> **Tables** \> 
     **StocksPrices** as shown in the below image.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image136.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image136.png)
 
-4.  Click on **New SQL query** dropdown in the command bar, then
+4. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step:
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image137.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image137.png)
 
 	>[!knowledge]While we're in the data warehouse, run the script below in new SQL
     >query window to reset the ingestion process. It's often handy in
@@ -1214,7 +1144,7 @@ pull data from, we'd repeat these steps for each data source.
 	>[!note]**Note:** We haven't created the fact or dimensions table yet, but
 	> the script should still work.
 
-9.  In the query editor, copy and paste the following code. Click on
+9. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -1246,9 +1176,9 @@ pull data from, we'd repeat these steps for each data source.
     GO
     ```
 	
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image138.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image138.png)
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image139.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image139.png)
 
 ## Exercise 6: Build Star Schema
 
@@ -1269,17 +1199,17 @@ closing price of the stock.
 
 ### Task 1: Create the dimension and fact tables
 
-1.  Click on  **New SQL query**  dropdown in the command bar, then
+1. Click on  **New SQL query**  dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image137.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image137.png)
 
 	>[!knowledge]In our data warehouse, run the following SQL to create the fact and
     >dimension tables. As in the previous step, you can run this ad-hoc
     >or create a SQL query to save the query for future use.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -1321,32 +1251,32 @@ closing price of the stock.
     GO
     ```
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image140.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image141.png)
 
-4.  Rename the query for reference. Right-click on **SQL query** in
+4. Rename the query for reference. Right-click on **SQL query** in
     Explorer and select **Rename**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image142.png)
 
-5.  In the **Rename** dialog box, under the **Name** field, enter **+++Create Dimension and Fact tables+++**, then click on the
+5. In the **Rename** dialog box, under the **Name** field, enter **+++Create Dimension and Fact tables+++**, then click on the
     **Rename** button. 
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image143.png)
 
 ### Task 2: Load the date dimension
 
-1.  Click **New SQL query** at the top of the window. Click on **New
+1. Click **New SQL query** at the top of the window. Click on **New
     SQL query** dropdown in the command bar, then select **New SQL
     query**. We'll start building our schema in
     the next step:
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image144.png)
 
 	>[!knowledge]The date dimension is differentiated; it can be loaded once with all
@@ -1354,7 +1284,7 @@ closing price of the stock.
     >procedure to populate the date dimension table with a broad range of
     >values.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. After the query is
     executed, you will see the results.
 	
@@ -1406,13 +1336,13 @@ closing price of the stock.
     GO
     ```
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image145.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image146.png)
 
-4.  From same query window, execute the above procedure by running the
+4. From same query window, execute the above procedure by running the
     following script.
 	
     ```
@@ -1420,31 +1350,31 @@ closing price of the stock.
     Exec ETL.sp_Dim_Date_Load
     ```
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image147.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image148.png)
 
-5.  Rename the query for reference. Right-click on **SQL query** in
+5. Rename the query for reference. Right-click on **SQL query** in
     Explorer and select **Rename**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image149.png)
 
-6.  In the **Rename** dialog box, under the **Name** field, enter 
+6. In the **Rename** dialog box, under the **Name** field, enter 
     **+++Load Dimension tables+++**, then click on the **Rename** button. 
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 	generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image150.png)
 
 ### Task 3: Create the procedure to load the Symbol dimension
 
-1.  Click on **New SQL query** dropdown in the command bar, then
+1. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image144.png)
 
 	>[!knowledge]Similar to the date dimension, each stock symbol corresponds to a
@@ -1452,7 +1382,7 @@ closing price of the stock.
     >stock, such as company name, and the market the stock is listed
     >with.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query. This will create the
     procedure that will load the stock symbol dimension. We'll execute
     this in the pipeline to handle any new stocks that might enter the
@@ -1494,32 +1424,32 @@ closing price of the stock.
     GO
     ```
 	
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image151.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image152.png)
 
-7.  Rename the query for reference. Right-click on **SQL query** in
+7. Rename the query for reference. Right-click on **SQL query** in
     Explorer and select **Rename**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image153.png)
 
-8.  In the **Rename** dialog box, under the **Name** field, enter
+8. In the **Rename** dialog box, under the **Name** field, enter
     **+++Load the stock symbol dimension+++**, then click on the
     **Rename** button. 
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 	generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image154.png)
 
 ### Task 4: Create the views
 
-1.  Click on **New SQL query** dropdown in the command bar, then
+1. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image144.png)
 
 	>[!knowledge]Create views that support the aggregation of the data during the
@@ -1527,7 +1457,7 @@ closing price of the stock.
     >into our staging table, where we'll aggregate all of the data for
     >each stock into a min, max, and closing price for each day.
 
-3.  In the query editor, copy and paste the following code. Click on
+3. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query.
 	
     ```
@@ -1567,31 +1497,31 @@ closing price of the stock.
     GO
     ```
 	
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image155.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image156.png)
 
-4.  Rename the query for reference. Right-click on **SQL query** in
+4. Rename the query for reference. Right-click on **SQL query** in
     Explorer and select **Rename**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image157.png)
 
-5.  In the **Rename** dialog box, under the **Name** field, enter
+5. In the **Rename** dialog box, under the **Name** field, enter
     **+++Create Staging Views+++**, then click on the **Rename**
     button. 
 
-    > ![A screenshot of a computer screen Description automatically
+     ![A screenshot of a computer screen Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image158.png)
 
 ### Task 5: Add activity to load symbols
 
-1.  On the **StockDW** page, click on **PL_Refresh_DWH** on the
+1. On the **StockDW** page, click on **PL_Refresh_DWH** on the
     left-sided navigation menu.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image159.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image159.png)
 
 	>In the pipeline, add a new **Stored Procedure** activity
     >named **Populate Symbols Dimension** that executes the procedure,
@@ -1600,18 +1530,16 @@ closing price of the stock.
     >This should be connected to the success output of the ForEach
     >activity (not within the ForEach activity).
 
-1.  At the bottom of the **ForEach** activity, select the green arrow to add a new Activity, then search for, and select, **+++Stored procedure+++**.
+1. At the bottom of the **ForEach** activity, select the green arrow to add a new Activity, then search for, and select, **+++Stored procedure+++**.
  
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image160.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image160.png)
 
-4.  On the **General** tab, in the **Name field,** enter +++**Populate
+4. On the **General** tab, in the **Name field,** enter +++**Populate
     Symbols Dimension**+++
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image161.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image161.png)
 
-5.  Click on the **Settings** tab, enter the following settings.
+5. Click on the **Settings** tab, enter the following settings.
 
     |           |           |
     |------|------|
@@ -1619,21 +1547,21 @@ closing price of the stock.
     |Stored procedure name	|+++[ETL].[sp_Dim_Symbol_Load]+++|
 
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image162.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image162.png)
 
 ### Task 6: Create the procedure to load daily prices
 
-1.  Select the **StockDW** icon on the
+1. Select the **StockDW** icon on the
     left-sided navigation menu.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image163.png)
 
-2.  Click on **New SQL query** dropdown in the command bar, then
+2. Click on **New SQL query** dropdown in the command bar, then
     select **New SQL query**. We'll start
     building our schema in the next step.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image144.png)
 
 	>[!knowledge]Next, you will run a script to create the procedure that builds the
@@ -1646,7 +1574,7 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
 	> merge statement; therefore, data will be updated and then inserted as
 	> needed.
 
-4.  In the query editor, copy and paste the following code. Click on
+4. In the query editor, copy and paste the following code. Click on
     the **Run** button to execute the query.
 	
     ```
@@ -1695,43 +1623,41 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     GO
     ```
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image164.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image165.png)
 
-6.  Rename the query for reference. Right-click on **SQL query** in
+6. Rename the query for reference. Right-click on **SQL query** in
     Explorer and select **Rename**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image166.png)
 
-7.  In the **Rename** dialog box, under the **Name** field, enter **+++ETL.sp_Fact_Stocks_Daily_Prices_Load+++**, then click on the
+7. In the **Rename** dialog box, under the **Name** field, enter **+++ETL.sp_Fact_Stocks_Daily_Prices_Load+++**, then click on the
     **Rename** button. 
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image167.png)
 
 ### Task 7: Add activity to the pipeline to load daily stock prices
 
-1.  Select the **PL_Refresh_DWH** icon on the
+1. Select the **PL_Refresh_DWH** icon on the
     left-sided navigation menu.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image168.png)
 
-2.  To load the stocks prices from staging into the fact table, add another  **Stored Procedure**  activity to the pipeline by selecting the green arrow at the bottom of the **Stored procedure** activity, then search for, and select, **+++Stored procedure+++**.
+2. To load the stocks prices from staging into the fact table, add another  **Stored Procedure**  activity to the pipeline by selecting the green arrow at the bottom of the **Stored procedure** activity, then search for, and select, **+++Stored procedure+++**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image169.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image169.png)
 
-1.  On the general tab set the name to **+++Populate Fact Stocks Daily Prices+++**. 
+1. On the general tab set the name to **+++Populate Fact Stocks Daily Prices+++**. 
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image170.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image170.png)
 
-3.  To connect the success output of the *Populate Symbols Dimension* to the new *Populate Fact
+3. To connect the success output of the *Populate Symbols Dimension* to the new *Populate Fact
     Stocks Daily Prices* activity click on the **Settings** tab, and then enter the following settings.
 
 	|   |   |
@@ -1739,24 +1665,23 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
 	|Connection	|Select **StocksDW** from the dropdown list|
 	|Stored procedure name|	+++[ETL].[sp_Fact_Stocks_Daily_Prices_Load]+++|
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image171.png)
 
 ### Task 8. Run the pipeline
 
-1.  Run the pipeline by clicking on the **Run** button, and verify the
+1. Run the pipeline by clicking on the **Run** button, and verify the
     pipeline runs and fact and dimension tables are being loaded.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image172.png)
 
-2.  In the **Save and run?** dialog box, click on **Save and run**
+2. In the **Save and run?** dialog box, click on **Save and run**
     button
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image132.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image132.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image173.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image173.png)
 
 ### Task 9: Schedule the pipeline
 
@@ -1768,13 +1693,13 @@ or throughout the day.
 > day, and KQL limits the query results to 500k, the pipeline must run
 > at least twice per day to stay current.
 
-2.  To schedule the pipeline, click the **Schedule** button on the **Home** menu and set up a recurring schedule, such as hourly or
+2. To schedule the pipeline, click the **Schedule** button on the **Home** menu and set up a recurring schedule, such as hourly or
     every few minutes.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image174.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image175.png)
 
 ## Exercise 7: Semantic Modeling
@@ -1799,40 +1724,38 @@ automatically. We can leverage this in Power BI, but it also includes
 many artifacts of the table we may not need. So, we'll create a new
 semantic model with just our fact and two-dimension tables.
 
-1.  Click on the **StockDW** icon on the
+1. Click on the **StockDW** icon on the
     left-sided navigation menu.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image176.png)
 
-2.  Click on the the browser **refresh** icon as shown in the below image.
+2. Click on the the browser **refresh** icon as shown in the below image.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image177.png)
 
-1.  In the Explorer expand the **StocksDW** \> **Schemas** \> **dbo** \> **Tables** path and then select **dim_Date**.
+1. In the Explorer expand the **StocksDW** \> **Schemas** \> **dbo** \> **Tables** path and then select **dim_Date**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image178.png)
 
-3.  In StockDW page, select the **Reporting** tab and then
+3. In StockDW page, select the **Reporting** tab and then
     select **New semantic model**.
 
-4.  In the New semantic model tab, enter the name as **+++StocksModel+++**,
+4. In the New semantic model tab, enter the name as **+++StocksModel+++**,
     and select only the fact and dimensions tables under **dbo** \> **Tables**, as we are concerned
     with **fact_Stocks_Daily_Prices**, **dim_Date**, and **dim_Symbol**.
     Click on the **Confirm** button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image179.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image179.png)
 
 ### Task 2. Add relationships
 
-1.  On the **StockDW** page, click on **RealTimeWorkspace@lab.LabInstance.Id** on the
+1. On the **StockDW** page, click on **RealTimeWorkspace@lab.LabInstance.Id** on the
     left-sided navigation menu and select **StockModel** from the bottom of the list.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image180.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image180.png)
 
 	>[!note]**Note**: The model designer should automatically open after creating the
     >semantic model above. If it doesn't, or if you'd like to return to
@@ -1840,19 +1763,18 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     >from the list of resources in the workspace, and then
     >selecting **Open semantic Model** from the semantic model item.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image181.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image181.png)
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image182.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image182.png)
 
-1.  From the top right corner drop down the **Viewing** button and select **Editing**.
+1. From the top right corner drop down the **Viewing** button and select **Editing**.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image183.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image183.png)
 
 	>[!knowledge]To create relationships between the fact and dimension tables, you will need to drag
     the key from the fact table to the corresponding key in the dimension table.
 
-4.  For this data model, you need to define the relationship between
+4. For this data model, you need to define the relationship between
     different tables so that you can create reports and visualizations
     based on data coming across different tables. From
     the **fact_Stocks_Daily_Prices** table, drag
@@ -1860,11 +1782,11 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     the **dim_Date** table to create a relationship. The **New
     relationship** dialog box appears.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image184.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image184.png)
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image185.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image185.png)
 
-5.  In the **New relationship** dialog box:
+5. In the **New relationship** dialog box:
 
     - **From table** is populated with **fact_Stocks_Daily_Prices** and the
       column of **PriceDateKey.**
@@ -1880,25 +1802,24 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     
     - Select **Save**.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image186.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image186.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image187.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image187.png)
     
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image188.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image188.png)
 
 	>[!alert] If the relationship fails to apply simply perform the previous 2 steps again.
 
-6.  From the **fact_Stocks_Daily_Prices** table, drag
+6. From the **fact_Stocks_Daily_Prices** table, drag
     the **Symbol_SK** field and drop it on the **Symbol_SK**  field in
     the **dim_Symbol** table to create a relationship. The **New
     relationship** dialog box appears.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image189.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image189.png)
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image190.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image190.png)
 
-7.  In the **New relationship** dialog box:
+7. In the **New relationship** dialog box:
 
     - **From table** is populated with **fact_Stocks_Daily_Prices** and the
       column of **Symbol_Sk.**
@@ -1914,26 +1835,23 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     
     - Select **Ok**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image191.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image191.png)
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image192.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image192.png)
   
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image193.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image193.png)
   
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image194.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image194.png)
 
 	>[!alert] If the relationship fails to apply simply perform the previous 2 steps again.
 
 ### Task 3. Create a simple report
 
-1.  Click on **File** \> **Create new report** to load the semantic model in Power BI.
+1. Click on **File** \> **Create new report** to load the semantic model in Power BI.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image195.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image195.png)
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image196.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image196.png)
 
 	>[!knowledge]While we won't have much data yet to make much of a report,
     >conceptually, we can build a report similar to below, which shows a
@@ -1943,40 +1861,39 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
     >stock on each day, while the bottom one shows the high/low/close of
     >the WHO stock.
 
-3.  In the **Power BI** page, under **Visualizations**, click to the
+3. In the **Power BI** page, under **Visualizations**, click to the
     **Line chart** icon to add a **Column chart** to your report.
 
-4.  On the **Data** pane, expand **fact_Stocks_Daily_Prices** and check
+4. On the **Data** pane, expand **fact_Stocks_Daily_Prices** and check
     the box next to **PriceDateKey**. This creates a column chart and adds
     the field to the **X-axis**.
     
-1.  On the **Data** pane, expand **fact_Stocks_Daily_Prices** and check
+1. On the **Data** pane, expand **fact_Stocks_Daily_Prices** and check
     the box next to **ClosePrice**. This adds the field to the **Y-axis.**
     
-1.  On the **Data** pane, expand **dim_Symbol** and check the box next
+1. On the **Data** pane, expand **dim_Symbol** and check the box next
     to **Symbol**. This adds the field to the **Legend**.
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image197.png)
     
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image198.png)
 
-4.  From the ribbon, select **File** \> **Save.**
+4. From the ribbon, select **File** \> **Save.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image199.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image199.png)
 
-5.  In the Save your report dialog box, enter +++**semantic
+5. In the Save your report dialog box, enter +++**semantic
     report**+++ as the name of your report and select **your
     workspace**. Click on the **Save button**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image200.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image200.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image201.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image202.png)
 
 ### Task 4: Clean up resources
@@ -1984,23 +1901,23 @@ generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcd
 If you've finished exploring your data warehouse, you can delete the
 workspace you created for this exercise.
 
-1.  In the bar on the left, select the icon for your workspace named **RealTimeWorkspace@lab.LabInstance.Id** to view
+1. In the bar on the left, select the icon for your workspace named **RealTimeWorkspace@lab.LabInstance.Id** to view
     all of the items it contains.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image203.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image203.png)
 
-2.  In the top right of the menu on the toolbar, select **Workspace settings**.
+2. In the top right of the menu on the toolbar, select **Workspace settings**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image204.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image204.png)
 
-3.  In the **General** section, navigate to the bottom and select **Remove this workspace**.
+3. In the **General** section, navigate to the bottom and select **Remove this workspace**.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image205.png)
 
-1.  In the **Delete workspace?** dialog select the **Delete** button to remove your workspace.
+1. In the **Delete workspace?** dialog select the **Delete** button to remove your workspace.
 
-    > ![A white background with black text Description automatically
+     ![A white background with black text Description automatically
 generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2006/media/image206.png)
 
 ## **Summary**

@@ -18,7 +18,7 @@ language model (LLM) and you own data to generate responses.
 
 The architecture of such an application is as shown below:
 
-> ![Architecture diagram connecting Azure OpenAI with Azure AI Search and
+   ![Architecture diagram connecting Azure OpenAI with Azure AI Search and
 Document Intelligence](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image1.png)
 
 **Objective**
@@ -49,11 +49,11 @@ The multi-service resource is listed under **Azure AI
 services** \> **Azure AI services multi-service account** in the portal.
 To create a multi-service resource follow these instructions:
 
-1.  Select this link to create a multi-service resource: 
+1. Select this link to create a multi-service resource: 
 
     +++https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne+++
 	
-2.  On the **Create Azure AI services** page, provide the following information:
+2. On the **Create Azure AI services** page, provide the following information:
 
     |Project details | Description |
     |-----|----|
@@ -63,61 +63,54 @@ To create a multi-service resource follow these instructions:
     |Name	|+++Cognitive-service@lab.LabInstance.Id+++ (must be a unique Id)|
     |Pricing tier	|Standard S0|
 
-3.  Read and
+3. Read and
     accept the conditions (as applicable), and then select **Review +
     create**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image2.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image2.png)
 
-4.  In the **Review+submit** tab, once the Validation is Passed, click
+4. In the **Review+submit** tab, once the Validation is Passed, click
     on the **Create** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image3.png)
 
-5.  After the deployment is completed, click on the **Go to resource**
+5. After the deployment is completed, click on the **Go to resource**
     button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image4.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image4.png)
 
-6.  In your **Cognitive-service@lab.LabInstance.Id** -> **Azure AI service** window, navigate to the **Resource
+6. In your **Cognitive-service@lab.LabInstance.Id** -> **Azure AI service** window, navigate to the **Resource
     Management** section, and click on **Keys and Endpoints**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image5.png)
 
-7.  In **Keys and Endpoints** page, copy **KEY1, KEY 2,** and
+7. In **Keys and Endpoints** page, copy **KEY1, KEY 2,** and
     **Endpoint** values and paste them in a notepad as shown in the
     below image, then **Save** the notepad to use the information in the
     upcoming tasks.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image6.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image6.png)
 
 ### Task 2: Create an Azure AI Search service in the portal
 
-1.  In Azure portal home page, click on **+ Create Resource**.
+1. In Azure portal home page, click on **+ Create Resource**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image7.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image7.png)
 
-2.  In the **Create a resource** page search bar, type **+++Azure AI
+2. In the **Create a resource** page search bar, type **+++Azure AI
     Search+++** and click on the appeared **azure ai search**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image28.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image28.png)
 
-3.  Click on **azure ai search** section.
+3. Click on **azure ai search** section.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image29.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image29.png)
 
-4.  In the **Azure AI Search** page, click on the **Create** button.
+4. In the **Azure AI Search** page, click on the **Create** button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image30.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image30.png)
 
-5.  On the **Create a search service** page, provide the following
+5. On the **Create a search service** page, provide the following
     information and click on **Review+create** button.
 	
     |Field	|Description|
@@ -127,26 +120,24 @@ To create a multi-service resource follow these instructions:
     |Name	|+++mysearchservice@lab.LabInstance.Id+++ (must can be a unique Id)|
     |Pricing Tier	|Click on change Price Tire > select Basic|
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image31.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image31.png)
     
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image32.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image32.png)
 
-6.  Once the Validation is passed, click on the **Create** button.
+6. Once the Validation is passed, click on the **Create** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image33.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image33.png)
 
-8.  After the deployment is completed, click on the **Go to resource**
+8. After the deployment is completed, click on the **Go to resource**
     button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image34.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image34.png)
 
-9.  copy **AI search name** and paste it in notepad as shown in the
+9. copy **AI search name** and paste it in notepad as shown in the
     below image, then **Save** the notepad to use the information in the
     upcoming lab.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image35.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image35.png)
 
 ### Task 5: Create a Fabric workspace
 
@@ -155,36 +146,31 @@ the items needed for this lakehouse tutorial, which includes lakehouse,
 dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and
 reports.
 
-1.  Open your browser, navigate to the address bar, and type or paste
+1. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then press the
     **Enter** button.
 
-    > ![A search engine window with a red box Description automatically
-    > generated with medium confidence](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image36.png)
+     ![A search engine window with a red box Description automatically generated with medium confidence](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image36.png)
 
-2.  In the **Microsoft Fabric** window, enter your credentials, and
+2. In the **Microsoft Fabric** window, enter your credentials, and
     click on the **Submit** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image37.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image37.png)
 
-3.  Then, In the **Microsoft** window enter the password and click on
+3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button**.**
 
-    > ![A login screen with a red box and blue text AI-generated content may
-    > be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image38.png)
+     ![A login screen with a red box and blue text AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image38.png)
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+4. In **Stay signed in?** window, click on the **Yes** button.
 
-    > ![A screenshot of a computer error AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image39.png)
+     ![A screenshot of a computer error AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image39.png)
 
-5.  In the Workspaces pane Select **+New workspace**.
+5. In the Workspaces pane Select **+New workspace**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image40.png)
 
-6.  In the **Create a workspace** pane that appears on the right side,
+6. In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
     |   |   |
@@ -193,10 +179,9 @@ reports.
     |Advanced|	Select **Fabric Capacity**|
     |Capacity	|Select the available capacity|
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image41.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image41.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image42.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image42.png)
 
 10. Wait for the deployment to complete. It takes 2-3 minutes to
     complete.
@@ -205,25 +190,23 @@ reports.
 
 ### Task 6: Create a lakehouse
 
-1.  In the Fabric Home page, select **+ New item** and filter by, and then select the **+++Lakehouse+++** tile.
+1. In the Fabric Home page, select **+ New item** and filter by, and then select the **+++Lakehouse+++** tile.
 
      ![](./media/labimg1.png)
 
-2.  In the **New lakehouse** dialog box, enter +++**data_lakehouse**+++
+2. In the **New lakehouse** dialog box, enter +++**data_lakehouse**+++
     in the **Name** field, click on the **Create** button and open the
     new lakehouse.
 
     >[!note]**Note**: Ensure to remove space before **data_lakehouse**.
      ![](./media/labimg2.png)
 
-3.  You will see a notification stating **Successfully created SQL
+3. You will see a notification stating **Successfully created SQL
     endpoint**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image46.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image46.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image47.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image47.png)
 
 ## Exercise 2: Loading and Pre-processing PDF Documents
 
@@ -233,16 +216,14 @@ To begin, navigate back to the rag_workshop Lakehouse in your workspace
 and create a new notebook by selecting Open Notebook and selecting New
 Notebook from the options.
 
-1.  In the **Lakehouse** page, navigate and click on **Open notebook**
+1. In the **Lakehouse** page, navigate and click on **Open notebook**
     drop in the command bar, then select **New notebook**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image48.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image48.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image49.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image49.png)
 
-2.  In the query editor, paste the following code.  Provide the keys for
+2. In the query editor, paste the following code. Provide the keys for
     Azure AI Services, Azure Key Vault name and secrets to access the
     services.
 	
@@ -257,14 +238,14 @@ Notebook from the options.
     AI_SERVICES_LOCATION = ""
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image50.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image50.png)
 
 ### Task 2: Loading & Analyzing the Document
 
 We will be using a specific document named [**support.pdf**](https://github.com/Azure-Samples/azure-openai-rag-workshop/blob/main/data/support.pdf) which
 will be the source of our data.
 
-1.  To download the document, use the **+ Code** icon below the cell
+1. To download the document, use the **+ Code** icon below the cell
     output to add a new code cell to the notebook, and enter the
     following code in it. Click on **▷ Run cell** button and review the
     output.
@@ -288,9 +269,9 @@ will be the source of our data.
         f.write(response.content)
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image51.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image51.png)
 
-3.  Now, load the PDF document into a Spark DataFrame using the
+3. Now, load the PDF document into a Spark DataFrame using the
     spark.read.format("binaryFile") method provided by Apache Spark
 
     Use the **+ Code** icon below the cell output to add a new code cell
@@ -305,14 +286,14 @@ will be the source of our data.
     display(df)
     ```
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image52.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image52.png)
 
     >[!note]**Note**: This code will read the PDF document and create a Spark DataFrame
     > named df with the contents of the PDF. The DataFrame will have a schema
     > that represents the structure of the PDF document, including its textual
     > content.
 
-5.  Next, we'll use the Azure AI Document Intelligence to read the PDF
+5. Next, we'll use the Azure AI Document Intelligence to read the PDF
     documents and extract the text from them.
 
     Use the **+ Code** icon below the cell output to add a new code cell
@@ -339,9 +320,9 @@ will be the source of our data.
     ).cache()
     ```
 
-    > ![A screenshot of a computer code AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image53.png)
+     ![A screenshot of a computer code AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image53.png)
 
-7.  We can observe the analyzed Spark DataFrame named analyzed_df using
+7. We can observe the analyzed Spark DataFrame named analyzed_df using
     the following code. Note that we drop the content column as it is
     not needed anymore.
 
@@ -354,7 +335,7 @@ will be the source of our data.
     display(analyzed_df)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image54.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image54.png)
 
 ## Exercise 3: Generating and Storing Embeddings
 
@@ -366,7 +347,7 @@ documents into smaller sections, which are subsequently stored in
 the chunks column. This allows for more granular representation and
 processing of the document content.
 
-1.  Use the **+ Code** icon below the cell output to add a new code cell
+1. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -385,13 +366,13 @@ processing of the document content.
     display(splitted_df)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image55.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image55.png)
 
     >[!note]**Note**: The chunks for each document are presented in a single row
     inside an array. In order to embed all the chunks in the following
     cells, we need to have each chunk in a separate row.
 
-2.  Use the **+ Code** icon below the cell output to add a new code cell
+2. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -408,7 +389,7 @@ processing of the document content.
     display(exploded_df)
     ```
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image56.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image56.png)
 
 From this code snippet we first explode these arrays so there is only
 one chunk in each row, then filter the Spark DataFrame in order to only
@@ -422,7 +403,7 @@ Azure OpenAI service with SynapseML, we can leverage the power of the
 Apache Spark distributed computing framework to process numerous prompts
 using the OpenAI service.
 
-1.  Use the **+ Code** icon below the cell output to add a new code cell
+1. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -442,7 +423,7 @@ using the OpenAI service.
     display(df_embeddings)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image57.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image57.png)
 
 This integration enables the SynapseML embedding client to generate
 embeddings in a distributed manner, enabling efficient processing of
@@ -467,13 +448,13 @@ upload the chunked documents, along with their corresponding embeddings,
 to the index. This allows for efficient storage and retrieval of the
 data using hybrid and vector search.
 
-1.  The following code snippet demonstrates how to create an index in
+1. The following code snippet demonstrates how to create an index in
     Azure AI Search using the Azure AI Search REST API. This code
     creates an index with fields for the unique identifier of each
     document, the text content of the document, and the vector embedding
     of the text content.
 
-2.	Click the **➕ Code** icon below the cell output to insert a new code cell in the notebook. Replace the **AI Search API key** and the **AI Search service URL**, then paste the following code into the cell. Click the **▶ Run** cell button and review the output
+2. Click the **➕ Code** icon below the cell output to insert a new code cell in the notebook. Replace the **AI Search API key** and the **AI Search service URL**, then paste the following code into the cell. Click the **▶ Run** cell button and review the output
 	
     ```
     import requests
@@ -531,11 +512,12 @@ data using hybrid and vector search.
         print(f"HTTP response body: {response.text}")
     ```
      ![](./media/img4.png)
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image58.png)
-    
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image59.png)
 
-3.  The next step is to upload the chunks to the newly created Azure AI
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image58.png)
+    
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image59.png)
+
+3. The next step is to upload the chunks to the newly created Azure AI
     Search index. The Azure AI Search REST API supports up to 1000
     "documents" per request. Note that in this case, each of our
     "documents" is in fact a chunk of the original file
@@ -602,9 +584,9 @@ data using hybrid and vector search.
     display(res.toDF(["start_index", "end_index", "insertion_status"]))
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image60.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image60.png)
     
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image61.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image61.png)
 
 ## Exercise 4: Retrieving Relevant Documents and Answering Questions
 
@@ -618,7 +600,7 @@ that closely match the user's question.
 Create a new notebook in the Lakehouse and save it as rag_application.
 We'll use this notebook to build the RAG application.
 
-1.  Provide the credentials for access to Azure AI Search. You can copy
+1. Provide the credentials for access to Azure AI Search. You can copy
     the values from the from Azure Portal (Exercise 1 \>Task 4).
 
     Use the **+ Code** icon below the cell output to add a new code cell
@@ -632,9 +614,9 @@ We'll use this notebook to build the RAG application.
     AI_SEARCH_API_KEY = ''
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image62.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image62.png)
 
-3.  The following function takes a user's question as input and converts
+3. The following function takes a user's question as input and converts
     it into an embedding using the text-embedding-ada-002 model. This
     code assumes you're using the Pre-built AI Services in Microsoft
     Fabric.
@@ -662,12 +644,11 @@ We'll use this notebook to build the RAG application.
         return question_embedding
     ```
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image63.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image63.png)
 
 ### Task 2: Retrieve Relevant Documents
 
-1.  The next step is to use the user question and its embedding to
+1. The next step is to use the user question and its embedding to
     retrieve the top K most relevant document chunks from the search
     index. The following function retrieves the top K entries using
     hybrid search.
@@ -707,14 +688,14 @@ We'll use this notebook to build the RAG application.
         return output
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image64.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image64.png)
     
     With those functions defined, we can define a function that takes a
     user's question, generates an embedding for the question, retrieves the
     top K document chunks, and concatenates the content of the retrieved
     documents to form the context for the user's question.
 
-3.  Use the **+ Code** icon below the cell output to add a new code cell
+3. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -732,8 +713,7 @@ We'll use this notebook to build the RAG application.
         return context
     ```
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image65.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image65.png)
 
 ### Task 3: Answering the User's Question
 
@@ -743,7 +723,7 @@ the question to a large language model to generate a response. For this
 demo, we'll use the gpt-35-turbo-16k, a model that is optimized for
 conversation.
 
-1.  Use the **+ Code** icon below the cell output to add a new code cell
+1. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -799,52 +779,51 @@ conversation.
         return result
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image66.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image66.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image67.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image67.png)
 
     > Now, we can call that function with an example question to see the response:
 
-3.  Use the **+ Code** icon below the cell output to add a new code cell
+3. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Replace the placeholders YOUR_ADMIN_API_KEY, YOUR_INDEX_NAME and search_service_name with your values and click on **▷Run cell** button and review the output.
 
-```
-import requests
+    ```
+    import requests
 
-# Azure Search configuration
-search_service_name = ''
-index_name = 'rag-demo-index'
-api_key = ''
-endpoint = f'https://{search_service_name}.search.windows.net'
-api_version = '2023-07-01-Preview'
-search_url = f"{endpoint}/indexes/{index_name}/docs/search?api-version={api_version}"
+    # Azure Search configuration
+    search_service_name = ''
+    index_name = 'rag-demo-index'
+    api_key = ''
+    endpoint = f'https://{search_service_name}.search.windows.net'
+    api_version = '2023-07-01-Preview'
+    search_url = f"{endpoint}/indexes/{index_name}/docs/search?api-version={api_version}"
 
-headers = {
-    "Content-Type": "application/json",
-    "api-key": api_key
-}
-
-def get_response(user_question, top_k=1):
-    payload = {
-        "search": user_question,
-        "queryType": "simple",   # Can be "semantic" if enabled in your Azure Search
-        "top": top_k
+    headers = {
+        "Content-Type": "application/json",
+        "api-key": api_key
     }
-    response = requests.post(search_url, headers=headers, json=payload)
-    response.raise_for_status()
-    results = response.json().get('value', [])
-    if not results:
-        return "No answer found in the knowledge base."
-    return results[0].get('content', '').strip()
 
-# Example usage
-user_question = "how do i make a booking?"
-response = get_response(user_question)
-print(response)
-```
-![](./media/labimg3.png)
-![](./media/labimg4.png)
+    def get_response(user_question, top_k=1):
+        payload = {
+            "search": user_question,
+            "queryType": "simple",   # Can be "semantic" if enabled in your Azure Search
+            "top": top_k
+        }
+        response = requests.post(search_url, headers=headers, json=payload)
+        response.raise_for_status()
+        results = response.json().get('value', [])
+        if not results:
+            return "No answer found in the knowledge base."
+        return results[0].get('content', '').strip()
 
+    # Example usage
+    user_question = "how do i make a booking?"
+    response = get_response(user_question)
+    print(response)
+    ```
+    ![](./media/labimg3.png)
+    ![](./media/labimg4.png)
 
 ### Task 4: Delete the resources
 
@@ -853,65 +832,57 @@ resources you created in this quickstart if they're no longer needed. To
 manage resources, you can use the [Azure
 portal](https://portal.azure.com/?azure-portal=true).
 
-1.  To delete the storage account, navigate to **Azure portal Home**
+1. To delete the storage account, navigate to **Azure portal Home**
     page, click on **Resource groups**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image69.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image69.png)
 
-2.  Click on the assigned resource group, **@lab.CloudResourceGroup(ResourceGroup1).Name**.
+2. Click on the assigned resource group, **@lab.CloudResourceGroup(ResourceGroup1).Name**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image70.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image70.png)
 
-3.  In the **Resource group** home page, select the resources Azure AI
+3. In the **Resource group** home page, select the resources Azure AI
     services, Key vault and Search service.
 
-	> ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image71.png)
+	   ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image71.png)
 
-4.  Select **Delete**
+4. Select **Delete**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image72.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image72.png)
 
-5.  In the **Delete Resources** pane that appears on the right side,
+5. In the **Delete Resources** pane that appears on the right side,
     navigate to **Enter +++delete+++ to confirm deletion** field, then
     click on the **Delete** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image74.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image74.png)
 
-6.  On **Delete confirmation** dialog box, click on **Delete** button.
+6. On **Delete confirmation** dialog box, click on **Delete** button.
 
-    > ![A screenshot of a computer error Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image75.png)
+     ![A screenshot of a computer error Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image75.png)
 
-7.  Open your browser, navigate to the address bar, and type or paste
+7. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then
     press the **Enter** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image76.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image76.png)
 
-8.  Select the ***...*** option under the workspace name and
+8. Select the ***...*** option under the workspace name and
     select **Workspace settings**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image77.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image77.png)
 
-9.  Select **General** and click on **Remove this workspace.**
+9. Select **General** and click on **Remove this workspace.**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image78.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image78.png)
 
 10. Click on **Delete** in the warning that pops up.
 
-    > ![A white background with black text Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image79.png)
+     ![A white background with black text Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image79.png)
 
 11. Wait for a notification that the Workspace has been deleted, before
     proceeding to the next lab.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image80.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2006/media/image80.png)
 
 
 

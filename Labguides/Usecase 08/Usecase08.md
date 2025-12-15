@@ -38,41 +38,36 @@ learning model to predict which bank customers are likely to leave.
 
 Before working with data in Fabric, create a workspace.
 
-1.  Open your browser, navigate to the address bar, and type or paste
+1. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then
     press the **Enter** button.
 
 	>[!note] **Note**: If you are directed to Microsoft Fabric Home page, then skip
 	> steps from \#2 to \#4.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image1.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image1.png)
 
-2.  In the **Microsoft Fabric** window, enter your credentials, and
+2. In the **Microsoft Fabric** window, enter your credentials, and
     click on the **Submit** button.
 
-    > ![A screenshot of a computer error AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image2.png)
+     ![A screenshot of a computer error AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image2.png)
 
-3.  Then, In the **Microsoft** window enter the password and click on
+3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button.
 
-    > ![A login box with a red line and blue text AI-generated content may
-	> be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image3.png)
+     ![A login box with a red line and blue text AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image3.png)
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+4. In **Stay signed in?** window, click on the **Yes** button.
 
-    > ![A screenshot of a computer error Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image4.png)
+     ![A screenshot of a computer error Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image4.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image5.png)
 
-5.  In the **Fabric** home page, select **+New workspace**.
+5. In the **Fabric** home page, select **+New workspace**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image6.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image6.png)
 
-6.  In the **Create a workspace tab**, enter the following details and
+6. In the **Create a workspace tab**, enter the following details and
     click on the **Apply** button.
 	
     |   |   |
@@ -81,17 +76,14 @@ Before working with data in Fabric, create a workspace.
     |Advanced|	Under License mode, select **Fabric capacity** |
     |Semantic model storage format|	**Small semantic model storage format** |
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image7.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image7.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image8.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image8.png)
 
-7.  Wait for the deployment to complete. It takes 2-3 minutes to
+7. Wait for the deployment to complete. It takes 2-3 minutes to
     complete. When your new workspace opens, it should be empty.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image9.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image9.png)
 
 ### Task 2: Create a lakehouse 
 
@@ -99,29 +91,28 @@ Now that you have a workspace, it's time to switch to the *Data
 engineering* experience in the portal and create a data lakehouse for
 the data files you're going to analyze.
 
-1.  In the Fabric home page, Select **+New item** and filter by, and 
+1. In the Fabric home page, Select **+New item** and filter by, and 
     select, **+++Lakehouse+++**
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image10.png)
 
-2.  In the **New lakehouse** dialog box,
+2. In the **New lakehouse** dialog box,
     enter **+++FabricData_Sciencelakehouse+++** in the **Name** field,
     click on the **Create** button and open the new lakehouse.
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image11.png)
 
     >[!note]**Note**: After a minute or so, a new empty lakehouse will be created. You
     need to ingest some data into the data lakehouse for analysis.
 
-	> ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image12.png)
+	 ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image12.png)
 
     >[!note]**Note**: You will see a notification stating **Successfully created SQL
     endpoint**.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image13.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image13.png)
 
 ### Task 3: Install custom libraries and load the data
 
@@ -152,15 +143,14 @@ attributes so you have to proceed without having background information
 about the dataset. The aim is to understand how these attributes
 contribute to the exited status.
 
-1.  In the **Lakehouse** page, dropdown the **Open notebook** and select
+1. In the **Lakehouse** page, dropdown the **Open notebook** and select
     **New notebook.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image14.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image14.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image15.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image15.png)
 
-2.  Enter the following code. This code use %pip install to install
+2. Enter the following code. This code use %pip install to install
     the imblearn library and then stores it in a Fabric lakehouse.
     Select the code cell and click on the **play** button to execute
     cell.
@@ -170,7 +160,7 @@ contribute to the exited status.
     %pip install imblearn
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image16.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image16.png)
 
 	>[!note]**Note:** The PySpark kernel restarts after %pip install runs. Install
 	the needed libraries before you run any other cells.
@@ -182,10 +172,10 @@ contribute to the exited status.
     >    `%pip install imbalanced-learn filelock<3.12`  
     >- Select the **▷ Run cell** icon to execute the code
 
-3.  In your notebook, use the **+ Code** icon below the latest cell
+3. In your notebook, use the **+ Code** icon below the latest cell
     output to add a new code cell to the notebook.
 
-4.  Select the code cell and click on the **play** button to execute
+4. Select the code cell and click on the **play** button to execute
     cell.
 	
     ```
@@ -199,9 +189,9 @@ contribute to the exited status.
     DATA_FILE = "churn.csv"  # Data file name
     ```
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image17.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image17.png)
 
-1.   In your notebook, use the **+ Code** icon below the latest cell
+1. In your notebook, use the **+ Code** icon below the latest cell
     output to add a new code cell to the notebook. Then enter the following code.This code downloads a publicly available
     version of the dataset and then stores it in a Fabric lakehouse.
     Select the code cell and click on the **play** button to execute
@@ -230,9 +220,9 @@ contribute to the exited status.
         print("Downloaded demo data files into lakehouse.")
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image18.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image18.png)
 
-7.  Start recording the time needed to run the notebook. Use the **+
+7. Start recording the time needed to run the notebook. Use the **+
     Code** icon below the cell output to add a new code cell to the
     notebook, and enter the following code in it. Click on **▷ Run
     cell** button and review the output
@@ -244,7 +234,7 @@ contribute to the exited status.
     ts = time.time()
     ```
 
-	> ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image19.png)
+	 ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image19.png)
 
 ### Task 4: Explore and visualize data using Microsoft Fabric notebooks
 
@@ -252,7 +242,7 @@ The following code reads raw data from the **Files** section of the
 lakehouse, and adds more columns for different date parts. Creation
 of the partitioned delta table uses this information.
 
-2.  Use the **+ Code** icon below the cell output to add a new code cell
+2. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -265,12 +255,12 @@ of the partitioned delta table uses this information.
     )
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image20.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image20.png)
 
-    >[!note]**Note**: You now need to convert the spark DataFrame to pandas DataFrame for easier
+     >[!note]**Note**: You now need to convert the spark DataFrame to pandas DataFrame for easier
     processing and visualization.
 
-4.  Use the **+ Code** icon below the cell output to add a new code cell
+4. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -278,15 +268,15 @@ of the partitioned delta table uses this information.
     df = df.toPandas()
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image21.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image21.png)
 
-    >[!knowledge] Explore the raw data with display, do some basic statistics and show
+     >[!knowledge] Explore the raw data with display, do some basic statistics and show
     chart views. You first need to import required libraries for data
     visualization such as seaborn, which is a Python data visualization
     library to provide a high-level interface for building visuals on
     DataFrames and arrays.
 
-6.  Use the **+ Code** icon below the cell output to add a new code cell
+6. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -301,9 +291,9 @@ of the partitioned delta table uses this information.
     import itertools
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image22.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image22.png)
 
-7.  Use the **+ Code** icon below the cell output to add a new code cell
+7. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -311,44 +301,44 @@ of the partitioned delta table uses this information.
     display(df, summary=True)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image23.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image23.png)
 
-8.  Use Data Wrangler to perform initial data cleansing, under the
+8. Use Data Wrangler to perform initial data cleansing, under the
     notebook ribbon select **AI tools** tab, dropdown the **Data
     Wrangler** and select the **df** data wrangler.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image24.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image24.png)
 
     >[!note]**Note**: Once the Data Wrangler is launched, a descriptive overview of the
     displayed data panel is generated.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image25.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image25.png)
 
 10. In df(Data Wrangler) pane, under **Operations** select the **Find
     and replace \> Drop duplicate rows.**
 
-     > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image26.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image26.png)
 
 11. Under the Target columns, select only the **RowNumber** and **CustomerId**
     check boxes, and then click on the **Apply** button.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image27.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image27.png)
 
 12. In df(Data Wrangler) pane, under **Operations** select the **Find
     and replace \> Drop missing values.**
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image28.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image28.png)
 
 13. Under the Target columns, choose **Select all** from the **Target
     columns**, and then click on the **Apply** button.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image29.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image29.png)
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image30.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image30.png)
 
 14. Expand **Schema** and select **Drop columns**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image31.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image31.png)
 
 15. Select **RowNumber**, **CustomerId**, **Surname**. These columns
     appear in red in the preview, to show they're changed by the code
@@ -356,23 +346,23 @@ of the partitioned delta table uses this information.
 
 16. Select **Apply** to go on to the next step
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image32.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image32.png)
 
 17. Select **Add code to notebook** at the top left to close Data
     Wrangler and add the code automatically. The **Add code to
     notebook** wraps the code in a function, then calls the function.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image33.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image33.png)
 
 18. Examine the code generated by Data Wrangler 
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image34.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image34.png)
 
 19. Add the argument **inplace=True** to each of the generated steps. By
     setting inplace=True, pandas will overwrite the original DataFrame
     instead of producing a new DataFrame as an output. See the **Reference code** for comparison.
 
-    > ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image35.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image35.png)
 
     **Reference code:**
 	
@@ -396,7 +386,7 @@ of the partitioned delta table uses this information.
 	
 20. Click on **▷ Run cell** button and review the output
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image36.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image36.png)
 
 21. Use this code to determine categorical, numerical, and target
     attributes. Use the **+ Code** icon below the cell output to add a
@@ -418,8 +408,7 @@ of the partitioned delta table uses this information.
     print(numeric_variables)
     ```
 	
-    > ![A screenshot of a computer code AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image37.png)
+     ![A screenshot of a computer code AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image37.png)
 
 22. The code below generates box plots to display the five-number
     summary-minimum, first quartile, median, third quartile, and
@@ -438,9 +427,9 @@ of the partitioned delta table uses this information.
     fig.delaxes(axes[1,2])
     ```
 
-    > ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image38.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image38.png)
 
-    > ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image39.png)
+     ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image39.png)
 
 25. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
@@ -456,7 +445,7 @@ of the partitioned delta table uses this information.
     fig.subplots_adjust(hspace=0.7)
     ```
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image40.png)
 
 27. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
@@ -476,9 +465,9 @@ of the partitioned delta table uses this information.
     plt.show()
     ```
 
-    > ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image41.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image41.png)
 
-    > ![A screenshot of a graph AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image42.png)
+     ![A screenshot of a graph AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image42.png)
 
 28. Perform feature engineering to create new attributes derived from
     the existing ones. Use the **+ Code** icon below the cell output to add a new code cell
@@ -493,53 +482,53 @@ of the partitioned delta table uses this information.
     df_clean["NewEstSalaryScore"] = pd.qcut(df_clean['EstimatedSalary'], 10, labels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image43.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image43.png)
 
 ### Task 5: Use Data Wrangler to perform one-hot encoding
 
 Data Wrangler can also be used to perform one-hot encoding. To do so,
 re-open Data Wrangler. This time, select the df_clean data.
 
-1.  Use Data Wrangler to perform initial data cleansing, under the
+1. Use Data Wrangler to perform initial data cleansing, under the
     notebook ribbon select **AI tools** tab, dropdown the **Data
     Wrangler** and select the **df_clean** data wrangler.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image44.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image44.png)
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image45.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image45.png)
 
-2.  Expand **Formulas** and select **One-hot encode**.
+2. Expand **Formulas** and select **One-hot encode**.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image46.png)
 
-3.  A panel appears for you to select the list of columns you want to
+3. A panel appears for you to select the list of columns you want to
     perform one-hot encoding on. Select **Geography** and **Gender** and then
     Click **Apply**.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image47.png)
 
-4.  Select **Add code to notebook** at the top left to close Data
+4. Select **Add code to notebook** at the top left to close Data
     Wrangler and add the code automatically
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image48.png)
     
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image49.png)
 
-5.  Click on **▷ Run cell** button and review the output
+5. Click on **▷ Run cell** button and review the output
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image50.png)
     
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image51.png)
 
 ### Task 6: Create a delta table for the cleaned data
 
-1.  Use the **+ Code** icon below the cell output to add a new code cell
+1. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -551,7 +540,7 @@ re-open Data Wrangler. This time, select the df_clean data.
     print(f"Spark DataFrame saved to delta table: {table_name}")
     ```
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image52.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image52.png)
 
 ### Task 7: Train and register a machine learning model
 
@@ -564,7 +553,7 @@ installation, ensure this cell is run before executing any others.
 >Delta table from the Lakehouse to access the cleaned dataset
 >prepared in the previous task.
 
-2.  Use the **+ Code** icon below the cell output to add a new code cell
+2. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
 	
@@ -573,10 +562,10 @@ installation, ensure this cell is run before executing any others.
     df_clean = spark.read.format("delta").load("Tables/df_clean").toPandas()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
         > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image53.png)
 
-3.  To generate an experiment for tracking and logging the model using
+3. To generate an experiment for tracking and logging the model using
     MLflow use the **+ Code** icon below the cell output to add a new
     code cell to the notebook, and enter the following code in it. Click
     on **▷ Run cell** button and review the output.
@@ -587,9 +576,9 @@ installation, ensure this cell is run before executing any others.
     EXPERIMENT_NAME = "sample-bank-churn-experiment"  # MLflow experiment name
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image54.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image54.png)
 
-4.  Set experiment and autologging specifications. Use the **+
+4. Set experiment and autologging specifications. Use the **+
     Code** icon below the cell output to add a new code cell to the
     notebook, and enter the following code in it. Click on **▷ Run
     cell** button and review the output.
@@ -599,14 +588,14 @@ installation, ensure this cell is run before executing any others.
     mlflow.autolog(exclusive=False)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image55.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image55.png)
 
     >[!note]**Note**: With the data now loaded, the next step is to define and train
     >machine learning models. This notebook demonstrates how to implement
     >Random Forest and **LightGBM** using the **scikit-learn** and
     >**lightgbm** libraries in just a few lines of code.
 
-6.  Use the **+ Code** icon below the cell output to add a new code cell
+6. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -618,10 +607,9 @@ installation, ensure this cell is run before executing any others.
     from sklearn.metrics import accuracy_score, f1_score, precision_score, confusion_matrix, recall_score, roc_auc_score, classification_report
     ```
 	
-    > ![A screenshot of a computer AI-generated content
-	> may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image56.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image56.png)
 
-7.  Use the train_test_split function from **scikit-learn** to split the
+7. Use the train_test_split function from **scikit-learn** to split the
     data into training, validation, and test sets. Select the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output.
@@ -633,9 +621,9 @@ installation, ensure this cell is run before executing any others.
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=SEED)
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image57.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image57.png)
 
-9.  Apply SMOTE to the training data to synthesize new samples for the
+9. Apply SMOTE to the training data to synthesize new samples for the
     minority class. Use the **+ Code** icon below the cell output to add
     a new code cell to the notebook, and enter the following code in it.
     Click on **▷ Run cell** button and review the output
@@ -649,7 +637,7 @@ installation, ensure this cell is run before executing any others.
     new_train = pd.concat([X_res, y_res], axis=1)
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image58.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image58.png)
 
 10. Train the model using Random Forest with maximum depth of 4 and 4
     features. Use the **+ Code** icon below the cell output to add a new
@@ -671,9 +659,9 @@ installation, ensure this cell is run before executing any others.
         roc_auc_rfc1_sm = roc_auc_score(y_res, rfc1_sm.predict_proba(X_res)[:, 1])
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image59.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image59.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image60.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image60.png)
 
 11. Train the model using Random Forest with maximum depth of 8 and 6
     features. Use the **+ Code** icon below the cell output to add a new
@@ -695,11 +683,9 @@ installation, ensure this cell is run before executing any others.
         roc_auc_rfc2_sm = roc_auc_score(y_res, rfc2_sm.predict_proba(X_res)[:, 1])
     ```
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image61.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image61.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image62.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image62.png)
 
 12. Train the model using LightGBM. Use the **+ Code** icon below the
     cell output to add a new code cell to the notebook, and enter the
@@ -728,42 +714,39 @@ installation, ensure this cell is run before executing any others.
         roc_auc_lgbm_sm = roc_auc_score(y_res, lgbm_sm_model.predict_proba(X_res)[:, 1])
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image63.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image63.png)
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image64.png)
 
 ### Task 8: Experiments artifact for tracking model performance
 
-1.  Select **Data-Science@lab.LabInstance.IdX** in the left navigation pane.
+1. Select **Data-Science@lab.LabInstance.IdX** in the left navigation pane.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image65.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image65.png)
 
-2.  On the top right, drop down the filter and select Experiments.
+2. On the top right, drop down the filter and select Experiments.
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image66.png)
 
-3.  Select **sample** **bank-churn-experiment**
+3. Select **sample** **bank-churn-experiment**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image67.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image67.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image68.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image68.png)
 
 ### Task 9: Assess the performances of the trained models on the validation dataset
 
-1.  Select **Notebook1** in the left navigation pane.
+1. Select **Notebook1** in the left navigation pane.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image69.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image69.png)
 
-2.  Open the saved experiment from the workspace, load the machine
+2. Open the saved experiment from the workspace, load the machine
     learning models, and evaluate their performance on the validation
     dataset.
 
-3.  Use the **+ Code** icon below the cell output to add a new code cell
+3. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -775,13 +758,12 @@ installation, ensure this cell is run before executing any others.
     load_model_lgbm1_sm = mlflow.lightgbm.load_model(f"runs:/{lgbm1_sm_run_id}/model")
     ```
 	
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image70.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image70.png)
 
-4.  Directly assess the performance of the trained machine learning
+4. Directly assess the performance of the trained machine learning
     models on the validation dataset.
 
-5.  Use the **+ Code** icon below the cell output to add a new code cell
+5. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -791,14 +773,13 @@ installation, ensure this cell is run before executing any others.
     ypred_lgbm1_sm = load_model_lgbm1_sm.predict(X_test) # LightGBM
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image71.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image71.png)
 
-6.  To evaluate the accuracy of the classification model, generate and
+6. To evaluate the accuracy of the classification model, generate and
     analyze the confusion matrix using predictions from the validation
     dataset.
 
-7.  Use the **+ Code** icon below the cell output to add a new code cell
+7. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -829,13 +810,12 @@ installation, ensure this cell is run before executing any others.
         plt.xlabel('Predicted label')
     ```
 	
-    > ![A screenshot of a computer code AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image72.png)
+     ![A screenshot of a computer code AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image72.png)
 
-8.  Confusion Matrix for Random Forest Classifier with maximum depth of
+8. Confusion Matrix for Random Forest Classifier with maximum depth of
     4 and 4 features
 
-9.  Use the **+ Code** icon below the cell output to add a new code cell
+9. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it. Click on **▷
     Run cell** button and review the output
 	
@@ -846,8 +826,7 @@ installation, ensure this cell is run before executing any others.
     tn, fp, fn, tp = cfm.ravel()
     ```
  
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image73.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image73.png)
 
 10. Confusion Matrix for Random Forest Classifier with maximum depth of
     8 and 6 features
@@ -863,8 +842,7 @@ installation, ensure this cell is run before executing any others.
     tn, fp, fn, tp = cfm.ravel()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image74.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image74.png)
 
 12. Confusion Matrix for LightGBM. Use the **+ Code** icon below the
     cell output to add a new code cell to the notebook, and enter the
@@ -878,15 +856,14 @@ installation, ensure this cell is run before executing any others.
     tn, fp, fn, tp = cfm.ravel()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image75.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image75.png)
 
 ### Task 10: Save results for Power BI
 
-1.  Save the delta frame to the lakehouse, to move the model prediction
+1. Save the delta frame to the lakehouse, to move the model prediction
     results to a Power BI visualization.
 
-2.  Load the test data. Use the **+ Code** icon below the cell output to
+2. Load the test data. Use the **+ Code** icon below the cell output to
     add a new code cell to the notebook, and enter the following code in
     it. Click on **▷ Run cell** button and review the output
 	
@@ -902,146 +879,141 @@ installation, ensure this cell is run before executing any others.
     print(f"Spark DataFrame saved to delta table: {table_name}")
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image76.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image76.png)
     
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image77.png)
 
 ### Task 11: Create a semantic model
 
-1.  Now, click on **FabricData_Sciencelakehouse** on the left-sided
+1. Now, click on **FabricData_Sciencelakehouse** on the left-sided
     navigation pane
 
-	> ![A screenshot of a computer Description automatically
+	 ![A screenshot of a computer Description automatically
 	generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image78.png)
 
-2.  Select **New semantic model** on the top ribbon.
+2. Select **New semantic model** on the top ribbon.
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image79.png)
 
-3.  In the **New dataset** box, enter the dataset a name, such as
+3. In the **New dataset** box, enter the dataset a name, such as
     **+++bank churn predictions+++** . Then select
     the **df_pred_results** dataset and select **Confirm**.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image80.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image80.png)
 
-1.  Select **Data-Science@lab.LabInstance.IdX** in the left navigation pane.
+1. Select **Data-Science@lab.LabInstance.IdX** in the left navigation pane.
 
-2.  Select **bank churn predictions** semantic model
+2. Select **bank churn predictions** semantic model
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image81.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image81.png)
 
-3.  From the semantic model pane, you can view all the tables. You have
+3. From the semantic model pane, you can view all the tables. You have
     options to create reports either from scratch, paginated report, or
     let Power BI automatically create a report based on your data. For
     this tutorial, under **Explore this data**, select **Auto-create a
     report** as shown in the below image.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image82.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image82.png)
 
-4.  Select **View report now**
+4. Select **View report now**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image83.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image83.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image84.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image84.png)
 
-5.  Save this report for the future by selecting **Save** from the top
+5. Save this report for the future by selecting **Save** from the top
     ribbon.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image85.png)
 
-6.  In the **Save your replort** dialog box, enter a name for your
+6. In the **Save your replort** dialog box, enter a name for your
     report as +++**Bank churn**+++ and select **Save.**
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image86.png)
 
-7.  Select **bank churn predictions** semantic model in the left
+7. Select **bank churn predictions** semantic model in the left
     navigation pane
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image87.png)
 
-8.  Select **Open data model**
+8. Select **Open data model**
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image88.png)
     
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image89.png)
 
-9.  In Home page, dropdown the Editing and select **Editing**
+9. In Home page, dropdown the Editing and select **Editing**
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image90.png)
 
 ### Task 12: Add new measures
 
-1.  Add a new measure for the churn rate.
+1. Add a new measure for the churn rate.
 
-	1.  Select **New measure** in the top ribbon. This action adds a new
+	1. Select **New measure** in the top ribbon. This action adds a new
     item named **Measure** to
     the **customer_churn_test_predictions** dataset, and opens a formula
     bar above the table.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image91.png)
+		![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image91.png)
 
-	1.  To determine the average predicted churn rate, replace Measure = in
+	1. To determine the average predicted churn rate, replace Measure = in
     the formula bar with:
 
 		+++Churn Rate = AVERAGE(df_pred_results[CreditScore])+++ 
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image92.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image92.png)
 
-	1.  To apply the formula, select the **check mark** in the formula bar.
+	1. To apply the formula, select the **check mark** in the formula bar.
     The new measure appears in the data table. The calculator icon shows
     it was created as a measure.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image93.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image93.png)
 
-	1.  Change the format from **General** to **Percentage** in
+	1. Change the format from **General** to **Percentage** in
     the **Properties** panel.
 
-	1.  Scroll down in the **Properties** panel to change the **Decimal
+	1. Scroll down in the **Properties** panel to change the **Decimal
     places** to 1.
 
-		> ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image94.png)
+		 ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image94.png)
 
-2.  Add a new measure that counts the total number of bank customers.
+2. Add a new measure that counts the total number of bank customers.
     You'll need it for the rest of the new measures.
 
-	1.  Select **New measure** in the top ribbon to add a new item
+	1. Select **New measure** in the top ribbon to add a new item
     named **Measure** to the customer_churn_test_predictions dataset.
     This action also opens a formula bar above the table.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image95.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image95.png)
 
-	1.  Each prediction represents one customer. To determine the total
+	1. Each prediction represents one customer. To determine the total
 	number of customers, replace Measure = in the formula bar with:
 
 		+++Customers = COUNT(df_pred_results[CreditScore])+++
 
-	1.  Select the **check mark** in the formula bar to apply the formula.
+	1. Select the **check mark** in the formula bar to apply the formula.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image96.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image96.png)
 
-3.  Add the churn rate for Germany.
+3. Add the churn rate for Germany.
 
-    1.  Select **New measure** in the top ribbon to add a new item
+    1. Select **New measure** in the top ribbon to add a new item
     named **Measure** to the customer_churn_test_predictions
     dataset. This action also opens a formula bar above the table.
 
-		> ![A screenshot of a computer AI-generated content may be
+		 ![A screenshot of a computer AI-generated content may be
 		incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image97.png)
 
-	1.  To determine the churn rate for Germany, replace Measure = in the
+	1. To determine the churn rate for Germany, replace Measure = in the
 	formula bar with:
 
 		```
@@ -1050,25 +1022,23 @@ installation, ensure this cell is run before executing any others.
 			df_pred_results[Geography_Germany] = 1
 		```
 
-	1.  To apply the formula, select the **check mark** in the formula bar.
+	1. To apply the formula, select the **check mark** in the formula bar.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image98.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image98.png)
 
 		This filters the rows down to the ones with Germany as their geography
 		(Geography_Germany equals one).
 
-4.  Repeat the above step to add the churn rates for France and Spain.
+4. Repeat the above step to add the churn rates for France and Spain.
 
-	1.  **Spain's churn rate**: Select **New measure** in the top ribbon to
+	1. **Spain's churn rate**: Select **New measure** in the top ribbon to
 		add a new item named **Measure** to the
 		customer_churn_test_predictions dataset. This action also opens a
 		formula bar above the table.
 
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image99.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image99.png)
 
-	1.  Select the **check mark** in the formula bar to apply the formula
+	1. Select the **check mark** in the formula bar to apply the formula
 	
 		```
 		Spain Churn = CALCULATE(
@@ -1077,14 +1047,13 @@ installation, ensure this cell is run before executing any others.
 		)
 		```
 	
-		> ![A screenshot of a computer AI-generated content may be
-		> incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image100.png)
+		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image100.png)
 
-1.  France's churn rate: Select **New measure** in the top ribbon to add
+1. France's churn rate: Select **New measure** in the top ribbon to add
     a new item named **Measure** to the customer_churn_test_predictions
     dataset. This action also opens a formula bar above the table.
 
-2.  Select the **check mark** in the formula bar to apply the formula
+2. Select the **check mark** in the formula bar to apply the formula
 
     ```
     France Churn = CALCULATE(
@@ -1092,38 +1061,36 @@ installation, ensure this cell is run before executing any others.
         df_pred_results[Geography_France] = 1
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image101.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image101.png)
 
 ### Task 13: Create new report
 
-1.  From the top ribbon, select **File** and select **New report** to
+1. From the top ribbon, select **File** and select **New report** to
     start creating reports/dashboards in Power BI.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image102.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image102.png)
 
-2.  In the Ribbon, select **Text box**. Type in +++**Bank Customer
+2. In the Ribbon, select **Text box**. Type in +++**Bank Customer
     Churn+++**. **Highlight** the **text** Change the font size and
     background color in the Format panel. Adjust the font size and color
     by selecting the text and using the format bar.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image103.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image103.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image104.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image104.png)
 
-3.  In the Visualizations panel, select the **Card** icon. From
+3. In the Visualizations panel, select the **Card** icon. From
     the **Data** pane, select **Churn Rate**. Change the font size and
     background color in the Format panel. Drag this visualization to the
     top right of the report.
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image105.png)
 
-4.  In the Visualizations panel, select the **Line and stacked column
+4. In the Visualizations panel, select the **Line and stacked column
     chart** icon.
 
-5.  The chart shows on the report. In the Data pane, select
+5. The chart shows on the report. In the Data pane, select
 
 	- Age
 
@@ -1131,49 +1098,43 @@ installation, ensure this cell is run before executing any others.
 
 	- Customers
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image106.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image106.png)
 
-	> ![A screenshot of a computer AI-generated content may be
+	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image107.png)
 
-6.  In the Visualizations panel, select the **Line and stacked column
+6. In the Visualizations panel, select the **Line and stacked column
     chart** icon. Select **NumOfProducts** for x-axis, **Churn
     Rate** for column y-axis, and **Customers** for the line y-axis.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image108.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image108.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image109.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image109.png)
 
-7.  In the Visualizations panel, select the **Stacked column
+7. In the Visualizations panel, select the **Stacked column
     chart** icon. Select **NewCreditsScore** for x-axis and **Churn
     Rate** for y-axis.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image110.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image110.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image111.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image111.png)
 
-8.  Change the title **NewCreditsScore** to **Credit Score** in the
+8. Change the title **NewCreditsScore** to **Credit Score** in the
     Format panel. Select **Format your visuals** and dropdown the
     **X-axis**, enter the Title text as +++**Credit Score+++.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image112.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image112.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image113.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image113.png)
 
-9.  From the ribbon, select **File** \> **Save**.
+9. From the ribbon, select **File** \> **Save**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image114.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image114.png)
 
 10. Enter the name of your report as **Bank churn Power BI report**.
     Select **Save**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image115.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image115.png)
 
 The Power BI report shows:
 
@@ -1201,20 +1162,18 @@ You can delete individual reports, pipelines, warehouses, and other
 items or remove the entire workspace. Use the following steps to delete
 the workspace you created for this tutorial.
 
-1.  Select your workspace, the **Data-Science@lab.LabInstance.IdX** from the left-hand
+1. Select your workspace, the **Data-Science@lab.LabInstance.IdX** from the left-hand
     navigation menu. It opens the workspace item view.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image116.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image116.png)
 
-2.  Select the **...** option under the workspace name and
+2. Select the **...** option under the workspace name and
     select **Workspace settings**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image117.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image117.png)
 
-3.  Select **General tab** and **Remove this workspace.**
+3. Select **General tab** and **Remove this workspace.**
 
-	> ![A screenshot of a computer Description automatically
+	 ![A screenshot of a computer Description automatically
 	generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image118.png)
 

@@ -77,16 +77,16 @@ enterprise.
 Before working with data in Fabric, create a workspace with the Fabric
 trial enabled.
 
-1.  Open your browser, navigate to the address bar, and type or paste
+1. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then
     press the **Enter** button.
 
     >[!note]**Note**: If you are directed to Microsoft Fabric Home page, then skip
     > to step \#5.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image1.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image1.png)
 
-2.  In the **Microsoft Fabric** window, enter your credentials, and
+2. In the **Microsoft Fabric** window, enter your credentials, and
     click on the **Submit** button.
 
     |   |   |
@@ -94,25 +94,24 @@ trial enabled.
     | Username | +++@lab.CloudPortalCredential(User1).Username+++ |
     | Password | +++@lab.CloudPortalCredential(User1).Password+++ |
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image2.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image2.png)
 
-3.  Then, In the **Microsoft** window enter the password and click on
+3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button.
 
-    > ![A login screen with a red box and blue text Description
+     ![A login screen with a red box and blue text Description
     > automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image3.png)
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+4. In **Stay signed in?** window, click on the **Yes** button.
 
-    > ![A screenshot of a computer error Description automatically
+     ![A screenshot of a computer error Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image4.png)
 
-5.  Fabric home page, select **+New workspace** tile.
+5. Fabric home page, select **+New workspace** tile.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image5.png)
 
-6.  In the **Create a workspace tab**, enter the following details and
+6. In the **Create a workspace tab**, enter the following details and
     click on the **Apply** button.
 	
     |  |  |
@@ -122,12 +121,11 @@ trial enabled.
     |Advanced|	Under License mode, select Fabric capacity|
     |Default storage format	|Small dataset storage format|
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image6.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image7.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image7.png)
 
-7.  Wait for the deployment to complete. It takes 2-3 minutes to
+7. Wait for the deployment to complete. It takes 2-3 minutes to
     complete. When your new workspace opens, it should be empty.
 
    ![](./media/img1.png)
@@ -138,17 +136,16 @@ Now that you have a workspace, it's time to switch to the *Data
 engineering* experience in the portal and create a data lakehouse for
 the data files you're going to analyze.
 
-1.  Create a new Eventhouse by clicking on the **+ New item** button in
+1. Create a new Eventhouse by clicking on the **+ New item** button in
     the navigation bar.
 
-      ![](./media/img2.png)
+     ![](./media/img2.png)
 
-2.  Filter by, and select, the **+++Lakehouse+++** tile.
+2. Filter by, and select, the **+++Lakehouse+++** tile.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image10.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image10.png)
 
-3.  In the **New lakehouse** dialog box,
+3. In the **New lakehouse** dialog box,
     enter **+++Fabric_lakehouse+++** in the **Name** field and unselect the lakehouses schemas. Click on
     the **Create** button and open the new lakehouse.
 
@@ -157,39 +154,39 @@ the data files you're going to analyze.
     >[!note]**Note**: After a minute or so, a new empty lakehouse will be created. You
     need to ingest some data into the data lakehouse for analysis.
 
-       ![](./media/img3.png)
+     ![](./media/img3.png)
 
     > You will see a notification stating **Successfully created SQL endpoint**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image13.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image13.png)
 
-6.  In the **Explorer** section, under the **fabric_lakehouse**, hover
+6. In the **Explorer** section, under the **fabric_lakehouse**, hover
     your mouse beside **Files folder**, then click on the horizontal
     ellipses **(…)** menu. Navigate and click on **Upload**, then click
     on the **Upload folder** as shown in the below image.
 
      ![](./media/img4.png)
 
-7.  On the **Upload folder** pane that appears on the right side, select
+7. On the **Upload folder** pane that appears on the right side, select
     the **folder icon** under the **Files/** and then browse to
     **C:\LabFiles\LabFiles** and then select the **orders** folder and click on
     the **Upload** button.
 
      ![](./media/img5.png)
 
-8.  In case, the **Upload 3 files to this site?** dialog box appears,
+8. In case, the **Upload 3 files to this site?** dialog box appears,
     then click on **Upload** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image16.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image16.png)
 
-9.  In the Upload folder pane, click on the **Upload** button.
+9. In the Upload folder pane, click on the **Upload** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image17.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image17.png)
 
 10. After the files have been uploaded **close** the **Upload folder**
     pane.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image18.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image18.png)
 
 11. Expand **Files** and select the **orders** folder and verify that
     the CSV files have been uploaded.
@@ -202,7 +199,7 @@ To work with data in Apache Spark, you can create a *notebook*.
 Notebooks provide an interactive environment in which you can write and
 run code (in multiple languages), and add notes to document it.
 
-1.  On the **Home** page while viewing the contents of
+1. On the **Home** page while viewing the contents of
     the **orders** folder in your datalake, in the **Open
     notebook** menu, select **New notebook**.
 
@@ -212,20 +209,19 @@ run code (in multiple languages), and add notes to document it.
     open. Notebooks are made up of one or more cells that can
     contain *code* or *markdown* (formatted text).
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image21.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image21.png)
 
-3.  Select the first cell (which is currently a *code* cell), and then
+3. Select the first cell (which is currently a *code* cell), and then
     in the dynamic tool bar at its top-right, use the **M↓** button to
     **convert the cell to a markdown cell**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image22.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image22.png)
 
     >[!note]**Note**: When the cell changes to a markdown cell, the text it contains is rendered.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image23.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image23.png)
 
-5.  Use the **🖉** (Edit) button to switch the cell to editing mode,
+5. Use the **🖉** (Edit) button to switch the cell to editing mode,
     replace all the text then modify the markdown as follows:
 	
     ```
@@ -234,15 +230,15 @@ run code (in multiple languages), and add notes to document it.
     Use the code in this notebook to explore sales order data.
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image24.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image24.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image25.png)
 
-6.  Click anywhere in the notebook outside of the cell to stop editing
+6. Click anywhere in the notebook outside of the cell to stop editing
     it and see the rendered markdown.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image26.png)
 
 ### Task 4: Load data into a dataframe
@@ -256,13 +252,13 @@ Java, and others. In this exercise, we'll use *PySpark*, which is a
 Spark-optimized variant of Python. PySpark is one of the most commonly
 used languages on Spark and is the default language in Fabric notebooks.
 
-1.  With the notebook visible, expand the **Files** list and select
+1. With the notebook visible, expand the **Files** list and select
     the **orders** folder so that the CSV files are listed next to the
     notebook editor.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image27.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image27.png)
 
-2.  Now, hover your mouse over the 2019.csv file. Click on the horizontal
+2. Now, hover your mouse over the 2019.csv file. Click on the horizontal
     ellipses **(…)** beside 2019.csv. Navigate and click on **Load
     data**, then select **Spark**. A new code cell containing the
     following code will be added to the notebook:
@@ -273,29 +269,26 @@ used languages on Spark and is the default language in Fabric notebooks.
     display(df)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image28.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image28.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image29.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image29.png)
 
     >[!knowledge]**Tip**: You can hide the Lakehouse explorer panes on the left by using
     >their **«** icons. Doing so will help you focus on the notebook.
 
-3.  Use the **▷ Run cell** button on the left of the cell to run it.
+3. Use the **▷ Run cell** button on the left of the cell to run it.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image30.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image30.png)
 
     >[!note]**Note**: Since this is the first time you've run any Spark code, a
     > Spark session must be started. This means that the first run in the
     > session can take a minute or so to complete. Subsequent runs will be
     > quicker.
 
-4.  When the cell command has completed, review the output below the
+4. When the cell command has completed, review the output below the
     cell, which should look similar to this:
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image31.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image31.png)
 
     >[!note]**Note**: The output shows the rows and columns of data from the 2019.csv
     file. However, note that the column headers don't look right. The
@@ -303,7 +296,7 @@ used languages on Spark and is the default language in Fabric notebooks.
     CSV file includes the column names in the first row, but in this
     case the CSV file just includes the data with no header information.
 
-6.  Modify the code to set the **header** option to **false**. Replace
+6. Modify the code to set the **header** option to **false**. Replace
     all the code in the **cell** with the following code and click on
     **▷ Run cell** button and review the output.
 	
@@ -313,15 +306,14 @@ used languages on Spark and is the default language in Fabric notebooks.
     display(df)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image32.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image32.png)
 
     >[!note]**Note**: Now the dataframe correctly includes first row as data values, but
     the column names are auto-generated and not very helpful. To make
     sense of the data, you need to explicitly define the correct schema
     and data type for the data values in the file.
 
-8.  Replace all the code in the **cell** with the following code and
+8. Replace all the code in the **cell** with the following code and
     click on **▷ Run cell** button and review the output.
 	
     ```
@@ -343,10 +335,9 @@ used languages on Spark and is the default language in Fabric notebooks.
     display(df)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image33.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image33.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image34.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image34.png)
 
     >[!note]**Note**: Now the dataframe includes the correct column names (in addition to
     the **Index**, which is a built-in column in all dataframes based on
@@ -365,7 +356,7 @@ used languages on Spark and is the default language in Fabric notebooks.
     display(df)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image35.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image35.png)
 
 12. The dataframe includes only the data from the **2019.csv** file.
     Modify the code so that the file path uses a \* wildcard to read the
@@ -393,13 +384,12 @@ used languages on Spark and is the default language in Fabric notebooks.
     display(df)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image36.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image36.png)
 
 14. Run the modified code cell and review the output, which should now
     include sales for 2019, 2020, and 2021.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image37.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image37.png)
 
     >[!note]**Note**: Only a subset of the rows is displayed, so you may not be able
     > to see examples from all years.
@@ -411,7 +401,7 @@ to filter, group, and otherwise manipulate the data it contains.
 
 ### Task 1: Filter a dataframe
 
-1.  Use the **+ Code** icon below the cell output to add a new code cell
+1. Use the **+ Code** icon below the cell output to add a new code cell
     to the notebook, and enter the following code in it.
 	
     ```
@@ -421,9 +411,9 @@ to filter, group, and otherwise manipulate the data it contains.
     display(customers.distinct())
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image38.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image38.png)
 
-2.  **Run** the new code cell, and review the results. Observe the
+2. **Run** the new code cell, and review the results. Observe the
     following details:
 
     - When you perform an operation on a dataframe, the result is a new
@@ -440,10 +430,9 @@ to filter, group, and otherwise manipulate the data it contains.
       use **select** method, so the first line of the code above could
       be written as customers = df.select("CustomerName", "Email")
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image39.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image39.png)
 
-3.  Modify the code, replace all the code in the **cell** with the
+3. Modify the code, replace all the code in the **cell** with the
     following code and click on **▷ Run cell** button as follows:
 	
     ```
@@ -453,19 +442,18 @@ to filter, group, and otherwise manipulate the data it contains.
     display(customers.distinct())
     ```
 
-4.  **Run** the modified code to view the customers who have purchased
+4. **Run** the modified code to view the customers who have purchased
     the ***Road-250 Red, 52* product**. Note that you can "**chain**"
     multiple functions together so that the output of one function
     becomes the input for the next - in this case, the dataframe created
     by the **select** method is the source dataframe for
     the **where** method that is used to apply filtering criteria.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image40.png)
 
 ### Task 2: Aggregate and group data in a dataframe
 
-1.  Click on **+ Code** and copy and paste the below code and then click
+1. Click on **+ Code** and copy and paste the below code and then click
     on **Run cell** button.
 	
     ```
@@ -473,17 +461,17 @@ to filter, group, and otherwise manipulate the data it contains.
     display(productSales)
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image41.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image41.png)
 
     >[!note]**Note**: The results show the sum of order quantities grouped by
     product. The **groupBy** method groups the rows by *Item*, and the
     subsequent **sum** aggregate function is applied to all of the
     remaining numeric columns (in this case, *Quantity*)
 
-3.  Click on **+ Code** and copy and paste the below code and then click
+3. Click on **+ Code** and copy and paste the below code and then click
     on **Run cell** button.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image42.png)
 	
     ```
@@ -493,7 +481,7 @@ to filter, group, and otherwise manipulate the data it contains.
     display(yearlySales)
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image43.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image43.png)
 
     >[!note]**Note**: The results show the number of sales orders per year. Note
     that the **select** method includes a SQL **year** function to
@@ -513,7 +501,7 @@ or analysis.
 
 ### Task 1: Use dataframe methods and functions to transform data
 
-1.  Click on + Code and copy and paste the below code
+1. Click on + Code and copy and paste the below code
 
     ```
     from pyspark.sql.functions import *
@@ -531,9 +519,9 @@ or analysis.
     display(transformed_df.limit(5))
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image44.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image44.png)
 
-2.  **Run** the code to create a new dataframe from the original order
+2. **Run** the code to create a new dataframe from the original order
     data with the following transformations:
 
     - Add **Year** and **Month** columns based on
@@ -545,13 +533,12 @@ or analysis.
     - Filter and reorder the columns, removing
       the **CustomerName** column.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image45.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image45.png)
 
-3.  Review the output and verify that the transformations have been made
+3. Review the output and verify that the transformations have been made
     to the data.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image46.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image46.png)
 
 You can use the full power of the Spark SQL library to transform the
 data by filtering rows, deriving, removing, renaming columns, and
@@ -563,7 +550,7 @@ learn more about the methods of the Dataframe object.
 
 ### Task 2: Save the transformed data
 
-1.  **Add a new cell** with the following code to save the transformed
+1. **Add a new cell** with the following code to save the transformed
     dataframe in Parquet format (Overwriting the data if it already
     exists). **Run** the cell and wait for the message that the data has
     been saved.
@@ -580,24 +567,22 @@ learn more about the methods of the Dataframe object.
     > transformation requirement may simply be to convert data from another
     > format (such as CSV) to Parquet!
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image47.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image47.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image48.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image48.png)
 
-2.  Then, in the **Lakehouse explorer** pane on the left, in
+2. Then, in the **Lakehouse explorer** pane on the left, in
     the **…** menu for the **Files** node, select **Refresh**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image49.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image49.png)
 
-3.  Click on the **transformed_data** folder to verify that it contains
+3. Click on the **transformed_data** folder to verify that it contains
     a new folder named **orders**, which in turn contains one or more
     **Parquet files**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image50.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image50.png)
 
-4.  Click on **+ Code** following code to load a new dataframe from the
+4. Click on **+ Code** following code to load a new dataframe from the
     parquet files in the **transformed_data -\> orders** folder:
 	
     ```
@@ -605,18 +590,16 @@ learn more about the methods of the Dataframe object.
     display(orders_df)
     ```
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image51.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image51.png)
 
-5.  **Run** the cell and verify that the results show the order data
+5. **Run** the cell and verify that the results show the order data
     that has been loaded from the parquet files.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image52.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image52.png)
 
 ### Task 3: Save data in partitioned files
 
-1.  Add a new cell, Click on **+ Code** with the following code; which
+1. Add a new cell, Click on **+ Code** with the following code; which
     saves the dataframe, partitioning the data
     by **Year** and **Month**. **Run** the cell and wait for the message
     that the data has been saved.
@@ -626,33 +609,31 @@ learn more about the methods of the Dataframe object.
     print ("Transformed data saved!")
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image53.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image53.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image54.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image54.png)
 
-2.  Then, in the **Lakehouse explorer** pane on the left, in
+2. Then, in the **Lakehouse explorer** pane on the left, in
     the **…** menu for the **Files** node, select **Refresh.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image55.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image55.png)
 
-3.  Expand the **partitioned_orders** folder to verify that it contains
+3. Expand the **partitioned_orders** folder to verify that it contains
     a hierarchy of folders named **Year=*xxxx***, each containing
     folders named **Month=*xxxx***. Each month folder contains a parquet
     file with the orders for that month.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image56.png)
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image57.png)
 
     >[!note]**Note**: Partitioning data files is a common way to optimize performance when
     > dealing with large volumes of data. This technique can significant
     > improve performance and make it easier to filter data.
 
-4.  Add a new cell, click on **+ Code** with the following code to load
+4. Add a new cell, click on **+ Code** with the following code to load
     a new dataframe from the **orders.parquet** file:
 	
     ```
@@ -660,11 +641,11 @@ learn more about the methods of the Dataframe object.
     display(orders_2021_df)
     ```
 
-5.  **Run** the cell and verify that the results show the order data for
+5. **Run** the cell and verify that the results show the order data for
     sales in 2021. Note that the partitioning columns specified in the
     path (**Year** and **Month**) are not included in the dataframe.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image58.png)
 
 ## Exercise 4: Work with tables and SQL
@@ -688,7 +669,7 @@ managed by the metastore) or *external* (in which case the table
 references a file location in the data lake that you manage
 independently of the metastore).
 
-1.  Add a new code, click on **+ Code** cell to the notebook and enter
+1. Add a new code, click on **+ Code** cell to the notebook and enter
     the following code, which saves the dataframe of sales order data as
     a table named **salesorders**:
 	
@@ -710,29 +691,29 @@ independently of the metastore).
     > features. Creating tables in delta format is preferred for data
     > lakehouses in Fabric.
 
-2.  **Run** the code cell and review the output, which describes the
+2. **Run** the code cell and review the output, which describes the
     definition of the new table.
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image59.png)
 
-3.  In the **Lakehouse** **explorer** pane, in the **…** menu for
+3. In the **Lakehouse** **explorer** pane, in the **…** menu for
     the **Tables** folder, select **Refresh.**
 
      ![](./media/img8.png)
 
-4.  Then, expand the **Tables** node and verify that
+4. Then, expand the **Tables** node and verify that
     the **salesorders** table has been created.
 
     ![](./media/img9.png)
 
-5.  Hover your mouse beside **salesorders** table, then click on the
+5. Hover your mouse beside **salesorders** table, then click on the
     horizontal ellipses (…). Navigate and click on **Load data**, then
     select **Spark**.
 
      ![](./media/img10.png)
 
-6.  Click on **▷ Run cell** button and which uses the Spark SQL library
+6. Click on **▷ Run cell** button and which uses the Spark SQL library
     to embed a SQL query against the **salesorder** table in PySpark
     code and load the results of the query into a dataframe.
 	
@@ -741,7 +722,7 @@ independently of the metastore).
     display(df)
     ```
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image63.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image63.png)
 
 ### Task 2: Create an external table
 
@@ -749,7 +730,7 @@ You can also create *external* tables for which the schema metadata is
 defined in the metastore for the lakehouse, but the data files are
 stored in an external location.
 
-1.  Under the results returned by the first code cell, use the **+
+1. Under the results returned by the first code cell, use the **+
     Code** button to add a new code cell if one doesn't already exist.
     Then enter the following code in the new cell.
 
@@ -757,9 +738,9 @@ stored in an external location.
     df.write.format("delta").saveAsTable("external_salesorder", path="<abfs_path>/external_salesorder")
     ```
 	
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image64.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image64.png)
 
-2.  In the **Lakehouse explorer** pane, in the **…** menu for
+2. In the **Lakehouse explorer** pane, in the **…** menu for
     the **Files** folder, select **Copy ABFS path** and paste it in notepad.
   
     >[!note]**Note**: The ABFS path is the fully qualified path to the **Files** folder in
@@ -769,7 +750,7 @@ stored in an external location.
 
      ![](./media/img11.png)
 
-3.  Now, move into the code cell, replace <**abfs_path**\> with the
+3. Now, move into the code cell, replace <**abfs_path**\> with the
     **path** you copied to the notepad so that the code saves the
     dataframe as an external table with data files in a folder named
     **external_salesorder** in your **Files** folder location. The full
@@ -777,39 +758,36 @@ stored in an external location.
 
     > abfss://dp_Fabric29@onelake.dfs.fabric.microsoft.com/Fabric_lakehouse.Lakehouse/Files/external_salesorder
 
-4.  Use the **▷ (*Run cell*)** button on the left of the cell to run it.
+4. Use the **▷ (*Run cell*)** button on the left of the cell to run it.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image66.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image66.png)
 
-5.  In the **Lakehouse explorer** pane, in the **…** menu for
+5. In the **Lakehouse explorer** pane, in the **…** menu for
     the **Tables** folder, select the **Refresh**.
 
      ![](./media/img12.png)
 
-6.  Then expand the **Tables** node and verify that
+6. Then expand the **Tables** node and verify that
     the **external_salesorder** table has been created.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image68.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image68.png)
 
-7.  In the **Lakehouse explorer** pane, in the **…** menu for
+7. In the **Lakehouse explorer** pane, in the **…** menu for
     the **Files** folder, select **Refresh**.
 
      ![](./media/img13.png)
 
-8.  Then expand the **Files** node and verify that
+8. Then expand the **Files** node and verify that
     the **external_salesorder** folder has been created for the table's
     data files.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image70.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image70.png)
 
 ### Task 3: Compare managed and external tables
 
 Let's explore the differences between managed and external tables.
 
-1.  Under the results returned by the code cell, use the **+
+1. Under the results returned by the code cell, use the **+
     Code** button to add a new code cell. Copy the code below into the
     Code cell and use the **▷ (*Run cell*)** button on the left of the
     cell to run it.
@@ -820,17 +798,17 @@ Let's explore the differences between managed and external tables.
     DESCRIBE FORMATTED salesorders;
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image71.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image71.png)
 
-2.  In the results, view the **Location** property for the table, which
+2. In the results, view the **Location** property for the table, which
     should be a path to the OneLake storage for the lakehouse ending
     with **/Tables/salesorders** (you may need to widen the **Data
     type** column to see the full path).
 
-    > ![A screenshot of a computer AI-generated content may be
+     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image72.png)
 
-3.  Modify the **DESCRIBE** command to show the details of
+3. Modify the **DESCRIBE** command to show the details of
     the **external_saleorder** table as shown here.
 
     Under the results returned by the code cell, use the **+
@@ -843,12 +821,12 @@ Let's explore the differences between managed and external tables.
     DESCRIBE FORMATTED external_salesorder;
     ```
 	
-5.  In the results, view the **Location** property for the table, which
+5. In the results, view the **Location** property for the table, which
     should be a path to the OneLake storage for the lakehouse ending
     with **/Files/external_saleorder** (you may need to widen the **Data
     type** column to see the full path).
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image73.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image73.png)
 
 ### Task 4: Run SQL code in a cell
 
@@ -856,7 +834,7 @@ While it's useful to be able to embed SQL statements into a cell
 containing PySpark code, data analysts often just want to work directly
 in SQL.
 
-1.  Click on **+ Code** cell to the notebook, and enter the following
+1. Click on **+ Code** cell to the notebook, and enter the following
     code in it. Click on **▷ Run cell** button and review the results.
     Observe that:
 
@@ -879,8 +857,7 @@ in SQL.
       ORDER BY OrderYear;
       ```
 	  
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image74.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image74.png)
 
     >[!note]**Note**: For more information about Spark SQL and dataframes, see
     > the [Spark SQL documentation](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html).
@@ -896,7 +873,7 @@ create charts from data in dataframes.
 
 ### Task 1: View results as a chart
 
-1.  Click on **+ Code** cell to the notebook, and enter the following
+1. Click on **+ Code** cell to the notebook, and enter the following
     code in it. Click on **▷ Run cell** button and observe that it
     returns the data from the **salesorders** view you created
     previously.
@@ -906,15 +883,14 @@ create charts from data in dataframes.
     SELECT * FROM salesorders
     ```
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image75.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image75.png)
 
-2.  In the results section beneath the cell, change the **View** option
+2. In the results section beneath the cell, change the **View** option
     from **Table** to **+New chart**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image76.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image76.png)
 
-3.  Use the **Start editing** button at the bottom of the chart to
+3. Use the **Start editing** button at the bottom of the chart to
     display the options pane for the chart. Then set the options as
     follows and select **Apply**:
 
@@ -930,19 +906,17 @@ create charts from data in dataframes.
 
     - **Stacked**: *Unselected*
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg6.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg7.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg7.png)
 
-4.  Verify that the chart looks similar to this
+4. Verify that the chart looks similar to this
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg9.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg9.png)
 
 ### Task 2: Get started with matplotlib
 
-1.  Click on **+ Code** and copy and paste the below code. **Run** the
+1. Click on **+ Code** and copy and paste the below code. **Run** the
     code and observe that it returns a Spark dataframe containing the
     yearly revenue.
 	
@@ -956,10 +930,9 @@ create charts from data in dataframes.
     df_spark.show()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image80.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image80.png)
 
-2.  To visualize the data as a chart, we'll start by using
+2. To visualize the data as a chart, we'll start by using
     the **matplotlib** Python library. This library is the core plotting
     library on which many others are based, and provides a great deal of
     flexibility in creating charts.
@@ -979,9 +952,9 @@ create charts from data in dataframes.
     plt.show()
     ```
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image81.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image81.png)
 
-5.  Click on the **Run cell** button and review the results, which
+5. Click on the **Run cell** button and review the results, which
     consist of a column chart with the total gross revenue for each
     year. Note the following features of the code used to produce this
     chart:
@@ -997,10 +970,9 @@ create charts from data in dataframes.
     - The default settings result in a usable chart, but there's
       considerable scope to customize it
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image82.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image82.png)
 
-6.  Modify the code to plot the chart as follows, replace all the code
+6. Modify the code to plot the chart as follows, replace all the code
     in the **cell** with the following code and click on **▷ Run
     cell** button and review the output.
 	
@@ -1024,13 +996,11 @@ create charts from data in dataframes.
     plt.show()
     ```
 	
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image83.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image83.png)
 
-    > ![A graph with orange bars AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image84.png)
+     ![A graph with orange bars AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image84.png)
 
-7.  The chart now includes a little more information. A plot is
+7. The chart now includes a little more information. A plot is
     technically contained with a **Figure**. In the previous examples,
     the figure was created implicitly for you; but you can create it
     explicitly.
@@ -1061,16 +1031,14 @@ create charts from data in dataframes.
     plt.show()
     ```
 	
-9.  **Re-run** the code cell and view the results. The figure determines
+9. **Re-run** the code cell and view the results. The figure determines
     the shape and size of the plot.
 
     >[!note]**Note**: A figure can contain multiple subplots, each on its own *axis*.
 
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image85.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image85.png)
 
-    > ![A screenshot of a graph AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image86.png)
+     ![A screenshot of a graph AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image86.png)
 
 10. Modify the code to plot the chart as follows. **Re-run** the code
     cell and view the results. The figure contains the subplots
@@ -1102,11 +1070,9 @@ create charts from data in dataframes.
     plt.show()
     ```
 	
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image87.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image87.png)
 
-    > ![A screenshot of a computer screen AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image88.png)
+     ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image88.png)
 
     >[!note]**Note**: To learn more about plotting with matplotlib, see
     > the [*matplotlib documentation*](https://matplotlib.org/).
@@ -1119,7 +1085,7 @@ this reason, over the years, many new libraries have been built on the
 base of matplotlib to abstract its complexity and enhance its
 capabilities. One such library is **seaborn**.
 
-1.  Click on **+ Code** and copy and paste the below code.
+1. Click on **+ Code** and copy and paste the below code.
 
     ```
     import seaborn as sns
@@ -1132,13 +1098,12 @@ capabilities. One such library is **seaborn**.
     plt.show()
     ```
 	
-2.  Run the code and observe that it displays a bar chart using the
+2. Run the code and observe that it displays a bar chart using the
     seaborn library.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image89.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image89.png)
 
-3.  Modify the code as follows. Run the modified code and note
+3. Modify the code as follows. Run the modified code and note
     that seaborn enables you to set a consistent color theme for your
     plots.
 	
@@ -1156,10 +1121,9 @@ capabilities. One such library is **seaborn**.
     plt.show()
     ```
 	
-    > ![A screenshot of a graph AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image90.png)
+     ![A screenshot of a graph AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image90.png)
 
-4.  Modify the code again as follows. Run the modified code to
+4. Modify the code again as follows. Run the modified code to
     view the yearly revenue as a line chart.
 	
     ```
@@ -1173,8 +1137,7 @@ capabilities. One such library is **seaborn**.
     plt.show()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image91.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image91.png)
 
     >[!note]**Note**: To learn more about plotting with seaborn, see the [seaborn
     > documentation](https://seaborn.pydata.org/index.html).
@@ -1186,7 +1149,7 @@ a *source* for data streams created using the Spark Structured Streaming
 API. In this example, you'll use a delta table as a sink for some
 streaming data in a simulated internet of things (IoT) scenario.
 
-1.  Click on **+ Code** and copy and paste the below code and then click
+1. Click on **+ Code** and copy and paste the below code and then click
     on **Run cell** button.
 	
     ```
@@ -1219,13 +1182,11 @@ streaming data in a simulated internet of things (IoT) scenario.
     print("Source stream created...")
     ```
 	
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image92.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image92.png)
 
-    > ![A screenshot of a computer program AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image93.png)
+     ![A screenshot of a computer program AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image93.png)
 
-2.  Ensure the message **Source stream created…** is printed. The code
+2. Ensure the message **Source stream created…** is printed. The code
     you just ran has created a streaming data source based on a folder
     to which some data has been saved, representing readings from
     hypothetical IoT devices.
@@ -1241,20 +1202,19 @@ streaming data in a simulated internet of things (IoT) scenario.
     print("Streaming to delta sink...")
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image94.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image94.png)
 
-4.  This code writes the streaming device data in delta format to a
+4. This code writes the streaming device data in delta format to a
     folder named **iotdevicedata**. Because the path for the folder
     location is in the **Tables** folder, a table will automatically be
     created for it. Click on the horizontal ellipses beside table, then
     click on **Refresh**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image95.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image95.png)
 
     ![](./media/img14.png)
 
-5.  Click on **+ Code** and copy and paste the below code and then click
+5. Click on **+ Code** and copy and paste the below code and then click
     on **Run cell** button.
 	
     ```
@@ -1263,10 +1223,9 @@ streaming data in a simulated internet of things (IoT) scenario.
     SELECT * FROM IotDeviceData;
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image97.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image97.png)
 
-6.  This code queries the **IotDeviceData** table, which contains the
+6. This code queries the **IotDeviceData** table, which contains the
     device data from the streaming source.
 
     Click on **+ Code** and copy and paste the below code and then click
@@ -1285,10 +1244,9 @@ streaming data in a simulated internet of things (IoT) scenario.
     mssparkutils.fs.put(inputPath + "more-data.txt", more_data, True)
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image98.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image98.png)
 
-8.  This code writes more hypothetical device data to the streaming
+8. This code writes more hypothetical device data to the streaming
     source.
 
     Click on **+ Code** and copy and paste the below code and then click
@@ -1300,8 +1258,7 @@ streaming data in a simulated internet of things (IoT) scenario.
     SELECT * FROM IotDeviceData;
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image99.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image99.png)
 
 10. This code queries the **IotDeviceData** table again, which should
     now include the additional data that was added to the streaming
@@ -1314,31 +1271,30 @@ streaming data in a simulated internet of things (IoT) scenario.
     deltastream.stop()
     ```
 	
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image100.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image100.png)
 
 ### Task 5: Save the notebook and end the Spark session
 
 Now that you've finished working with the data, you can save the
 notebook with a meaningful name and end the Spark session.
 
-1.  In the notebook menu bar, use the ⚙️ **Settings** icon to view the
+1. In the notebook menu bar, use the ⚙️ **Settings** icon to view the
     notebook settings.
 
     ![](./media/img15.png)
 
-2.  Set the **Name** of the notebook to **+++Explore Sales Orders+++**,
+2. Set the **Name** of the notebook to **+++Explore Sales Orders+++**,
     and then close the settings pane.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image102.png)
 
-3.  On the notebook menu, select **Stop session** to end the Spark
+3. On the notebook menu, select **Stop session** to end the Spark
     session.
 
     ![](./media/img16.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image104.png)
 
 ## Exercise 6: Create a Dataflow (Gen2) in Microsoft Fabric
@@ -1358,30 +1314,29 @@ Now that you have a lakehouse, you need to ingest some data into it. One
 way to do this is to define a dataflow that encapsulates an *extract,
 transform, and load* (ETL) process.
 
-1.  Now, click on **Fabric_lakehouse** on the left-sided navigation
+1. Now, click on **Fabric_lakehouse** on the left-sided navigation
     pane.
 
      ![](./media/img17.png)
 
-2.  In the **Fabric_lakehouse** home page, click on the drop-down arrow
+2. In the **Fabric_lakehouse** home page, click on the drop-down arrow
     in the **Get data** and select **New Dataflow Gen2.** The Power
     Query editor for your new dataflow opens.
 
     ![](./media/img18.png)
 
-3.  In the **New Dataflow Gen2** dialog box,
+3. In the **New Dataflow Gen2** dialog box,
     enter **+++Gen2_Dataflow+++** in the **Name** field, click on
     the **Create** button and open the new Dataflow Gen2.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image107.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image107.png)
 
-4.  In the **Power Query** pane under the **Home tab**, click on
+4. In the **Power Query** pane under the **Home tab**, click on
     **Import from a Text/CSV file**.
 
      ![](./media/img19.png)
 
-5.  In the **Connect to data source** pane, under **Connection
+5. In the **Connect to data source** pane, under **Connection
     settings**, select **Link to file** radio button
 
     - **Link to file**: *Selected*
@@ -1389,9 +1344,9 @@ transform, and load* (ETL) process.
     - **File path or
       URL**: +++https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/orders.csv+++
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image109.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image109.png)
 
-5.  In the **Connect to data source** pane, under **Connection
+5. In the **Connect to data source** pane, under **Connection
     credentials,** enter the following details and click on the **Next**
     button.
 
@@ -1405,31 +1360,31 @@ transform, and load* (ETL) process.
 
      ![](./media/img20.png)
 
-6.  In **Preview file data** pane, click on **Create** to create the
+6. In **Preview file data** pane, click on **Create** to create the
     data source.
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image111.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image111.png)
 
     >[!note]**Note**: The **Power Query** editor shows the data source and an initial set
     of query steps to format the data.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image112.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image112.png)
 
-9.  On the toolbar ribbon, select the **Add column** tab. Then,
+9. On the toolbar ribbon, select the **Add column** tab. Then,
     select **Custom column.**
 
-      ![](./media/img21.png)
+     ![](./media/img21.png)
 
-10.  Set the New column name to **+++MonthNo+++** , set the Data type to
+10. Set the New column name to **+++MonthNo+++** , set the Data type to
     **Whole Number** and then add the following
     formula: **+++Date.Month(\[OrderDate\])+++** under **Custom column
     formula**. Select **OK**.
 
-     > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image114.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image114.png)
 
      >[!note]**Note**: Notice how the step to add the custom column is added to the query.
     The resulting column is displayed in the data pane.
 
-     > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image115.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image115.png)
 
     >[!knowledge]**Tip:** In the Query Settings pane on the right side, notice
     > the **Applied Steps** include each transformation step. At the bottom,
@@ -1442,11 +1397,11 @@ transform, and load* (ETL) process.
 
 ### Task 2: Add data destination for Dataflow
 
-1.  On the **Power Query** toolbar ribbon, select the **Home** tab. Then
+1. On the **Power Query** toolbar ribbon, select the **Home** tab. Then
     in the **Data destination** drop-down menu, select **Lakehouse** (if
     not selected already).
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg10.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg10.png)
 
    
     >[!note]**Note:** If this option is grayed out, you may already have a data
@@ -1457,15 +1412,15 @@ transform, and load* (ETL) process.
     > The **Lakehouse** destination is indicated as an **icon** in the
     **query** in the Power Query editor.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image118.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image118.png)
     
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg11.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg11.png)
 
-2.  On the **Home** tab select the down-arrow on the **Save** icon and then select **Save, run & close** to publish and close the query.
+2. On the **Home** tab select the down-arrow on the **Save** icon and then select **Save, run & close** to publish and close the query.
 
     > !IMAGE[]([instructions303922](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media)/labimg26.png)
 
-3.  Select the **dp_fabric@lab.LabInstance.Id** workspace from the left ribbon and note that the **Gen2_Dataflow** of type **Dataflow Gen2 (CI/CD)** is now present in the list.
+3. Select the **dp_fabric@lab.LabInstance.Id** workspace from the left ribbon and note that the **Gen2_Dataflow** of type **Dataflow Gen2 (CI/CD)** is now present in the list.
 
    ![](./media/img23.png)
 
@@ -1477,58 +1432,55 @@ you to combine dataflows with other kinds of operation in a single,
 scheduled process. Pipelines can be created in a few different
 experiences, including Data Factory experience.
 
-1.  In the Fabric Home page , Under **dp_Fabric@lab.LabInstance.Id**
+1. In the Fabric Home page , Under **dp_Fabric@lab.LabInstance.Id**
     pane, select **+New item** -\> **Pipeline**
 
     ![](./media/img24.png)
 
-2.  In the **New pipeline** dialog box, enter **Load data** in
+2. In the **New pipeline** dialog box, enter **Load data** in
     the **Name** field, click on the **Create** button to open the new
     pipeline.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image123.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image123.png)
 
-3.  The pipeline editor opens.
+3. The pipeline editor opens.
 
-    > ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg12.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg12.png)
 
     >[!knowledge]**Tip**: If the Copy Data wizard opens automatically, close it!
 
-4.  Select **Pipeline activity**, and add a **Dataflow** activity to the
+4. Select **Pipeline activity**, and add a **Dataflow** activity to the
     pipeline.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image125.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image125.png)
 
-5.  With the new **Dataflow1** activity selected, on
+5. With the new **Dataflow1** activity selected, on
     the **Settings** tab, in the **Dataflow** drop-down list,
     select **Gen2_Dataflow** (the data flow you created previously)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image126.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image126.png)
 
-6.  On the **Home** tab, save the pipeline using the **🖫 (*Save*)**
+6. On the **Home** tab, save the pipeline using the **🖫 (*Save*)**
     icon.
 
      ![](./media/img25.png)
 
-7.  Use the **▷ Run** button to run the pipeline, and wait for it to
+7. Use the **▷ Run** button to run the pipeline, and wait for it to
     complete. It may take a few minutes.
 
     ![](./media/img25.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg13.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg13.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg14.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg14.png)
 
-8.  In the menu bar on the left edge, select your workspace i.e
+8. In the menu bar on the left edge, select your workspace i.e
     **dp_Fabric@lab.LabInstance.Id**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg15.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/labimg15.png)
 
 
-9.  In the **Fabric_lakehouse** pane, select the
+9. In the **Fabric_lakehouse** pane, select the
     **Fabric_lakehouse** of type Lakehouse.
 
     ![](./media/img27.png)
@@ -1537,7 +1489,7 @@ experiences, including Data Factory experience.
     select **refresh**. Then expand **Tables** and select
     the **orders** table, which has been created by your dataflow.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image135.png)
 
     ![](./media/img28.png)
@@ -1556,28 +1508,28 @@ Microsoft Fabric.
 If you've finished exploring your lakehouse, you can delete the
 workspace you created for this exercise.
 
-1.  In the bar on the left, select the icon for your workspace to view
+1. In the bar on the left, select the icon for your workspace to view
     all of the items it contains.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image137.png)
 
-2.  In the **…** menu on the toolbar, select **Workspace settings**.
+2. In the **…** menu on the toolbar, select **Workspace settings**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image138.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image138.png)
 
-3.  Select **General** and click on **Remove this workspace.**
+3. Select **General** and click on **Remove this workspace.**
 
-    > ![A screenshot of a computer settings Description automatically
+     ![A screenshot of a computer settings Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image139.png)
 
-4.  In the **Delete workspace?** dialog box, click on the **Delete**
+4. In the **Delete workspace?** dialog box, click on the **Delete**
     button.
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image140.png)
 
-    > ![A screenshot of a computer Description automatically
+     ![A screenshot of a computer Description automatically
     > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2004/media/image141.png)
 
 **Summary**

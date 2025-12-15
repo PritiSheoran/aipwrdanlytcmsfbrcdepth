@@ -74,42 +74,40 @@ Fabric professional and citizen developer experiences.
 
 ### Task 1: Sign in to Power BI account 
 
-1.  Open your browser, navigate to the address bar, and type or paste
+1. Open your browser, navigate to the address bar, and type or paste
     the following URL: +++https://app.fabric.microsoft.com/+++ then
     press the **Enter** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image1.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image1.png)
 
-2.  In the **Microsoft Fabric** window, enter assigned credentials, and
+2. In the **Microsoft Fabric** window, enter assigned credentials, and
     click on the **Submit** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image2.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image2.png)
 
-3.  Then, In the **Microsoft** window enter the password and click on
+3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image3.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image3.png)
 
-4.  In **Stay signed in?** window, click on the **Yes** button.
+4. In **Stay signed in?** window, click on the **Yes** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image4.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image4.png)
 
-5.  You'll be directed to Power BI Home page.
+5. You'll be directed to Power BI Home page.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image5.png)
 
 ### Task 2: Create a workspace
 
 Before working with data in Fabric, create a workspace with the Fabric
 trial enabled.
 
-1.  In the Workspaces pane Select **+** **New workspace**.
+1. In the Workspaces pane Select **+** **New workspace**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image6.png)
 
-2.  In the **Create a workspace tab, enter** the following details and
+2. In the **Create a workspace tab, enter** the following details and
     click on the **Apply** button.
 
     |  |  |
@@ -119,69 +117,65 @@ trial enabled.
     |Advanced	Under License mode| select Fabric capacity|
     |Default storage format	|Small dataset storage format|
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image7.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image7.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image8.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image8.png)
 
-3.  Wait for the deployment to complete. It takes 1-2 minutes to
+3. Wait for the deployment to complete. It takes 1-2 minutes to
     complete. When your new workspace opens, it should be empty.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image9.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image9.png)
 
 ### Task 4: Create a Warehouse in Microsoft Fabric
 
-1.  In the **Fabric** page, select **+ New item** 
+1. In the **Fabric** page, select **+ New item** 
     and, on the **New item** panel filter by, and select, **+++Warehouse+++** to create a Warehouse.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image10.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image10.png)
 
-2.  On the **New warehouse** dialog,
+2. On the **New warehouse** dialog,
     enter +++**WideWorldImporters+++** and click on the **Create**
     button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image11.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image11.png)
 
     >[!note]**Note**: When provisioning is complete, the **WideWorldImporters**
     warehouse landing page appears.
 
-    ![](./media/img119.png)
+     ![](./media/img119.png)
 
 ## Exercise 2: Ingest data into a Warehouse in Microsoft Fabric
 
 ### Task 1: Ingest data into a Warehouse
 
-1.  From the **WideWorldImporters** warehouse landing page,
+1. From the **WideWorldImporters** warehouse landing page,
     select **Warehouse_Fabric@lab.LabInstance.Id** in the left-sided navigation menu to
     return to the workspace item list.
 
      ![](./media/img2156.png)
 
-2.  In the **Warehouse_Fabric@lab.LabInstance.Id** page, select +**New item**. Then,
+2. In the **Warehouse_Fabric@lab.LabInstance.Id** page, select +**New item**. Then,
     click **Pipeline** to view the full list of available items
     under Get data.
 
      ![](./media/img31.png)
 
-3.  On the **New** **pipeline** dialog box, in the **Name** field, enter
+3. On the **New** **pipeline** dialog box, in the **Name** field, enter
     **+++Load Customer Data+++** and click on the **Create** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image15.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image15.png)
 
-4.  In the **Load Customer Data** page, navigate to **Start building
+4. In the **Load Customer Data** page, navigate to **Start building
     your data pipeline** section and click on **Pipeline activity**.
 
      ![](./media/img41.png)
 
-5.  Navigate and select **Copy data** under **Move
+5. Navigate and select **Copy data** under **Move
     & transform** section.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image17.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image17.png)
 
-6.  Select the newly created **Copy data** **1** activity from the
+6. Select the newly created **Copy data** **1** activity from the
     design canvas to configure it.
 
     >[!note]**Note**: Drag the horizonal line in the design canvas to have a
@@ -189,20 +183,20 @@ trial enabled.
 
      ![](./media/img51.png)
 
-7.  On the **General** tab, in the **Name** field, enter **+++CD Load dimension_customer+++** .
+7. On the **General** tab, in the **Name** field, enter **+++CD Load dimension_customer+++** .
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image19.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image19.png)
 
-8.  On the **Source** page, select the **Connection** dropdown.
+8. On the **Source** page, select the **Connection** dropdown.
     Select **Browse all** to see all of the data sources you can choose from,
     including data sources in your local OneLake data hub.
 
-      ![](./media/img61.png)
+     ![](./media/img61.png)
 
-9.  On the **Get data** window, search **+++Azure Blobs+++** in, then
+9. On the **Get data** window, search **+++Azure Blobs+++** in, then
     click on the **Azure Blobs** storage button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image21.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image21.png)
 
 10. On the **Connection settings** pane that appears on the right side,
     configure the following settings and click on the **Connect**
@@ -218,7 +212,7 @@ trial enabled.
     
     - Set the **Authentication kind** to **Anonymous**.
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image22.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image22.png)
 
 11. Change the remaining settings on the **Source** page of the copy
     activity as follows to reach the .parquet files
@@ -236,15 +230,14 @@ trial enabled.
       unable to see **Parquet**, then type in the search box and then select
       it)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image23.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image23.png)
 
 13. Click on **Preview data** on the right side of **File path** setting
     to ensure that there are no errors and then click on **close.**
 
      ![](./media/img71.png)
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image25.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image25.png)
 
 14. On the **Destination** tab, enter the following settings.
 
@@ -255,7 +248,7 @@ trial enabled.
     |Table	|•	In the first box enter +++dbo+++<br>•	In the second box enter +++dimension_customer+++|
 
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image26.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image26.png)
 
 15. From the ribbon, select **Run**.
 
@@ -264,37 +257,36 @@ trial enabled.
 16. In the **Save and run?** dialog box, click on **Save and run**
     button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image28.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image28.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image29.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image29.png)
 
 17. Monitor the copy activity's progress on the **Output** page and wait
     for it to complete.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image30.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image30.png)
 
 ## Exercise 3: Create tables in a Data Warehouse
 
 ### Task 1: Create table in a Data Warehouse
 
-1.  On **Load Customer Data** page, click on **Warehouse_Fabric@lab.LabInstance.Id**
+1. On **Load Customer Data** page, click on **Warehouse_Fabric@lab.LabInstance.Id**
     workspace in the left-sided navigation bar.
 
      ![](./media/img91.png)
 
-2.  In the **Fabric** **Warehouse_Fabric@lab.LabInstance.Id** page,
+2. In the **Fabric** **Warehouse_Fabric@lab.LabInstance.Id** page,
     carefully navigate and click on **WideWorldImporters** having
     **Warehouse** type as shown in the below image.
 
      ![](./media/img101.png)
 
-3.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the drop
+3. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the drop
     down, and click on **New SQL query**.
 
      ![](./media/img111.png)
 
-4.  In the query editor, paste the following code and select **Run** to
+4. In the query editor, paste the following code and select **Run** to
     execute the query
 	
     ```
@@ -359,27 +351,27 @@ trial enabled.
         );
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image34.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image34.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image35.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image35.png)
 
-5.  To save this query, right-click on the **SQL query 1** tab just
+5. To save this query, right-click on the **SQL query 1** tab just
     above the editor and select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image36.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image36.png)
 
-6.  In the **Rename** dialog box, under **Name** field, enter
+6. In the **Rename** dialog box, under **Name** field, enter
     **+++Create Tables+++** to change the name of **SQL query 1**. Then,
     click on the **Rename** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image37.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image37.png)
 
-7.  Validate the table was created successfully by selecting the
+7. Validate the table was created successfully by selecting the
     **refresh icon** button on the ribbon.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image38.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image38.png)
 
-8.  In the **Explorer** pane, you'll see the **fact_sale** table
+8. In the **Explorer** pane, you'll see the **fact_sale** table
     and **dimension_city** table.
 
      ![](./media/img121.png)
@@ -390,12 +382,11 @@ Now that you know how to build a data warehouse, load a table, and
 generate a report, it's time to extend the solution by exploring other
 methods for loading data.
 
-1.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
+1. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image40.png)
 
-2.  In the query editor, **paste** the following code, then click on
+2. In the query editor, **paste** the following code, then click on
     **Run** to execute the query.
 	
     ```
@@ -410,30 +401,30 @@ methods for loading data.
     WITH (FILE_TYPE = 'PARQUET');
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image41.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image41.png)
 
     >[!note]**Note**: After the query is completed, review the messages, which indicats
     the number of rows that were loaded into the **dimension_city** and
     **fact_sale** tables respectively.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image42.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image42.png)
 
-4.  Load the data preview to validate the data loaded successfully by
+4. Load the data preview to validate the data loaded successfully by
     selecting on the **fact_sale** table in the **Explorer**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image43.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image43.png)
 
-5.  Rename the query by right-clicking on **SQL query 1** in
+5. Rename the query by right-clicking on **SQL query 1** in
     the **Explorer**, then select **Rename**.
 
      ![](./media/img131.png)
 
-6.  In the **Rename** dialog box, under the **Name** field, enter
+6. In the **Rename** dialog box, under the **Name** field, enter
     +++**Load Tables+++**. Then, click on **Rename** button.
 
      ![](./media/img141.png)
 
-7.  Click on the **Refresh** icon in the command bar below the **Home**
+7. Click on the **Refresh** icon in the command bar below the **Home**
     tab.
 
     ![](./media/img151.png)
@@ -446,14 +437,13 @@ This task guides you through creating a [table clone](https://learn.microsoft.co
 Warehouse in Microsoft Fabric, using the [CREATE TABLE AS CLONE OF](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-table-as-clone-of-transact-sql?view=fabric&preserve-view=true) T-SQL
 syntax.
 
-1.  Create a table clone within the same schema in a warehouse.
+1. Create a table clone within the same schema in a warehouse.
 
     On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image47.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image47.png)
 
-3.  In the query editor, paste the following code to create clones of
+3. In the query editor, paste the following code to create clones of
     the **dbo.dimension_city** and **dbo.fact_sale** tables.
 	
     ```
@@ -464,54 +454,51 @@ syntax.
     CREATE TABLE [dbo].[fact_sale1] AS CLONE OF [dbo].[fact_sale];
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image48.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image48.png)
 
-4.  Select **Run** to execute the query. The query takes a few seconds
+4. Select **Run** to execute the query. The query takes a few seconds
     to execute. After the query is completed, the table clones
     **dimension_city1** and **fact_sale1** will be created.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image49.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image49.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image50.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image50.png)
 
-5.  Load the data preview to validate the data loaded successfully by
+5. Load the data preview to validate the data loaded successfully by
     selecting on the **dimension_city1** table in the **Explorer**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image51.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image51.png)
 
-6.  Right-click on **SQL query** that you've created to clone the
+6. Right-click on **SQL query** that you've created to clone the
     tables in the **Explorer** and select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image52.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image52.png)
 
-7.  In the **Rename** dialog box, under the **Name** field, enter
+7. In the **Rename** dialog box, under the **Name** field, enter
     **+++Clone Table+++**, then click on the **Rename** button.
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image53.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image53.png)
 
-8.  Click on the **Refresh** icon in the command bar below the **Home**
+8. Click on the **Refresh** icon in the command bar below the **Home**
     tab.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image54.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image54.png)
 
 ### Task 2: Create a table clone across schemas within the same warehouse
 
-1.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
+1. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image40.png)
 
-2.  Create a new schema within the **WideWorldImporter** warehouse
+2. Create a new schema within the **WideWorldImporter** warehouse
     named **dbo1**. **Copy/Paste** and **Run** the following T-SQL code
     as shown in the below image:
 
     +++CREATE SCHEMA dbo1+++
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image55.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image55.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image56.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image56.png)
 
 3. In the query editor, remove the existing code and paste the following to create clones of the **dbo.dimension_city** and dbo.**fact_sale tables** in the **dbo1** schema.
 
@@ -523,50 +510,47 @@ syntax.
     CREATE TABLE [dbo1].[fact_sale1] AS CLONE OF [dbo].[fact_sale];
     ```
 
-4.  Select **Run** to execute the query. The query takes a few seconds
+4. Select **Run** to execute the query. The query takes a few seconds
     to execute.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image57.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image57.png)
 
     >[!note]**Note**: After the query is completed,
     the clones **dimension_city1** and **fact_sale1** are created in
     the **dbo1** schema.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image58.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image58.png)
 
-6.  Load the data preview to validate the data loaded successfully by
+6. Load the data preview to validate the data loaded successfully by
     selecting on the **dimension_city1** table under **dbo1** schema in
     the **Explorer**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image59.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image59.png)
 
-7.  **Rename** the query for reference later. Right-click on **SQL query 1** in the **Explorer** and select **Rename**.
+7. **Rename** the query for reference later. Right-click on **SQL query 1** in the **Explorer** and select **Rename**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image60.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image60.png)
 
-8.  In the **Rename** dialog box, under the **Name** field, enter
+8. In the **Rename** dialog box, under the **Name** field, enter
     **+++Clone Table in another schema+++**. Then, click on **Rename**
     button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image61.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image61.png)
 
-9.  Click on the **Refresh** icon in the command bar below the **Home**
+9. Click on the **Refresh** icon in the command bar below the **Home**
     tab.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image62.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image62.png)
 
 ## Exercise 5: Transform data using a stored procedure
 
 Learn how to create and save a new stored procedure to transform data.
 
-1.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
+1. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image63.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image63.png)
 
-2.  In the query editor, **paste** and **run** the following code to create the
+2. In the query editor, **paste** and **run** the following code to create the
     stored procedure **dbo.populate_aggregate_sale_by_city**. This
     stored procedure will create and load
     the **dbo.aggregate_sale_by_date_city** table in a later step.
@@ -620,39 +604,36 @@ Learn how to create and save a new stored procedure to transform data.
     END
     ```
  
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image64.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image64.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image65.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image65.png)
 
-3.  Right-click on SQL query that you've created to clone the tables in
+3. Right-click on SQL query that you've created to clone the tables in
     the Explorer and select **Rename**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image66.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image66.png)
 
-4.  In the **Rename** dialog box, under the **Name** field, enter
+4. In the **Rename** dialog box, under the **Name** field, enter
     +++**Create Aggregate Procedure+++**, then click on the **Rename**
     button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image67.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image67.png)
 
-5.  Click on the **Refresh icon** below the **Home** tab.
+5. Click on the **Refresh icon** below the **Home** tab.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image68.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image68.png)
 
-6.  In the **Explorer** tab, verify that you can see the newly created
+6. In the **Explorer** tab, verify that you can see the newly created
     stored procedure by expanding the **StoredProcedures** node under
     the **dbo** schema.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image69.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image69.png)
 
-7.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
+7. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image70.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image70.png)
 
-8.  In the query editor, paste the following code. This T-SQL executes
+8. In the query editor, paste the following code. This T-SQL executes
     **dbo.populate_aggregate_sale_by_city** to create the
     **dbo.aggregate_sale_by_date_city** table. Run the query.
 	
@@ -661,37 +642,36 @@ Learn how to create and save a new stored procedure to transform data.
     EXEC [dbo].[populate_aggregate_sale_by_city];
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image71.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image71.png)
 
-9.  To save this query for reference later, right-click on the query tab
+9. To save this query for reference later, right-click on the query tab
     just above the editor and select **Rename.**
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image72.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image72.png)
 
 10. In the **Rename** dialog box, under the **Name** field, enter
     **+++Run Create Aggregate Procedure+++**, then click on the
     **Rename** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image73.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image73.png)
 
 11. Select the **Refresh** icon on the ribbon.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image74.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image74.png)
 
 12. In the Object **Explorer** tab, load the data preview to validate
     the data loaded successfully by selecting on
     the **aggregate_sale_by_city** table in the **Explorer**.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image75.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image75.png)
 
 ## Exercise 6: Time travel using T-SQL at statement level
 
-1.  On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
+1. On the **WideWorldImporters** page, go to the **Home** tab, select **New SQL query** from the dropdown, and click on **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image76.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image76.png)
 
-2.  In the query editor, paste the following code to create the
+2. In the query editor, paste the following code to create the
     view Top10CustomerView. Select **Run** to execute the query.
 	
     ```
@@ -712,30 +692,30 @@ Learn how to create and save a new stored procedure to transform data.
         TotalSalesAmount DESC;
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image77.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image77.png)
 
-3.  In the **Explorer**, verify that you can see the newly created
+3. In the **Explorer**, verify that you can see the newly created
     view **Top10CustomersView** by expanding the **View** node
     under dbo schema.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image78.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image78.png)
 
-4.  To save this query for reference later, right-click on the query tab
+4. To save this query for reference later, right-click on the query tab
     just above the editor and select **Rename.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image79.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image79.png)
 
-5.  In the **Rename** dialog box, under the **Name** field, enter
+5. In the **Rename** dialog box, under the **Name** field, enter
     **+++Top10CustomersView+++**, then click on the **Rename** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image80.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image80.png)
 
-6.  Create another new query, similar to Step 1. From the **Home** tab
+6. Create another new query, similar to Step 1. From the **Home** tab
     of the ribbon, select **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image81.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image81.png)
 
-7.  In the query editor, paste the following code. This updates
+7. In the query editor, paste the following code. This updates
     the **TotalIncludingTax** column value to **200000000** for the
     record which has the **SaleKey** value of **22632918.**
     Select **Run** to execute the query.
@@ -747,9 +727,9 @@ Learn how to create and save a new stored procedure to transform data.
     WHERE SaleKey = 22632918;
     ```
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image82.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image82.png)
 
-8.  In the query editor, paste the following code.
+8. In the query editor, paste the following code.
     The CURRENT_TIMESTAMP T-SQL function returns the current UTC
     timestamp as a **datetime**. Select **Run** to execute the query.
 	
@@ -757,11 +737,11 @@ Learn how to create and save a new stored procedure to transform data.
     SELECT CURRENT_TIMESTAMP;
     ```
 	
-     > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image83.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image83.png)
 
-9.  Copy the timestamp value returned to your clipboard.
+9. Copy the timestamp value returned to your clipboard.
 
-    > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image84.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image84.png)
 
 10. Paste the following code in the query editor and replace the
     timestamp value with the current timestamp value obtained from the
@@ -783,7 +763,7 @@ Learn how to create and save a new stored procedure to transform data.
     OPTION (FOR TIMESTAMP AS OF '2025-06-09T06:16:08.807');
     ```
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image85.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image85.png)
 
 13. Paste the following code in the query editor and replace the
     timestamp value to a time prior to executing the update script to
@@ -798,7 +778,7 @@ Learn how to create and save a new stored procedure to transform data.
     OPTION (FOR TIMESTAMP AS OF '2024-04-24T20:49:06.097');
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image86.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image86.png)
 
 ## Exercise 7: Create a query with the visual query builder
 
@@ -807,46 +787,43 @@ Learn how to create and save a new stored procedure to transform data.
 Create and save a query with the visual query builder in the Microsoft
 Fabric portal.
 
-1.  In the **WideWolrdImporters** page, from the **Home** tab of the
+1. In the **WideWolrdImporters** page, from the **Home** tab of the
     ribbon, select **New SQL query**, and then select **New visual query**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image87.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image87.png)
 
-2.  Right-click on **fact_sale** and select **Insert into canvas**
+2. Right-click on **fact_sale** and select **Insert into canvas**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image88.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image88.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image89.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image89.png)
 
-3.  Navigate to query design pane **transformations ribbon** and limit
+3. Navigate to query design pane **transformations ribbon** and limit
     the dataset size by clicking on **Reduce rows** dropdown, then click
     on **Keep top rows** as shown in the below image.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image90.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image90.png)
 
-4.  In the **Keep top rows** dialog box, enter **+++10000+++** and
+4. In the **Keep top rows** dialog box, enter **+++10000+++** and
     Select **OK**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image91.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image91.png)
 
-    > ![A screenshot of a computer Description automatically
-    > generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image92.png)
+     ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image92.png)
 
-5.  Right-click on **dimension_city**  and select **Insert into canvas**
+5. Right-click on **dimension_city**  and select **Insert into canvas**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image93.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image93.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image94.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image94.png)
 
-6.  From the transformations ribbon, select the dropdown beside
+6. From the transformations ribbon, select the dropdown beside
     **Combine** and select **Merge queries as new** as shown in the
     below image.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image95.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image95.png)
 
-7.  On the **Merge** settings page enter the following details.
+7. On the **Merge** settings page enter the following details.
 
     - In the **Left table for merge** dropdown, choose **dimension_city**
     
@@ -863,23 +840,23 @@ Fabric portal.
     - In the **Join kind** diagram selection, choose **Inner** and click on
       the **Ok** button.
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image96.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image96.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image97.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image97.png)
 
-8.  With the **Merge** step selected, select the **Expand** button
+8. With the **Merge** step selected, select the **Expand** button
     beside **fact_sale** on the header of the data grid as shown in the
     below image, then select the columns **TaxAmount, Profit,
     TotalIncludingTax** and select **Ok.**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image98.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image98.png)
     
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image99.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image99.png)
 
-9.  In the **transformations ribbon,** click on the dropdown beside
+9. In the **transformations ribbon,** click on the dropdown beside
     **Transform**, then select **Group by**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image100.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image100.png)
 
 10. On the **Group by** settings page, enter the following details.
 
@@ -887,11 +864,11 @@ Fabric portal.
     
     - Under **Group by** select the following:
     
-      1.  **Country**
+      1. **Country**
     
-      2.  **StateProvince**
+      2. **StateProvince**
     
-      3.  **City**
+      3. **City**
     
     - In the **New column name,** enter +++**SumOfTaxAmount+++** in
       **Operation** column field, select **Sum**, then under **Column**
@@ -909,24 +886,24 @@ Fabric portal.
     
     - Click on the **OK** button
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image101.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image101.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image102.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image102.png)
 
 11. In the explorer, navigate to **Queries** and right-click on **Visual
     query 1** under **Queries**. Then, select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image103.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image103.png)
 
 12. Type **+++Sales Summary+++** to change the name of the query.
     Press **Enter** on the keyboard or select anywhere outside the tab
     to save the change.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image104.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image104.png)
 
 13. Click on the **Refresh** icon below the **Home** tab.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image105.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image105.png)
 
 ## Exercise 8: Analyze data with a notebook
 
@@ -940,64 +917,59 @@ access delta tables from external systems.
 First, we create a new lakehouse. To create a new lakehouse in your
 Microsoft Fabric workspace:
 
-1.  On the **WideWorldImportes** page, click on **Warehouse_Fabric@lab.LabInstance.Id**
+1. On the **WideWorldImportes** page, click on **Warehouse_Fabric@lab.LabInstance.Id**
     Workspace on the left-sided navigation menu.
 
-      ![](./media/img161.png)
+     ![](./media/img161.png)
 
 2. On the **Synapse Data Engineering Warehouse_Fabric@lab.LabInstance.Id** home page, under the **Warehouse_Fabric@lab.LabInstance.Id** pane, click **+New item**, and then Filter by, and select **+++Lakehouse+++** under **Stored data**
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image107.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image107.png)
 
-3.  In the **Name** field, enter **+++ShortcutExercise+++** and click on
+3. In the **Name** field, enter **+++ShortcutExercise+++** and click on
     the **Create** button.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image108.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image108.png)
 
-4.  The new lakehouse loads and the **Explorer** view opens up, with
+4. The new lakehouse loads and the **Explorer** view opens up, with
     the **Get data in your lakehouse** menu. Under **Load data in your
     lakehouse**, select the **New shortcut** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image109.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image109.png)
 
-5.  In the **New shortcut** window, select **Microsoft OneLake**.
+5. In the **New shortcut** window, select **Microsoft OneLake**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image110.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image110.png)
 
-6.  In the **Select a data source type** window, carefully navigate and
+6. In the **Select a data source type** window, carefully navigate and
     click on the **Warehouse** named **WideWorldImporters** that you've
     created previously, then click on the **Next** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image111.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image111.png)
 
-7.  In the **OneLake** object browser, expand **Tables**, then expand
+7. In the **OneLake** object browser, expand **Tables**, then expand
     the **dbo** schema, and select the radio button
     beside **dimension_customer**. Select the **Next** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image112.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image112.png)
 
-8.  In the **New shortcut** window, click on the **Create** button. The **New shortcut** window should close when the shortcut has been created.
+8. In the **New shortcut** window, click on the **Create** button. The **New shortcut** window should close when the shortcut has been created.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image113.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image113.png)
 
-9.  Wait for a while and then click on the **Refresh** icon.
+9. Wait for a while and then click on the **Refresh** icon.
 
 10. Then, select the **dimension_customer** in the **Table** list to
     preview the data. Notice that the lakehouse is showing the data from
     the **dimension_customer** table from the Warehouse.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image115.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image115.png)
 
 11. Next, create a new notebook to query
     the **dimension_customer** table. In the **Home** ribbon, select the
     drop down for **Open notebook** and choose **New notebook**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image116.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image116.png)
 
 12. Select, then drag the **dimension_customer** from
     the **Tables** list into the open notebook cell. You can see a
@@ -1006,18 +978,15 @@ Microsoft Fabric workspace:
     experience is similar to Visual Studio Code Jupyter notebook
     experience. You can also open the notebook in VS Code.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image117.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image117.png)
 
 13. In the **Home** ribbon, select the **Run all** button. Once the
     query is completed, you will see you can easily use PySpark to query
     the Warehouse tables!
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image118.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image118.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image119.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image119.png)
 
 ## Exercise 9: Create cross-warehouse queries with the SQL query editor
 
@@ -1028,32 +997,30 @@ queries with the SQL query editor across multiple warehouse, including
 joining together data from a SQL Endpoint and a Warehouse in Microsoft
 Fabric.
 
-1.  From **Notebook1** page, navigate and click on
+1. From **Notebook1** page, navigate and click on
     **Warehouse_Fabric@lab.LabInstance.Id** Workspace on the left-sided navigation menu.
 
-      ![](./media/img171.png)
+     ![](./media/img171.png)
 
-2.  In the **Warehouse_Fabric@lab.LabInstance.Id** view, select
+2. In the **Warehouse_Fabric@lab.LabInstance.Id** view, select
     the **WideWorldImporters** warehouse.
 
      ![](./media/img181.png)
 
-3.  In the **WideWorldImporters** page, under **Explorer** tab, select
+3. In the **WideWorldImporters** page, under **Explorer** tab, select
     the **+ Warehouses** button.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image122.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image122.png)
 
-4.  In the **Add warehouses** window, select **ShortcutExercise** and click on
+4. In the **Add warehouses** window, select **ShortcutExercise** and click on
     the **Confirm** button. Both warehouse experiences are added to the
     query.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image123.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image123.png)
 
-5.  Your selected warehouses now show the same **Explorer** pane.
+5. Your selected warehouses now show the same **Explorer** pane.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image124.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image124.png)
 
 ### Task 2: Execute a cross-warehouse query
 
@@ -1062,12 +1029,11 @@ the WideWorldImporters warehouse and ShortcutExercise SQL Endpoint. You
 can write cross-database queries using three-part naming to reference
 the database.schema.table, as in SQL Server.
 
-1.  From the **Home** tab of the ribbon, select **New SQL query**.
+1. From the **Home** tab of the ribbon, select **New SQL query**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image125.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image125.png)
 
-2.  In the query editor, copy and paste the following T-SQL code. Select
+2. In the query editor, copy and paste the following T-SQL code. Select
     the **Run** button to execute the query. After the query is
     completed, you will see the results.
 	
@@ -1082,18 +1048,18 @@ the database.schema.table, as in SQL Server.
     GROUP BY Sales.StockItemKey, Sales.Description, c.Customer;
     ```
 	
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image126.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image126.png)
 
-3.  Rename the query for reference. Right-click on **SQL query** in the
+3. Rename the query for reference. Right-click on **SQL query** in the
     **Explorer** and select **Rename**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image127.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image127.png)
 
-4.  In the **Rename** dialog box, under the **Name** field, enter
+4. In the **Rename** dialog box, under the **Name** field, enter
     **+++Cross-warehouse query+++**, then click on the **Rename**
     button. 
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image128.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image128.png)
 
 ## Exercise 10: Create Power BI reports
 
@@ -1102,154 +1068,139 @@ the database.schema.table, as in SQL Server.
 In this task we learn how to create and save several types of Power BI
 reports.
 
-1.  In the **WideWorldImportes** page, under the **Home** tab, select
+1. In the **WideWorldImportes** page, under the **Home** tab, select
     the **New semantic model**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image129.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image129.png)
 
-2.  In the **New semantic model** window, in the **Direct Lake semantic
+2. In the **New semantic model** window, in the **Direct Lake semantic
     model name** box, enter +++**Sales Model+++**
 
-3.  Expand the dbo schema, expand the **Tables** folder, and then check
+3. Expand the dbo schema, expand the **Tables** folder, and then check
     the **dimension_city** and **fact_sale** tables. Select **Confirm**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image130.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image130.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image131.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image131.png)
     
-4.	From the left navigation select Warehouse_FabricXXXXX, as shown in the image below
+4. From the left navigation select Warehouse_FabricXXXXX, as shown in the image below
     ![](./media/img191.png)
 
-5.  To open the semantic model, return to the workspace landing page,
+5. To open the semantic model, return to the workspace landing page,
     and then select the **Sales Model** semantic model.
 
     ![](./media/img201.png)
 
-6.  To open the model designer, on the menu, select **Open data model** or **Open semantic model**.
+6. To open the model designer, on the menu, select **Open data model** or **Open semantic model**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image133.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image133.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image134.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image134.png)
 
 7. On the **Sales Model** page, to edit **Manage Relationships**,
     change the mode from **Viewing** to **Editing**
-   > ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image135.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image135.png)
 
 9. To create a relationship, in the model designer, on
     the **Home** ribbon, select **Manage relationships**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image136.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image136.png)
 
 12. In the **New relationships** window, select **+ New relationship**, then complete the following steps to
     create the relationship:
 
-    1.  In the **From table** dropdown list, select
+    1. In the **From table** dropdown list, select
         the **dimension_city** table.
       
-    2.  In the **To table** dropdown list, select the **fact_sale** table.
+    2. In the **To table** dropdown list, select the **fact_sale** table.
       
-    3.  In the **Cardinality** dropdown list, select **One to many (1:\*)**.
+    3. In the **Cardinality** dropdown list, select **One to many (1:\*)**.
       
-    4.  In the **Cross-filter direction** dropdown list, select **Single**.
+    4. In the **Cross-filter direction** dropdown list, select **Single**.
       
-    5.  Check the **Assume referential integrity** box.
+    5. Check the **Assume referential integrity** box.
       
-    6.  Select **Save**.
+    6. Select **Save**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image137.png)
+       ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image137.png)
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image138.png)
+       ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image138.png)
 
 13. In the **Manage relationships** window, select **Close**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image139.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image139.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image140.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image140.png)
 
 ### Task 2: Create a Power BI report
 
 In this task, learn how to create a Power BI report based on the
 semantic model you created in the  task.
 
-1.  Select the **File** menu option, and then select **Create new report**.
+1. Select the **File** menu option, and then select **Create new report**.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image141.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image141.png)
 
-2.  In the report designer, complete the following steps to create a
+2. In the report designer, complete the following steps to create a
     column chart visual:
 
-    1.  In the **Data** pane, expand the **fact_sale** table, and then check
+    1. In the **Data** pane, expand the **fact_sale** table, and then check
         the **Profit** field.
     
-    2.  In the **Data** pane, expand the **dimension_city** table, and then
+    2. In the **Data** pane, expand the **dimension_city** table, and then
         check the **SalesTerritory** field.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image142.png)
+       ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image142.png)
 
-3.  In the **Visualizations** pane, select the **Azure Map** visual.
+3. In the **Visualizations** pane, select the **Azure Map** visual.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image143.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image143.png)
 
-4.  In the **Data** pane, from inside the **dimension_city** table, drag
+4. In the **Data** pane, from inside the **dimension_city** table, drag
     the **StateProvince** fiels to the **Location** well in
     the **Visualizations** pane.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image144.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image144.png)
 
-5.  In the **Data** pane, from inside the **fact_sale** table, check
+5. In the **Data** pane, from inside the **fact_sale** table, check
     the Profit field to add it to the map visual **Size** well.
 
-6.  In the **Visualizations** pane, select the **Table** visual.
+6. In the **Visualizations** pane, select the **Table** visual.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image145.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image145.png)
 
-7.  In the **Data** pane, check the following fields:
+7. In the **Data** pane, check the following fields:
 
-    1.  SalesTerritory from the **dimension_city** table
+    1. SalesTerritory from the **dimension_city** table
     
-    2.  StateProvince from the **dimension_city** table
+    2. StateProvince from the **dimension_city** table
     
-    3.  Profit from the **fact_sale** table
+    3. Profit from the **fact_sale** table
     
-    4.  TotalExcludingTax from the **fact_sale** table
+    4. TotalExcludingTax from the **fact_sale** table
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image146.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image146.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image147.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image147.png)
 
-8.  Verify that the completed design of the report page resembles the
+8. Verify that the completed design of the report page resembles the
     following image.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image148.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image148.png)
 
-9.  To save the report, on the **Home** ribbon,
+9. To save the report, on the **Home** ribbon,
     select **File** \> **Save**.
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image149.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image149.png)
 
 10. In the Save your report window, in the Enter a name for your report
     box, enter **+++Sales Analysis+++** and Select **Save**
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image150.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image150.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image151.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image151.png)
 
-    > ![A screenshot of a computer AI-generated content may be
-    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image152.png)
+      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image152.png)
 
 ### Task 3: Clean up resources
 
@@ -1258,20 +1209,20 @@ items or remove the entire workspace. In this tutorial, you will clean
 up the workspace, individual reports, pipelines, warehouses, and other
 items you created as part of the lab.
 
-1.  Select **Warehouse_Fabric@lab.LabInstance.Id** in the navigation menu to return to
+1. Select **Warehouse_Fabric@lab.LabInstance.Id** in the navigation menu to return to
     the workspace item list.
 
-    > ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image153.png)
+     ![](https://raw.githubusercontent.com/technofocus-pte/msfbrcanlytcsrio/refs/heads/Cloud-slice/Labguide/Usecase%2005/media/image153.png)
 
-2.  In the menu of the workspace header, select **Workspace settings**.
-      ![](./media/img211.png)
+2. In the menu of the workspace header, select **Workspace settings**.
+     ![](./media/img211.png)
 
-4.  In the **Workspace settings** dialog box, in the **General** tab navigate to the bottom and
+4. In the **Workspace settings** dialog box, in the **General** tab navigate to the bottom and
     select the **Remove this workspace**.
 
      ![](./media/img221.png)
 
-5.  In the **Delete workspace?** dialog box, click on the **Delete**
+5. In the **Delete workspace?** dialog box, click on the **Delete**
     button.
 
 **Summary**

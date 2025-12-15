@@ -2,6 +2,131 @@
 
 ### Overall Estimated Duration: 4 Hours
 
+## Overview
+
+In this lab, you will get hands-on experience with the machine learning, data science, and document intelligence capabilities of Microsoft Fabric. Participants will learn how to train and track machine learning models using MLflow, implement a complete data science workflow using notebooks and Spark, and process unstructured documents using Azure AI Document Intelligence combined with retrieval-augmented generation (RAG).
+By completing this lab, learners will be equipped to build, track, and operationalize machine learning models, prepare and score data at scale, and construct intelligent document-questioning systems using Azure OpenAI and vector search.
+
+## Objective
+
+By the end of this lab, participants will be able to:
+
+- **Create Fabric workspaces and lakehouses** to store and manage machine learning datasets.
+
+- **Train and track ML models** using scikit-learn and MLflow, including run comparison and model registration.
+
+- **Perform end-to-end data science workflows** including ingestion, preparation, transformation, feature engineering, model training, and batch scoring.
+
+- **Extract and process unstructured documents** using Azure AI Document Intelligence and SynapseML.
+
+- **Generate text embeddings and store them in Azure AI Search** to enable semantic retrieval and RAG workflows.
+
+- **Build a question-answering pipeline** combining Azure OpenAI, embeddings, and vector search.
+
+Understand the role of each component in delivering the full machine learning, data science, and document intelligence lifecycle within Microsoft Fabric.
+
+## **Pre-requisites**
+
+Participants should have:
+
+- Basic understanding of Python, machine learning concepts, and Jupyter notebooks.
+
+- Familiarity with Microsoft Fabric workspaces, lakehouses, and notebooks.
+
+- Awareness of Azure AI services such as Document Intelligence, OpenAI, and AI Search.
+
+- Basic experience with Spark or distributed data processing.
+
+## Architecture
+
+In this lab, you will use Microsoft Fabric to perform end-to-end machine learning, data science, and intelligent document processing.
+The workflow begins with creating a Fabric workspace and lakehouse to store the training datasets. Using notebooks, you will load data into Pandas and Spark DataFrames, explore and prepare features, and train machine learning models. MLflow is used to track experiment runs, compare results, and register the best model for future use.
+
+For the broader data science scenario, you will ingest, clean, and transform customer churn data, create multiple ML experiments, score the trained models, and write predictions back to the lakehouse for downstream analytics. Power BI is used to visualize churn predictions using DirectLake mode.
+
+The document intelligence portion of the architecture leverages Azure AI Document Intelligence to extract structured content from PDF documents. Extracted text is chunked and transformed into embeddings using SynapseML and Azure OpenAI. These embeddings are stored in Azure AI Search for vector retrieval. A retrieval-augmented generation (RAG) pipeline is then implemented, allowing users to query documents using natural language and receive accurate responses grounded in their own data.
+
+Throughout the lab, you will interact with Fabric notebooks, MLflow tracking, lakehouse storage, Azure AI Services, SynapseML, and Power BI—experiencing a unified platform for machine learning and intelligent AI workloads.
+
+## Architecture Diagram
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
+1. **Fabric Workspace**
+
+    A centralized environment for managing all machine learning, data science, and document intelligence assets.
+
+    - Stores lakehouses, notebooks, MLflow experiments, registered models, and reports.
+    - Enables collaboration and lifecycle management.
+
+2. **Fabric Lakehouse**
+
+    A unified storage layer built on Delta Lake.
+
+    - Stores the training datasets, transformed data, and model scoring outputs.
+    - Supports both Spark and SQL compute for data science workflows.
+
+3. **Notebooks (PySpark & Python)**
+
+    The core development interface for ML and document workflows.
+
+    - Used for data loading, cleaning, feature engineering, and model training.
+    - Integrates seamlessly with Spark, MLflow, SynapseML, and Azure AI services.
+
+4. **MLflow**
+
+    A model tracking and registry service embedded in Fabric.
+
+    - Tracks model parameters, metrics, artifacts, and versions.
+    - Allows comparison of experiment runs and registration of best models.
+    - Provides governance for deploying and managing ML models.
+
+5. **Azure AI Document Intelligence**
+
+    Extracts text, tables, and structures from PDF documents.
+
+    - Converts unstructured documents into machine-readable JSON.
+    - Forms the basis for semantic processing and embedding generation.
+
+6. **SynapseML**
+
+    A distributed machine learning library used for advanced processing.
+
+    - Performs text chunking for long documents.
+    - Generates embeddings using Azure OpenAI models.
+    - Supports scalable ML operations across Spark clusters.
+
+7. **Azure OpenAI Service**
+
+    Provides LLM-based intelligence for embeddings and response generation.
+
+    - Generates vector embeddings for document chunks.
+    - Powers the generative component of the RAG pipeline.
+
+8. **Azure AI Search**
+
+    A vector search engine that stores and retrieves embeddings.
+
+    - Enables semantic similarity search over document chunks.
+    - Used to fetch the most relevant context for RAG.
+
+9. **RAG (Retrieval-Augmented Generation) Pipeline**
+
+    Combines Azure OpenAI with vector search to build a question-answering system.
+
+    - Retrieves relevant document chunks from AI Search.
+    - Uses LLMs to generate accurate, context-grounded responses.
+
+10. **Power BI**
+
+    Used to visualize machine learning prediction results.
+
+    - Connects to the lakehouse using DirectLake mode.
+    - Displays churn prediction outcomes or model performance metrics.
+
+
 ## Getting Started with the Lab
  
 Once the environment is provisioned, a virtual machine (LabVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.

@@ -194,9 +194,13 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
     ![01](./media/Intro-09.png)
 
-7. You will be navigated to the **Microsoft Fabric Home page**.
+7. When the **Welcome to the Fabric view** dialog appears, click **Cancel**.   
 
-    ![01](./media/image.png)
+    ![01](./media/image4.png)    
+
+8. You will be navigated to the **Microsoft Fabric Home page**.
+
+    ![01](./media/image3.png)
 
 ## Support Contact
 

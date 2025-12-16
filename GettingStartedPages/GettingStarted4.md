@@ -48,8 +48,6 @@ The document intelligence portion of the architecture leverages Azure AI Documen
 
 Throughout the lab, you will interact with Fabric notebooks, MLflow tracking, lakehouse storage, Azure AI Services, SynapseML, and Power BI—experiencing a unified platform for machine learning and intelligent AI workloads.
 
-## Architecture Diagram
-
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
@@ -126,7 +124,6 @@ The architecture for this lab involves the following key components:
     - Connects to the lakehouse using DirectLake mode.
     - Displays churn prediction outcomes or model performance metrics.
 
-
 ## Getting Started with the Lab
  
 Once the environment is provisioned, a virtual machine (LabVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.
@@ -171,25 +168,25 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
     ![01](./media/Intro-05.png)
  
-2.  In a new tab, navigate to the **Power BI** portal by copying and pasting the following URL into the address bar:
+2.  In the new tab, navigate to the **Microsoft Fabric** portal by copying and pasting the following URL into the address bar.
 
       ```
-      https://app.powerbi.com/
+      https://app.fabric.microsoft.com
       ```
 
-3. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
+3. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit (2)**.
 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-       ![01](./media/Intro-06.png)
+       ![01](./media/image1.png)
  
-4. Next, provide your password:
+4. Next, provide your Temporary Access Password **(1)** and click on **Sign in (2)**:
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Temprory Access Pass:** <inject key="AzureAdUserPassword"></inject>
  
-       ![01](./media/Intro-07.png)
+       ![01](./media/image2.png)
 
-5. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
+5. If you see the pop-up Stay Signed in?, select **No**.
    
     ![01](./media/Intro-08.png)
 
@@ -197,9 +194,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
     ![01](./media/Intro-09.png)
 
-7. You will be navigated to the **Power BI Home page**.
+7. You will be navigated to the **Microsoft Fabric Home page**.
 
-    ![01](./media/Intro-10.png)
+    ![01](./media/image.png)
 
 ## Support Contact
 

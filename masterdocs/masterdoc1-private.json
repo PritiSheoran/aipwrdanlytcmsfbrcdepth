@@ -1,9 +1,9 @@
 [ {
-  "Name": "Microsoft Fabric: Analytics - Day 1",
+  "Name": "Build data intelligent solutions with Microsoft Fabric and Azure Databricks",
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/GettingStartedPages/GettingStarted1.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/aipwrdanlytcmsfbrcdepth/refs/heads/technofocus-private/GettingStartedPages/GettingStarted1-private.md",
       "Order": 1
     },
     {

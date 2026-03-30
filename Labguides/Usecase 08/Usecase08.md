@@ -1,4 +1,4 @@
-# Use Case 08: Implementing a Data Science scenario in Microsoft Fabric
+# Use Case 02: Implementing a Data Science scenario in Microsoft Fabric
 
 **Introduction**
 

@@ -1,6 +1,6 @@
 # Use Case 02: Implementing a Data Science scenario in Microsoft Fabric
 
-**Introduction**
+## Introduction
 
 The lifecycle of a Data science project typically includes (often,
 iteratively) the following steps:
@@ -21,7 +21,7 @@ given the task to explore, clean, and transform a dataset containing the
 churn status of 10000 customers at a bank. You then build a machine
 learning model to predict which bank customers are likely to leave.
 
-**Objective**
+## Objective
 
 -  Use the Fabric notebooks for data science scenarios.
 -  Ingest data into a Fabric lakehouse using Apache Spark.
@@ -39,10 +39,10 @@ learning model to predict which bank customers are likely to leave.
 Before working with data in Fabric, create a workspace.
 
 1. Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://app.fabric.microsoft.com/+++ then
+    the following URL: **https://app.fabric.microsoft.com/** then
     press the **Enter** button.
 
-	>[!note] **Note**: If you are directed to Microsoft Fabric Home page, then skip
+	> **Note**: If you are directed to Microsoft Fabric Home page, then skip
 	> steps from \#2 to \#4.
 
      ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image1.png)
@@ -50,7 +50,7 @@ Before working with data in Fabric, create a workspace.
 2. In the **Microsoft Fabric** window, enter your credentials, and
     click on the **Submit** button.
 
-     ![A screenshot of a computer error AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image2.png)
+     ![A screenshot of a computer error AI-generated content may be incorrect.](./media/image2.png)
 
 3. Then, In the **Microsoft** window enter the password and click on
     the **Sign in** button.
@@ -72,7 +72,7 @@ Before working with data in Fabric, create a workspace.
 	
     |   |   |
     |----|---|
-    |Name	| +++Data-Science@lab.LabInstance.Id+++ (This must be a unique value) |
+    |Name	| **Data-Science@lab.LabInstance.Id** (This must be a unique value) |
     |Advanced|	Under License mode, select **Fabric capacity** |
     |Semantic model storage format|	**Small semantic model storage format** |
 
@@ -92,24 +92,24 @@ engineering* experience in the portal and create a data lakehouse for
 the data files you're going to analyze.
 
 1. In the Fabric home page, Select **+New item** and filter by, and 
-    select, **+++Lakehouse+++**
+    select, ****Lakehouse****
 
 	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image10.png)
 
 2. In the **New lakehouse** dialog box,
-    enter **+++FabricData_Sciencelakehouse+++** in the **Name** field,
+    enter ****FabricData_Sciencelakehouse**** in the **Name** field,
     click on the **Create** button and open the new lakehouse.
 
 	 ![A screenshot of a computer AI-generated content may be
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image11.png)
 
-    >[!note]**Note**: After a minute or so, a new empty lakehouse will be created. You
+    > **Note**: After a minute or so, a new empty lakehouse will be created. You
     need to ingest some data into the data lakehouse for analysis.
 
 	 ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image12.png)
 
-    >[!note]**Note**: You will see a notification stating **Successfully created SQL
+    > **Note**: You will see a notification stating **Successfully created SQL
     endpoint**.
 
      ![A screenshot of a computer Description automatically generated](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image13.png)
@@ -162,7 +162,7 @@ contribute to the exited status.
 
      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image16.png)
 
-	>[!note]**Note:** The PySpark kernel restarts after %pip install runs. Install
+	> **Note:** The PySpark kernel restarts after %pip install runs. Install
 	the needed libraries before you run any other cells.
 
     >[!alert]**Alert**: If you encounter an error in this step indicating an incompatibility with the *filelock* version follow these steps to correct it before continuing with this task:
@@ -257,7 +257,7 @@ of the partitioned delta table uses this information.
 
      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image20.png)
 
-     >[!note]**Note**: You now need to convert the spark DataFrame to pandas DataFrame for easier
+     > **Note**: You now need to convert the spark DataFrame to pandas DataFrame for easier
     processing and visualization.
 
 4. Use the **+ Code** icon below the cell output to add a new code cell
@@ -309,7 +309,7 @@ of the partitioned delta table uses this information.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image24.png)
 
-    >[!note]**Note**: Once the Data Wrangler is launched, a descriptive overview of the
+    > **Note**: Once the Data Wrangler is launched, a descriptive overview of the
     displayed data panel is generated.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image25.png)
@@ -587,7 +587,7 @@ installation, ensure this cell is run before executing any others.
 	
      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image55.png)
 
-    >[!note]**Note**: With the data now loaded, the next step is to define and train
+    > **Note**: With the data now loaded, the next step is to define and train
     >machine learning models. This notebook demonstrates how to implement
     >Random Forest and **LightGBM** using the **scikit-learn** and
     >**lightgbm** libraries in just a few lines of code.
@@ -895,7 +895,7 @@ installation, ensure this cell is run before executing any others.
 	incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image79.png)
 
 3. In the **New dataset** box, enter the dataset a name, such as
-    **+++bank churn predictions+++** . Then select
+    ****bank churn predictions**** . Then select
     the **df_pred_results** dataset and select **Confirm**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image80.png)
@@ -927,7 +927,7 @@ installation, ensure this cell is run before executing any others.
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image85.png)
 
 6. In the **Save your replort** dialog box, enter a name for your
-    report as +++**Bank churn**+++ and select **Save.**
+    report as ****Bank churn**** and select **Save.**
 
      ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image86.png)
@@ -965,7 +965,7 @@ installation, ensure this cell is run before executing any others.
 	1. To determine the average predicted churn rate, replace Measure = in
     the formula bar with:
 
-		+++Churn Rate = AVERAGE(df_pred_results[CreditScore])+++ 
+		**Churn Rate = AVERAGE(df_pred_results[CreditScore])** 
 
 		 ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image92.png)
 
@@ -995,7 +995,7 @@ installation, ensure this cell is run before executing any others.
 	1. Each prediction represents one customer. To determine the total
 	number of customers, replace Measure = in the formula bar with:
 
-		+++Customers = COUNT(df_pred_results[CreditScore])+++
+		**Customers = COUNT(df_pred_results[CreditScore])**
 
 	1. Select the **check mark** in the formula bar to apply the formula.
 
@@ -1067,8 +1067,8 @@ installation, ensure this cell is run before executing any others.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image102.png)
 
-2. In the Ribbon, select **Text box**. Type in +++**Bank Customer
-    Churn+++**. **Highlight** the **text** Change the font size and
+2. In the Ribbon, select **Text box**. Type in ****Bank Customer
+    Churn****. **Highlight** the **text** Change the font size and
     background color in the Format panel. Adjust the font size and color
     by selecting the text and using the format bar.
 
@@ -1118,7 +1118,7 @@ installation, ensure this cell is run before executing any others.
 
 8. Change the title **NewCreditsScore** to **Credit Score** in the
     Format panel. Select **Format your visuals** and dropdown the
-    **X-axis**, enter the Title text as +++**Credit Score+++.**
+    **X-axis**, enter the Title text as ****Credit Score**.**
 
      ![](https://raw.githubusercontent.com/technofocus-pte/aipwrdanlytcmsfbrcdepth/refs/heads/Cloud-slice/Labguides/Usecase%2008/media/image112.png)
 

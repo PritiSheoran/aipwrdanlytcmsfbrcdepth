@@ -10,18 +10,28 @@ to complete a common end-to-end data integration scenario.
 
 ## Objective
 
-The lab is divided into three exercises:
+You'll perform the following tasks in this Use Case:
 
-- **Exercise 1:** Create a pipeline with Data Factory to ingest raw data
-  from a Blob storage to a bronze table in a data Lakehouse.
+- Exercise 1: Create a pipeline with Data Factory
 
-- **Exercise 2:** Transform data with a dataflow in Data Factory to
-  process the raw data from your bronze table and move it to a Gold
-  table in the data Lakehouse.
+   - Task 1: Create a workspace
+   - Task 2: Create a lakehouse and Ingest sample data
 
-- **Exercise 3:** Automate and send notifications with Data Factory to
-  send an email to notify you once all the jobs are complete, and
-  finally, setup the entire flow to run on a scheduled basis.
+- Exercise 2: Transform data with a dataflow in Data Factory
+
+   - Task 1: Get data from a Lakehouse table
+   - Task 2: Transform the data imported from the Lakehouse
+   - Task 3: Connect to a CSV file containing discount data
+   - Task 4: Transform the discount data
+   - Task 5: Combine trips and discounts data
+   - Task 6: Load the output query to a table in the Lakehouse 
+
+- Exercise 3: Automate and send notifications with Data Factory
+ 
+   - Task 1: Add an Office 365 Outlook activity to your pipeline
+   - Task 2: Schedule pipeline execution
+   - Task 3: Add a Dataflow activity to the pipeline
+   - Task 4: Clean up resources
 
 ## Exercise 1: Create a pipeline with Data Factory
 
@@ -251,7 +261,7 @@ generated](./media/uc1-58.png)
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-46.png)
 
-### Task 7: Combine trips and discounts data**
+### Task 5: Combine trips and discounts data
 
 The next step is to combine both tables into a single table that has the
 discount that should be applied to the trip, and the adjusted total.
@@ -339,7 +349,7 @@ incorrect.](./media/uc1-63.png)
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-64.png)
 
-### Task 8: Load the output query to a table in the Lakehouse
+### Task 6: Load the output query to a table in the Lakehouse
 
 With the output query now fully prepared and with data ready to output,
 we can define the output destination for the query.
@@ -543,7 +553,7 @@ incorrect.](./media/uc1-100.png)
 1. Once the schedule is added, close **(X)** the pane.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-101.png)
 
-### Task 3: Add a Dataflow activity to the pipeline**
+### Task 3: Add a Dataflow activity to the pipeline
 
 1. Hover over the line connecting the **Copy activity** and the
     **Office 365 Outlook** activity on your pipeline canvas, and select

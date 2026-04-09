@@ -21,8 +21,6 @@ given the task to explore, clean, and transform a dataset containing the
 churn status of 10000 customers at a bank. You then build a machine
 learning model to predict which bank customers are likely to leave.
 
-## Objective
-
 -  Use the Fabric notebooks for data science scenarios.
 -  Ingest data into a Fabric lakehouse using Apache Spark.
 -  Load existing data from the lakehouse delta tables.
@@ -32,7 +30,26 @@ learning model to predict which bank customers are likely to leave.
 -  Run scoring at scale and save predictions and inference results to the lakehouse.
 -  Visualize predictions in Power BI using DirectLake.
 
-## Exercise 1
+## Objective
+
+You'll perform the following tasks in this Use Case:
+
+- Task 1: Create a workspace
+- Task 2: Create a lakehouse 
+- Task 3: Install custom libraries and load the data
+- Task 4: Explore and visualize data using Microsoft Fabric notebooks
+- Task 5: Use Data Wrangler to perform one-hot encoding
+- Task 6: Create a delta table for the cleaned data
+- Task 7: Train and register a machine learning model
+- Task 8: Experiments artifact for tracking model performance
+- Task 9: Assess the performance of the trained models on the validation dataset
+- Task 10: Save results for Power BI
+- Task 11: Create a semantic model
+- Task 12: Add new measures
+- Task 13: Create a new report
+- Task 14: Clean up resources
+
+
 
 ### Task 1: Create a workspace 
 
@@ -673,7 +690,7 @@ installation, ensure this cell is run before executing any others.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-64.png)
 
-### Task 9: Assess the performances of the trained models on the validation dataset
+### Task 9: Assess the performance of the trained models on the validation dataset
 
 1. Click the **Data-Science- workspace (1)** from the left navigation pane and select **Notebook 1** **(2)**.
 
@@ -914,7 +931,7 @@ installation, ensure this cell is run before executing any others.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-86.png)
 
-### Task 13: Create new report
+### Task 13: Create a new report
 
 1. From the top ribbon, select **File (1)** and select **Create new report (2)** to start creating reports/dashboards in Power BI.
 

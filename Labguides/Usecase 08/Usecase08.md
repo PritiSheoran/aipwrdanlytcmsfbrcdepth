@@ -64,7 +64,7 @@ Before working with data in Fabric, create a workspace.
 	
     |   |   |
     |----|---|
-    |Name	| Enter **Data-Science- (1)**  |
+    |Name	| Enter **Data-Science-<inject key="Deployment ID" enableCopy="false"/> (1)**  |
     |Workspace type |	Select **Fabric (2)**, under Details you must see fabric capacity |
     |Semantic model storage format|	Select **Small semantic model storage format (3)** |
 
@@ -91,7 +91,7 @@ the data files you're going to analyze.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-4.png)
 
-1. In the **New lakehouse** dialog box, enter **DataSciencelakehouse (1)** in the **Name** field, ensure the **Data-Science-** workspace is selected under **Location** and leave **Lakehouse schemas (2)** unchecked. Click **Create (3)** to proceed.
+1. In the **New lakehouse** dialog box, enter **DataSciencelakehouse (1)** in the **Name** field, ensure the **Data-Science-<inject key="Deployment ID" enableCopy="false"/>** workspace is selected under **Location** and leave **Lakehouse schemas (2)** unchecked. Click **Create (3)** to proceed.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-5.png)     
 
@@ -680,7 +680,7 @@ installation, ensure this cell is run before executing any others.
 
 ### Task 8: Experiments artifact for tracking model performance
 
-1. Click the **Data-Science workspace (1)** from the left navigation pane and select your workspace **Data-Science-** **(2)** to view all created items.
+1. Click the **Data-Science-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** from the left navigation pane and select your workspace **Data-Science-<inject key="Deployment ID" enableCopy="false"/>** **(2)** to view all created items.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-62.png)
 
@@ -692,7 +692,7 @@ installation, ensure this cell is run before executing any others.
 
 ### Task 9: Assess the performance of the trained models on the validation dataset
 
-1. Click the **Data-Science- workspace (1)** from the left navigation pane and select **Notebook 1** **(2)**.
+1. Click the **Data-Science-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** from the left navigation pane and select **Notebook 1** **(2)**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-65.png)
 
@@ -836,7 +836,7 @@ installation, ensure this cell is run before executing any others.
 
 ### Task 11: Create a semantic model
 
-1. Click the **Data-Science- workspace (1)** from the left navigation pane and select **DataSciencelakehouse** **(2)**.
+1. Click the **Data-Science-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** from the left navigation pane and select **DataSciencelakehouse** **(2)**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-73.png)
 
@@ -849,7 +849,7 @@ installation, ensure this cell is run before executing any others.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-75.png)
 
-1. Select **Data-Science- (1)** in the left navigation pane, select **bank churn predictions (2)** semantic model.
+1. Select **Data-Science-<inject key="Deployment ID" enableCopy="false"/> (1)** in the left navigation pane, select **bank churn predictions (2)** semantic model.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-76.png)
 
@@ -868,7 +868,7 @@ installation, ensure this cell is run before executing any others.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-79.png)
 
-1. Click the **Data-Science- workspace (1)** from the left navigation pane, select **bank churn predictions (2)** semantic model in the left navigation pane.
+1. Click the **Data-Science-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** from the left navigation pane, select **bank churn predictions (2)** semantic model in the left navigation pane.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-103.png)
 
@@ -1001,7 +1001,7 @@ You can delete individual reports, pipelines, warehouses, and other
 items or remove the entire workspace. Use the following steps to delete
 the workspace you created for this tutorial.
 
-1. Click the **Data-Science workspace (1)** from the left navigation pane and select your workspace **Data-Science-** **(2)** to view all created items.
+1. Click the **Data-Science-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** from the left navigation pane and select your workspace **Data-Science-<inject key="Deployment ID" enableCopy="false"/>** **(2)** to view all created items.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-97.png)
 

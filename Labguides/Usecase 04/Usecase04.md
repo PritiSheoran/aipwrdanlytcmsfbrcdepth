@@ -50,7 +50,7 @@ trial enabled.
 	
     |   |   |
     |----|---|
-    |Name	| Enter **Data-Factory- (1)**  |
+    |Name	| Enter **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (1)**  |
     |Workspace type |	Select **Fabric (2)**, under Details you must see fabric capacity |
     |Semantic model storage format|	Select **Small semantic model storage format (3)** |
 
@@ -65,7 +65,7 @@ trial enabled.
 
 ### Task 2: Create a lakehouse and Ingest sample data
 
-1. In the **Data-Factory-** workspace page, navigate and click on **+ New item** in the workspace to create a new resource.
+1. In the **Data-Factory-<inject key="Deployment ID" enableCopy="false"/>** workspace page, navigate and click on **+ New item** in the workspace to create a new resource.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-5.png)
 
@@ -73,7 +73,7 @@ trial enabled.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-6.png)
 
-1. In the **New lakehouse** dialog box, enter **DataFactoryLakehouse (1)** in the **Name** field, ensure the **Data-Factory-** workspace is selected under **Location** and leave **Lakehouse schemas (2)** unchecked. Click **Create (3)** to proceed.
+1. In the **New lakehouse** dialog box, enter **DataFactoryLakehouse (1)** in the **Name** field, ensure the **Data-Factory-<inject key="Deployment ID" enableCopy="false"/>** workspace is selected under **Location** and leave **Lakehouse schemas (2)** unchecked. Click **Create (3)** to proceed.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-7.png)
 
@@ -110,7 +110,7 @@ incorrect.](./media/uc1-11.png)
 
 ### Task 1: Get data from a Lakehouse table
 
-1. Click on **Data-Factory- (1)** in the left navigation pane, then select your **Data-Factory- workspace (2)** to open it.
+1. Click on **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (1)** in the left navigation pane, then select your **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> workspace (2)** to open it.
 
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-15.png)
@@ -136,7 +136,7 @@ incorrect.](./media/uc1-15.png)
 
      ![A screenshot of a computer Description automatically generated](./media/uc1-21.png)
 
-1. Expand **Lakehouse (1)** → **Data-Factory- (2)** → **DataFactoryLakehouse (3)**, select the **Bronze table (4)**, and click **Create (5)** to load the data.
+1. Expand **Lakehouse (1)** → **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (2)** → **DataFactoryLakehouse (3)**, select the **Bronze table (4)**, and click **Create (5)** to load the data.
 
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-22.png)
@@ -369,7 +369,7 @@ incorrect.](./media/uc1-65.png)
      ![A screenshot of a computer Description automatically
 generated](./media/uc1-66.png)
 
-1. On the **Choose destination target** dialog, expand **Lakehouse (1)**, navigate to your workspace **Data-Factory- (2)**, choose **DataFactoryLakehouse (3)**, then click **Next (4)** to proceed.
+1. On the **Choose destination target** dialog, expand **Lakehouse (1)**, navigate to your workspace **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (2)**, choose **DataFactoryLakehouse (3)**, then click **Next (4)** to proceed.
 
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-67.png)
@@ -419,7 +419,7 @@ incorrect.](./media/uc1-72.png)
 
 	|     |    |
 	|------|------|
-	|Connection|	dfconnection odl_user- **(2)**|
+	|Connection|	dfconnection odl_user-xxxx **(2)**|
 	|Connection type|	select HTTP **(3)**|
 	|File format	| Select DelimitedText **(4)**|
 
@@ -429,7 +429,7 @@ incorrect.](./media/uc1-72.png)
 
 	|    |    |
 	|-----|----|
-	|Connection	|**Lakehouse odl_user_ (2)**|
+	|Connection	|**Lakehouse odl_user_xxxx (2)**|
 	|Lakehouse|	Select **DataFactoryLakehouse (3)**|
 	|Root Folder	|select the **Table (4)** radio button.|
 	|Table|  Select **+ New (5)** |
@@ -472,7 +472,7 @@ incorrect.](./media/uc1-83.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-86.png)
 
-1. Select your existing signed-in **ODL_User** account to authenticate and complete the connection setup for Office 365 Email.
+1. Select your existing signed-in **<inject key="AzureAdUserEmail"></inject>** account to authenticate and complete the connection setup for Office 365 Email.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-87.png)
 
@@ -589,7 +589,7 @@ You can delete individual reports, pipelines, warehouses, and other
 items or remove the entire workspace. Use the following steps to delete
 the workspace you created for this tutorial.
 
-1. Click **Data-Factory- (1)** from the left navigation pane, then select your **Data-Factory- (2)** opens the workspace item view.
+1. Click **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (1)** from the left navigation pane, then select your **Data-Factory-<inject key="Deployment ID" enableCopy="false"/> (2)** opens the workspace item view.
 
      ![](./media/uc1-105.png)
 

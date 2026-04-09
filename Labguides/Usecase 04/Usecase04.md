@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab helps you accelerate the evaluation process for Data Factory in
+This use case helps you accelerate the evaluation process for Data Factory in
 Microsoft Fabric by providing a step-by-step guidance for a full data
 integration scenario within one hour. By the end of this tutorial, you
 understand the value and key capabilities of Data Factory and know how

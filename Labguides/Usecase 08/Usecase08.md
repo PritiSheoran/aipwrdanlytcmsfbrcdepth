@@ -327,7 +327,6 @@ of the partitioned delta table uses this information.
 
 1. In df(Data Wrangler), under **Operations** expand **Find and replace (1)** and select **Drop missing values (2)** to remove rows with missing data.
 
-
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-30.png)
 
 1. Under the Target columns, choose **Select all** from the dropdown **(1)** and click **Apply (2)** to remove rows with missing values based on the selected columns.
@@ -514,6 +513,11 @@ installation, ensure this cell is run before executing any others.
     output to add a new code cell to the notebook.
 
 1. Enter the following code in the cell **(2)**. Select the code cell and click on the **Run cell (3)** button to review the log **output (4)** to confirm the library is installed and kernel has been restarted successfully.
+
+    ```
+    # Use pip to install libraries
+    %pip install imblearn
+    ```
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-54.png)
 
@@ -846,7 +850,6 @@ installation, ensure this cell is run before executing any others.
 
 1. Enter **bank churn predictions (1)** as the semantic model name, verify the correct workspace is selected **(2)**, select the **df_pred_results** table **(3)**, and click **Confirm (4)** to create the semantic model.
 
-
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-75.png)
 
 1. Select **Data-Science-<inject key="Deployment ID" enableCopy="false"/> (1)** in the left navigation pane, select **bank churn predictions (2)** semantic model.
@@ -877,7 +880,6 @@ installation, ensure this cell is run before executing any others.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-80.png)
 
 9. In Home page, click **Viewing (1)** and select **Editing (2)** to switch to edit mode and enable making changes to the report.
-
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc2-81.png)
 

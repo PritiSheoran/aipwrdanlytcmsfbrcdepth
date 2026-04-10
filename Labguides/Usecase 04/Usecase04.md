@@ -54,14 +54,12 @@ trial enabled.
     |Workspace type |	Select **Fabric (2)**, under Details you must see fabric capacity |
     |Semantic model storage format|	Select **Small semantic model storage format (3)** |
 
+    ![](./media/uc1-2.png)
 
-     ![](./media/uc1-2.png)
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-3.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-3.png)
 
 1. Wait for the deployment to complete. It’ll take approximately 2-3
     minutes.
-
 
 ### Task 2: Create a lakehouse and Ingest sample data
 
@@ -219,12 +217,11 @@ incorrect.](./media/uc1-33.png)
 1. Reviewing the data, we see the headers appear to be in the first
     row. Promote them to headers by selecting the table icon **(1)** and select **Use first row as headers (2)** to set the first row as column headers.
 
-
      ![A screenshot of a computer Description automatically generated](./media/uc1-37.png)
     
      > **Note:** After promoting the headers, you can see a new step added to the **Applied steps** pane at the top of the dataflow editor to the data types of your columns.
 
-      ![](./media/uc1-38.png)
+       ![](./media/uc1-38.png)
 
 1. Right-click the **VendorID (1)** column, and from the context menu displayed, select the option **Unpivot other columns (2)**. This allows you to transform columns into attribute-value pairs, where columns become rows.
 
@@ -326,8 +323,7 @@ incorrect.](./media/uc1-59.png)
 
 1. Scroll to the right of the table **(1)**, select the newly create **TotalAfterDiscount (2)** column and then select the **Transform (3)** tab at the top of the editor window. On the **Number column** group, select the **Rounding (4)** drop down and then choose **Round... (5)**.
 
-    > **Note**: If you can’t find the **rounding** option, expand the menu to
-    see **Number column**.
+     > **Note**: If you can’t find the **rounding** option, expand the menu to see **Number column**.
 
        ![](./media/uc1-60.png)
 
@@ -354,17 +350,14 @@ incorrect.](./media/uc1-64.png)
 With the output query now fully prepared and with data ready to output,
 we can define the output destination for the query.
 
-1. Select the **Output (1)** merge query created previously. Then select
-    the **+ icon (2)** from the bottom- right corner to add **data destination** to this Dataflow.
+1. Select the **Output (1)** merge query created previously. Then select the **+ icon (2)** from the bottom- right corner to add **data destination** to this Dataflow.
 
-1. From data destination list, select **Lakehouse (3)** option under the
-    New destination.
+1. From data destination list, select **Lakehouse (3)** option under the New destination.
 
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/uc1-65.png)
 
-1. On the **Connect to data destination** dialog, your connection
-    should already be selected. Select **Next** to continue.
+1. On the **Connect to data destination** dialog, your connection should already be selected. Select **Next** to continue.
 
      ![A screenshot of a computer Description automatically
 generated](./media/uc1-66.png)
@@ -384,7 +377,7 @@ incorrect.](./media/uc1-67.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-70.png)
 
-1. Now, click on **Data Factory- workspace (1)** on the left-sided navigation pane and select **DataFactoryLakehouse (2)** to view the new table loaded there.
+1. Now, click on **Data Factory-<inject key="Deployment ID" enableCopy="false"/> workspace (1)** on the left-sided navigation pane and select **DataFactoryLakehouse (2)** to view the new table loaded there.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-71.png)
 
@@ -397,7 +390,7 @@ incorrect.](./media/uc1-72.png)
 
 ### Task 1: Add an Office 365 Outlook activity to your pipeline
 
-1. Click on **Data_Factory- (1)** Workspace from the left navigation pane, then select **Data_Factory- (2)** Workspace.
+1. Click on **Data_Factory-<inject key="Deployment ID" enableCopy="false"/> (1)** Workspace from the left navigation pane, then select **Data_Factory-<inject key="Deployment ID" enableCopy="false"/> (2)** Workspace.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-73.png)
 
@@ -414,7 +407,7 @@ incorrect.](./media/uc1-72.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-76.png)
 
-5. On the **Source (1)** section, enter the following settings and click on
+1. On the **Source (1)** section, enter the following settings and click on
     **Test connection (5).**
 
 	|     |    |
@@ -425,7 +418,7 @@ incorrect.](./media/uc1-72.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-77.png)
 
-6. On the **Destination (1)** tab, enter the following settings.
+1. On the **Destination (1)** tab, enter the following settings.
 
 	|    |    |
 	|-----|----|
@@ -449,8 +442,7 @@ incorrect.](./media/uc1-72.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-81.png)
 
-1. Select the **Activities (1)** tab in the pipeline editor and find the
-    **Office Outlook (2)** activity.
+1. Select the **Activities (1)** tab in the pipeline editor and find the **Office Outlook (2)** activity.
 
      ![](./media/uc1-82.png)
 
@@ -460,7 +452,6 @@ incorrect.](./media/uc1-72.png)
 incorrect.](./media/uc1-83.png)
 
 1. Select the Office 365 Outlook activity from the pipeline canvas, Go to the **Settings tab (1)**, click the **Connection dropdown (2)**, and select **Browse all (3)** to choose or create a connection.
-
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-84.png)
 
@@ -551,13 +542,12 @@ incorrect.](./media/uc1-99.png)
 incorrect.](./media/uc1-100.png)
 
 1. Once the schedule is added, close **(X)** the pane.
+
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-101.png)
 
 ### Task 3: Add a Dataflow activity to the pipeline
 
-1. Hover over the line connecting the **Copy activity** and the
-    **Office 365 Outlook** activity on your pipeline canvas, and select
-    the **+ (1)** button to insert a new activity. Choose **Dataflow (2)** from the menu that appears.    
+1. Hover over the line connecting the **Copy activity** and the **Office 365 Outlook** activity on your pipeline canvas, and select the **+ (1)** button to insert a new activity. Choose **Dataflow (2)** from the menu that appears.    
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/uc1-102.png)
 

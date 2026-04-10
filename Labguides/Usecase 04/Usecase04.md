@@ -221,7 +221,7 @@ incorrect.](./media/uc1-33.png)
     
      > **Note:** After promoting the headers, you can see a new step added to the **Applied steps** pane at the top of the dataflow editor to the data types of your columns.
 
-       ![](./media/uc1-38.png)
+     ![](./media/uc1-38.png)
 
 1. Right-click the **VendorID (1)** column, and from the context menu displayed, select the option **Unpivot other columns (2)**. This allows you to transform columns into attribute-value pairs, where columns become rows.
 
@@ -325,7 +325,7 @@ incorrect.](./media/uc1-59.png)
 
      > **Note**: If you can’t find the **rounding** option, expand the menu to see **Number column**.
 
-       ![](./media/uc1-60.png)
+     ![](./media/uc1-60.png)
 
 1. On the **Round** dialog, enter **2 (1)** for the number of decimal places and then select **OK (2)**.
 
@@ -600,7 +600,6 @@ In this use case, you successfully built an end-to-end data integration solution
 
 
 ## You have successfully completed this Use Case. Kindly click Next >> to proceed further.
-
 
 
 
